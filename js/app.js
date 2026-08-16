@@ -91,6 +91,7 @@ function render() {
     'discursiva-detail': renderDiscursivaDetail,
     'discursiva-write': renderDiscursivaWrite,
     'discursiva-check': renderDiscursivaCheck,
+    'discursiva-ia': renderDiscursivaIA,
     planner: renderPlanner,
     'planner-10dias': renderRetaFinal10,
     materiais: renderMateriais
@@ -415,7 +416,48 @@ function renderDiscursivaWrite(params) {
       <button class="btn btn-ghost btn-block" data-action="ver-modelo" data-id="${p.id}">Ver modelo</button>
       <button class="btn btn-primary btn-block" data-go="discursiva-check" data-id="${p.id}">Autocorrigir →</button>
     </div>
+    <button class="btn btn-block" style="margin-top:10px;background:var(--ink);color:#fff;" data-action="corrigir-ia" data-id="${p.id}">✦ Corrigir com IA</button>
     <div id="modelo-box"></div>
+  `;
+}
+
+function renderDiscursivaIA(params) {
+  const p = DATA.discursiva.propostas.find(x => x.id == params.id);
+  const r = STATE._iaResult;
+  if (!p) return '<p>Não encontrada.</p>';
+  if (!r || r.id != params.id) {
+    return `
+      <div class="back-link" data-go="discursiva-write" data-id="${p.id}">&larr; Voltar</div>
+      <div class="empty"><p>Nenhuma correção por IA disponível ainda. Volte ao texto e peça a correção.</p></div>
+    `;
+  }
+  const crits = DATA.discursiva.checklist_criterios;
+  const corTexto = { sim: 'var(--ok)', parcial: 'var(--gold)', nao: 'var(--bad)' };
+  const rotulo = { sim: 'Sim', parcial: 'Parcial', nao: 'Não' };
+  const items = crits.map(c => {
+    const val = (r.data.criterios && r.data.criterios[c.id]) || 'nao';
+    return `<div class="checklist-item">
+      <div style="flex:1;"><b style="font-size:.88rem;">${esc(c.nome)}</b><p class="mute" style="margin:2px 0 0;">${esc(c.pergunta)}</p></div>
+      <span class="badge" style="background:${corTexto[val] || 'var(--bad)'};color:#fff;">${rotulo[val] || 'Não'}</span>
+    </div>`;
+  }).join('');
+  const pontos = (r.data.pontos_fortes || []).map(x => `<li>${esc(x)}</li>`).join('');
+  return `
+    <div class="back-link" data-go="discursiva-write" data-id="${p.id}">&larr; Voltar ao texto</div>
+    <span class="eyebrow">Correção por IA</span>
+    <h1>${esc(p.titulo)}</h1>
+    <div class="card">${items}</div>
+    <div class="card">
+      <h3>Pontos fortes</h3>
+      <ul>${pontos}</ul>
+      <h3>Principal fragilidade</h3>
+      <p>${esc(r.data.principal_fragilidade || '')}</p>
+      <h3>Sugestão de reescrita</h3>
+      <p>${esc(r.data.sugestao_reescrita || '')}</p>
+      <h3>Comentário geral</h3>
+      <p>${esc(r.data.comentario_geral || '')}</p>
+    </div>
+    <button class="btn btn-primary btn-block" data-go="discursiva-check" data-id="${p.id}">Continuar para autocorreção manual →</button>
   `;
 }
 
@@ -589,6 +631,9 @@ function handleAction(el, e) {
   if (action === 'save-check') {
     saveDiscursivaCheck(el.dataset.id);
   }
+  if (action === 'corrigir-ia') {
+    corrigirComIA(el.dataset.id, el);
+  }
   if (action === 'toggle-day') {
     const key = el.dataset.key;
     STATE.plannerDone[key] = el.checked;
@@ -638,6 +683,32 @@ function submitAnswer(letter) {
   if (item.fonte === 'vol') bump(STATE.areaStats, item.area, correct);
   saveState();
   render();
+}
+
+async function corrigirComIA(id, btn) {
+  const p = DATA.discursiva.propostas.find(x => x.id == id);
+  const textarea = document.getElementById('texto-discursiva');
+  const texto = textarea ? textarea.value.trim() : '';
+  if (texto.length < 50) {
+    alert('Escreva pelo menos algumas linhas antes de pedir a correção por IA.');
+    return;
+  }
+  const originalLabel = btn ? btn.textContent : '';
+  if (btn) { btn.disabled = true; btn.textContent = 'Corrigindo com IA…'; }
+  try {
+    const resp = await fetch('/api/corrigir-discursiva', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ texto, comando: p.comando, titulo: p.titulo })
+    });
+    const data = await resp.json();
+    if (!resp.ok) throw new Error(data.error || 'Falha na correção.');
+    STATE._iaResult = { id, data };
+    go('discursiva-ia', { id });
+  } catch (e) {
+    alert('Não foi possível corrigir com IA agora: ' + e.message);
+    if (btn) { btn.disabled = false; btn.textContent = originalLabel; }
+  }
 }
 
 function saveDiscursivaCheck(id) {
