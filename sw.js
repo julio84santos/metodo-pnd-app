@@ -1,4 +1,4 @@
-const CACHE = 'metodo-pnd-v1';
+const CACHE = 'metodo-pnd-v2';
 const ASSETS = [
   './',
   './index.html',
@@ -9,6 +9,7 @@ const ASSETS = [
   './data/mapas.json',
   './data/discursiva.json',
   './data/planner.json',
+  './data/reta_final_10_dias.json',
   './data/eixos.json',
   './data/simulado_comentado.json',
   './data/questoes_especificas.json',
