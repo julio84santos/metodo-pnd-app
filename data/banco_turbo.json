@@ -1,0 +1,2042 @@
+[
+ {
+  "id": "banco_turbo-sim1-001",
+  "area": "LDB",
+  "num": "001",
+  "title": "LDB",
+  "stem": "Uma equipe escolar revisa suas práticas relacionadas a LDB. Qual orientação deve integrar o plano de ação?",
+  "options": {
+   "A": "O docente deve estabelecer estratégias de recuperação para estudantes de menor rendimento.",
+   "B": "É adequado atribuir a recuperação apenas à coordenação.",
+   "C": "A decisão pode ignorar normas se houver concordância da maioria.",
+   "D": "O tema pertence apenas à administração central, sem implicações escolares."
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "A alternativa A está correta. O fundamento central é: O docente deve estabelecer estratégias de recuperação para estudantes de menor rendimento. A pegadinha consiste em atribuir a recuperação apenas à coordenação."
+  }
+ },
+ {
+  "id": "banco_turbo-sim1-002",
+  "area": "LDB",
+  "num": "002",
+  "title": "LDB",
+  "stem": "Uma equipe escolar revisa suas práticas relacionadas a LDB. Qual orientação deve integrar o plano de ação?",
+  "options": {
+   "A": "O tema pertence apenas à administração central, sem implicações escolares.",
+   "B": "A gestão democrática inclui participação dos profissionais na elaboração do projeto pedagógico.",
+   "C": "É adequado reduzir participação à assinatura de aprovação.",
+   "D": "A decisão pode ignorar normas se houver concordância da maioria."
+  },
+  "correct": "B",
+  "explanations": {
+   "B": "A alternativa B está correta. O fundamento central é: A gestão democrática inclui participação dos profissionais na elaboração do projeto pedagógico. A pegadinha consiste em reduzir participação à assinatura de aprovação."
+  }
+ },
+ {
+  "id": "banco_turbo-sim1-003",
+  "area": "LDB",
+  "num": "003",
+  "title": "LDB",
+  "stem": "Uma equipe escolar revisa suas práticas relacionadas a LDB. Qual orientação deve integrar o plano de ação?",
+  "options": {
+   "A": "A decisão pode ignorar normas se houver concordância da maioria.",
+   "B": "O tema pertence apenas à administração central, sem implicações escolares.",
+   "C": "A frequência mínima para aprovação na educação básica é 75% do total de horas letivas.",
+   "D": "É adequado substituir frequência por bom desempenho."
+  },
+  "correct": "C",
+  "explanations": {
+   "C": "A alternativa C está correta. O fundamento central é: A frequência mínima para aprovação na educação básica é 75% do total de horas letivas. A pegadinha consiste em substituir frequência por bom desempenho."
+  }
+ },
+ {
+  "id": "banco_turbo-sim1-004",
+  "area": "Educação infantil",
+  "num": "004",
+  "title": "Educação infantil",
+  "stem": "Uma equipe escolar revisa suas práticas relacionadas a Educação infantil. Qual orientação deve integrar o plano de ação?",
+  "options": {
+   "A": "É adequado usar provas para decidir avanço.",
+   "B": "A decisão pode ignorar normas se houver concordância da maioria.",
+   "C": "O tema pertence apenas à administração central, sem implicações escolares.",
+   "D": "A avaliação ocorre por acompanhamento e registro, sem objetivo de promoção."
+  },
+  "correct": "D",
+  "explanations": {
+   "D": "A alternativa D está correta. O fundamento central é: A avaliação ocorre por acompanhamento e registro, sem objetivo de promoção. A pegadinha consiste em usar provas para decidir avanço."
+  }
+ },
+ {
+  "id": "banco_turbo-sim1-005",
+  "area": "LDB",
+  "num": "005",
+  "title": "LDB",
+  "stem": "Uma equipe escolar revisa suas práticas relacionadas a LDB. Qual orientação deve integrar o plano de ação?",
+  "options": {
+   "A": "A formação mínima admitida para educação infantil e cinco primeiros anos pode ser o nível médio, modalidade normal.",
+   "B": "É adequado afirmar que somente pós-graduação habilita.",
+   "C": "A decisão pode ignorar normas se houver concordância da maioria.",
+   "D": "O tema pertence apenas à administração central, sem implicações escolares."
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "A alternativa A está correta. O fundamento central é: A formação mínima admitida para educação infantil e cinco primeiros anos pode ser o nível médio, modalidade Normal. A pegadinha consiste em afirmar que somente pós-graduação habilita."
+  }
+ },
+ {
+  "id": "banco_turbo-sim1-006",
+  "area": "PNE",
+  "num": "006",
+  "title": "PNE",
+  "stem": "Uma equipe escolar revisa suas práticas relacionadas a PNE. Qual orientação deve integrar o plano de ação?",
+  "options": {
+   "A": "O tema pertence apenas à administração central, sem implicações escolares.",
+   "B": "O pne vigente foi aprovado pela lei nº 15.388/2026.",
+   "C": "É adequado usar automaticamente o plano de 2014 como vigente.",
+   "D": "A decisão pode ignorar normas se houver concordância da maioria."
+  },
+  "correct": "B",
+  "explanations": {
+   "B": "A alternativa B está correta. O fundamento central é: O PNE vigente foi aprovado pela Lei nº 15.388/2026. A pegadinha consiste em usar automaticamente o plano de 2014 como vigente."
+  }
+ },
+ {
+  "id": "banco_turbo-sim1-007",
+  "area": "SNE",
+  "num": "007",
+  "title": "SNE",
+  "stem": "Uma equipe escolar revisa suas práticas relacionadas a SNE. Qual orientação deve integrar o plano de ação?",
+  "options": {
+   "A": "A decisão pode ignorar normas se houver concordância da maioria.",
+   "B": "O tema pertence apenas à administração central, sem implicações escolares.",
+   "C": "O sistema nacional de educação foi instituído pela lc nº 220/2025.",
+   "D": "É adequado tratar o SNE apenas como proposta sem lei."
+  },
+  "correct": "C",
+  "explanations": {
+   "C": "A alternativa C está correta. O fundamento central é: O Sistema Nacional de Educação foi instituído pela LC nº 220/2025. A pegadinha consiste em tratar o SNE apenas como proposta sem lei."
+  }
+ },
+ {
+  "id": "banco_turbo-sim1-008",
+  "area": "Financiamento",
+  "num": "008",
+  "title": "Financiamento",
+  "stem": "Uma equipe escolar revisa suas práticas relacionadas a Financiamento. Qual orientação deve integrar o plano de ação?",
+  "options": {
+   "A": "É adequado usar o percentual federal de 18%.",
+   "B": "A decisão pode ignorar normas se houver concordância da maioria.",
+   "C": "O tema pertence apenas à administração central, sem implicações escolares.",
+   "D": "Municípios aplicam no mínimo 25% da receita de impostos em manutenção e desenvolvimento do ensino."
+  },
+  "correct": "D",
+  "explanations": {
+   "D": "A alternativa D está correta. O fundamento central é: Municípios aplicam no mínimo 25% da receita de impostos em manutenção e desenvolvimento do ensino. A pegadinha consiste em usar o percentual federal de 18%."
+  }
+ },
+ {
+  "id": "banco_turbo-sim1-009",
+  "area": "PPP",
+  "num": "009",
+  "title": "PPP",
+  "stem": "Uma equipe escolar revisa suas práticas relacionadas a PPP. Qual orientação deve integrar o plano de ação?",
+  "options": {
+   "A": "O projeto político-pedagógico é construção coletiva e contextualizada.",
+   "B": "É adequado terceirizar sua autoria integral.",
+   "C": "A decisão pode ignorar normas se houver concordância da maioria.",
+   "D": "O tema pertence apenas à administração central, sem implicações escolares."
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "A alternativa A está correta. O fundamento central é: O projeto político-pedagógico é construção coletiva e contextualizada. A pegadinha consiste em terceirizar sua autoria integral."
+  }
+ },
+ {
+  "id": "banco_turbo-sim1-010",
+  "area": "Colegiados",
+  "num": "010",
+  "title": "Colegiados",
+  "stem": "Uma equipe escolar revisa suas práticas relacionadas a Colegiados. Qual orientação deve integrar o plano de ação?",
+  "options": {
+   "A": "O tema pertence apenas à administração central, sem implicações escolares.",
+   "B": "Conselhos escolares ampliam participação, acompanhamento e controle social.",
+   "C": "É adequado tratá-los como instância decorativa.",
+   "D": "A decisão pode ignorar normas se houver concordância da maioria."
+  },
+  "correct": "B",
+  "explanations": {
+   "B": "A alternativa B está correta. O fundamento central é: Conselhos escolares ampliam participação, acompanhamento e controle social. A pegadinha consiste em tratá-los como instância decorativa."
+  }
+ },
+ {
+  "id": "banco_turbo-sim1-011",
+  "area": "BNCC",
+  "num": "011",
+  "title": "BNCC",
+  "stem": "Uma equipe escolar revisa suas práticas relacionadas a BNCC. Qual orientação deve integrar o plano de ação?",
+  "options": {
+   "A": "A decisão pode ignorar normas se houver concordância da maioria.",
+   "B": "O tema pertence apenas à administração central, sem implicações escolares.",
+   "C": "A bncc é referência normativa e não currículo pronto idêntico para todas as escolas.",
+   "D": "É adequado confundir base comum com currículo único."
+  },
+  "correct": "C",
+  "explanations": {
+   "C": "A alternativa C está correta. O fundamento central é: A BNCC é referência normativa e não currículo pronto idêntico para todas as escolas. A pegadinha consiste em confundir base comum com currículo único."
+  }
+ },
+ {
+  "id": "banco_turbo-sim1-012",
+  "area": "BNCC",
+  "num": "012",
+  "title": "BNCC",
+  "stem": "Uma equipe escolar revisa suas práticas relacionadas a BNCC. Qual orientação deve integrar o plano de ação?",
+  "options": {
+   "A": "É adequado reduzir competência à memorização.",
+   "B": "A decisão pode ignorar normas se houver concordância da maioria.",
+   "C": "O tema pertence apenas à administração central, sem implicações escolares.",
+   "D": "Competências mobilizam conhecimentos, habilidades, atitudes e valores."
+  },
+  "correct": "D",
+  "explanations": {
+   "D": "A alternativa D está correta. O fundamento central é: Competências mobilizam conhecimentos, habilidades, atitudes e valores. A pegadinha consiste em reduzir competência à memorização."
+  }
+ },
+ {
+  "id": "banco_turbo-sim1-013",
+  "area": "Currículo",
+  "num": "013",
+  "title": "Currículo",
+  "stem": "Uma equipe escolar revisa suas práticas relacionadas a Currículo. Qual orientação deve integrar o plano de ação?",
+  "options": {
+   "A": "A contextualização articula conhecimentos comuns às realidades dos estudantes.",
+   "B": "É adequado eliminar conhecimentos comuns.",
+   "C": "A decisão pode ignorar normas se houver concordância da maioria.",
+   "D": "O tema pertence apenas à administração central, sem implicações escolares."
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "A alternativa A está correta. O fundamento central é: A contextualização articula conhecimentos comuns às realidades dos estudantes. A pegadinha consiste em eliminar conhecimentos comuns."
+  }
+ },
+ {
+  "id": "banco_turbo-sim1-014",
+  "area": "Avaliação",
+  "num": "014",
+  "title": "Avaliação",
+  "stem": "Uma equipe escolar revisa suas práticas relacionadas a Avaliação. Qual orientação deve integrar o plano de ação?",
+  "options": {
+   "A": "O tema pertence apenas à administração central, sem implicações escolares.",
+   "B": "Avaliação diagnóstica identifica conhecimentos prévios e lacunas para orientar o ensino.",
+   "C": "É adequado usá-la apenas para nota final.",
+   "D": "A decisão pode ignorar normas se houver concordância da maioria."
+  },
+  "correct": "B",
+  "explanations": {
+   "B": "A alternativa B está correta. O fundamento central é: Avaliação diagnóstica identifica conhecimentos prévios e lacunas para orientar o ensino. A pegadinha consiste em usá-la apenas para nota final."
+  }
+ },
+ {
+  "id": "banco_turbo-sim1-015",
+  "area": "Avaliação",
+  "num": "015",
+  "title": "Avaliação",
+  "stem": "Uma equipe escolar revisa suas práticas relacionadas a Avaliação. Qual orientação deve integrar o plano de ação?",
+  "options": {
+   "A": "A decisão pode ignorar normas se houver concordância da maioria.",
+   "B": "O tema pertence apenas à administração central, sem implicações escolares.",
+   "C": "Avaliação formativa fornece evidências para ajustar ensino e aprendizagem durante o processo.",
+   "D": "É adequado aplicá-la somente no encerramento."
+  },
+  "correct": "C",
+  "explanations": {
+   "C": "A alternativa C está correta. O fundamento central é: Avaliação formativa fornece evidências para ajustar ensino e aprendizagem durante o processo. A pegadinha consiste em aplicá-la somente no encerramento."
+  }
+ },
+ {
+  "id": "banco_turbo-sim1-016",
+  "area": "Inclusão",
+  "num": "016",
+  "title": "Inclusão",
+  "stem": "Uma equipe escolar revisa suas práticas relacionadas a Inclusão. Qual orientação deve integrar o plano de ação?",
+  "options": {
+   "A": "É adequado segregar permanentemente o estudante.",
+   "B": "A decisão pode ignorar normas se houver concordância da maioria.",
+   "C": "O tema pertence apenas à administração central, sem implicações escolares.",
+   "D": "O aee complementa ou suplementa a escolarização e não substitui a classe comum."
+  },
+  "correct": "D",
+  "explanations": {
+   "D": "A alternativa D está correta. O fundamento central é: O AEE complementa ou suplementa a escolarização e não substitui a classe comum. A pegadinha consiste em segregar permanentemente o estudante."
+  }
+ },
+ {
+  "id": "banco_turbo-sim1-017",
+  "area": "Inclusão",
+  "num": "017",
+  "title": "Inclusão",
+  "stem": "Uma equipe escolar revisa suas práticas relacionadas a Inclusão. Qual orientação deve integrar o plano de ação?",
+  "options": {
+   "A": "Barreiras podem ser arquitetônicas, comunicacionais, tecnológicas e atitudinais.",
+   "B": "É adequado atribuir toda dificuldade ao indivíduo.",
+   "C": "A decisão pode ignorar normas se houver concordância da maioria.",
+   "D": "O tema pertence apenas à administração central, sem implicações escolares."
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "A alternativa A está correta. O fundamento central é: Barreiras podem ser arquitetônicas, comunicacionais, tecnológicas e atitudinais. A pegadinha consiste em atribuir toda dificuldade ao indivíduo."
+  }
+ },
+ {
+  "id": "banco_turbo-sim1-018",
+  "area": "DUA",
+  "num": "018",
+  "title": "DUA",
+  "stem": "Uma equipe escolar revisa suas práticas relacionadas a DUA. Qual orientação deve integrar o plano de ação?",
+  "options": {
+   "A": "O tema pertence apenas à administração central, sem implicações escolares.",
+   "B": "O desenho universal oferece múltiplos meios de engajamento, representação e ação/expressão.",
+   "C": "É adequado usar uma única forma de ensinar e avaliar.",
+   "D": "A decisão pode ignorar normas se houver concordância da maioria."
+  },
+  "correct": "B",
+  "explanations": {
+   "B": "A alternativa B está correta. O fundamento central é: O desenho universal oferece múltiplos meios de engajamento, representação e ação/expressão. A pegadinha consiste em usar uma única forma de ensinar e avaliar."
+  }
+ },
+ {
+  "id": "banco_turbo-sim1-019",
+  "area": "ECA",
+  "num": "019",
+  "title": "ECA",
+  "stem": "Uma equipe escolar revisa suas práticas relacionadas a ECA. Qual orientação deve integrar o plano de ação?",
+  "options": {
+   "A": "A decisão pode ignorar normas se houver concordância da maioria.",
+   "B": "O tema pertence apenas à administração central, sem implicações escolares.",
+   "C": "Crianças e adolescentes são sujeitos de direitos sob proteção integral.",
+   "D": "É adequado tratá-los como objetos de tutela."
+  },
+  "correct": "C",
+  "explanations": {
+   "C": "A alternativa C está correta. O fundamento central é: Crianças e adolescentes são sujeitos de direitos sob proteção integral. A pegadinha consiste em tratá-los como objetos de tutela."
+  }
+ },
+ {
+  "id": "banco_turbo-sim1-020",
+  "area": "ECA",
+  "num": "020",
+  "title": "ECA",
+  "stem": "Uma equipe escolar revisa suas práticas relacionadas a ECA. Qual orientação deve integrar o plano de ação?",
+  "options": {
+   "A": "É adequado encaminhar qualquer falta sem ação escolar.",
+   "B": "A decisão pode ignorar normas se houver concordância da maioria.",
+   "C": "O tema pertence apenas à administração central, sem implicações escolares.",
+   "D": "A escola comunica ao conselho tutelar casos previstos em lei, como reiteração de faltas injustificadas após esgotar recursos escolares."
+  },
+  "correct": "D",
+  "explanations": {
+   "D": "A alternativa D está correta. O fundamento central é: A escola comunica ao Conselho Tutelar casos previstos em lei, como reiteração de faltas injustificadas após esgotar recursos escolares. A pegadinha consiste em encaminhar qualquer falta sem ação escolar."
+  }
+ },
+ {
+  "id": "banco_turbo-sim1-021",
+  "area": "Didática",
+  "num": "021",
+  "title": "Didática",
+  "stem": "Uma equipe escolar revisa suas práticas relacionadas a Didática. Qual orientação deve integrar o plano de ação?",
+  "options": {
+   "A": "Planejamento articula objetivos, conteúdos, métodos, recursos e avaliação.",
+   "B": "É adequado tratar cada elemento isoladamente.",
+   "C": "A decisão pode ignorar normas se houver concordância da maioria.",
+   "D": "O tema pertence apenas à administração central, sem implicações escolares."
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "A alternativa A está correta. O fundamento central é: Planejamento articula objetivos, conteúdos, métodos, recursos e avaliação. A pegadinha consiste em tratar cada elemento isoladamente."
+  }
+ },
+ {
+  "id": "banco_turbo-sim1-022",
+  "area": "Mediação",
+  "num": "022",
+  "title": "Mediação",
+  "stem": "Uma equipe escolar revisa suas práticas relacionadas a Mediação. Qual orientação deve integrar o plano de ação?",
+  "options": {
+   "A": "O tema pertence apenas à administração central, sem implicações escolares.",
+   "B": "O professor organiza situações que favorecem apropriação ativa do conhecimento.",
+   "C": "É adequado abandonar intencionalidade pedagógica.",
+   "D": "A decisão pode ignorar normas se houver concordância da maioria."
+  },
+  "correct": "B",
+  "explanations": {
+   "B": "A alternativa B está correta. O fundamento central é: O professor organiza situações que favorecem apropriação ativa do conhecimento. A pegadinha consiste em abandonar intencionalidade pedagógica."
+  }
+ },
+ {
+  "id": "banco_turbo-sim1-023",
+  "area": "Tendências pedagógicas",
+  "num": "023",
+  "title": "Tendências pedagógicas",
+  "stem": "Uma equipe escolar revisa suas práticas relacionadas a Tendências pedagógicas. Qual orientação deve integrar o plano de ação?",
+  "options": {
+   "A": "A decisão pode ignorar normas se houver concordância da maioria.",
+   "B": "O tema pertence apenas à administração central, sem implicações escolares.",
+   "C": "Práticas progressistas relacionam conhecimento, realidade social e participação crítica.",
+   "D": "É adequado confundir criticidade com ausência de conteúdo."
+  },
+  "correct": "C",
+  "explanations": {
+   "C": "A alternativa C está correta. O fundamento central é: Práticas progressistas relacionam conhecimento, realidade social e participação crítica. A pegadinha consiste em confundir criticidade com ausência de conteúdo."
+  }
+ },
+ {
+  "id": "banco_turbo-sim1-024",
+  "area": "Tecnologia",
+  "num": "024",
+  "title": "Tecnologia",
+  "stem": "Uma equipe escolar revisa suas práticas relacionadas a Tecnologia. Qual orientação deve integrar o plano de ação?",
+  "options": {
+   "A": "É adequado usar ferramenta apenas por novidade.",
+   "B": "A decisão pode ignorar normas se houver concordância da maioria.",
+   "C": "O tema pertence apenas à administração central, sem implicações escolares.",
+   "D": "Tecnologia educacional requer intencionalidade, acessibilidade e avaliação crítica."
+  },
+  "correct": "D",
+  "explanations": {
+   "D": "A alternativa D está correta. O fundamento central é: Tecnologia educacional requer intencionalidade, acessibilidade e avaliação crítica. A pegadinha consiste em usar ferramenta apenas por novidade."
+  }
+ },
+ {
+  "id": "banco_turbo-sim1-025",
+  "area": "Letramento midiático",
+  "num": "025",
+  "title": "Letramento midiático",
+  "stem": "Uma equipe escolar revisa suas práticas relacionadas a Letramento midiático. Qual orientação deve integrar o plano de ação?",
+  "options": {
+   "A": "Verificação de fonte, autoria, evidência e contexto ajuda a enfrentar desinformação.",
+   "B": "É adequado compartilhar pela aparência de credibilidade.",
+   "C": "A decisão pode ignorar normas se houver concordância da maioria.",
+   "D": "O tema pertence apenas à administração central, sem implicações escolares."
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "A alternativa A está correta. O fundamento central é: Verificação de fonte, autoria, evidência e contexto ajuda a enfrentar desinformação. A pegadinha consiste em compartilhar pela aparência de credibilidade."
+  }
+ },
+ {
+  "id": "banco_turbo-sim1-026",
+  "area": "Relações étnico-raciais",
+  "num": "026",
+  "title": "Relações étnico-raciais",
+  "stem": "Uma equipe escolar revisa suas práticas relacionadas a Relações étnico-raciais. Qual orientação deve integrar o plano de ação?",
+  "options": {
+   "A": "O tema pertence apenas à administração central, sem implicações escolares.",
+   "B": "A educação das relações étnico-raciais deve integrar o currículo, não se limitar a datas comemorativas.",
+   "C": "É adequado concentrar o tema em um único evento.",
+   "D": "A decisão pode ignorar normas se houver concordância da maioria."
+  },
+  "correct": "B",
+  "explanations": {
+   "B": "A alternativa B está correta. O fundamento central é: A educação das relações étnico-raciais deve integrar o currículo, não se limitar a datas comemorativas. A pegadinha consiste em concentrar o tema em um único evento."
+  }
+ },
+ {
+  "id": "banco_turbo-sim1-027",
+  "area": "Direitos humanos",
+  "num": "027",
+  "title": "Direitos humanos",
+  "stem": "Uma equipe escolar revisa suas práticas relacionadas a Direitos humanos. Qual orientação deve integrar o plano de ação?",
+  "options": {
+   "A": "A decisão pode ignorar normas se houver concordância da maioria.",
+   "B": "O tema pertence apenas à administração central, sem implicações escolares.",
+   "C": "Educação em direitos humanos articula dignidade, participação, diversidade e cultura de paz.",
+   "D": "É adequado evitar conflitos silenciando diferenças."
+  },
+  "correct": "C",
+  "explanations": {
+   "C": "A alternativa C está correta. O fundamento central é: Educação em direitos humanos articula dignidade, participação, diversidade e cultura de paz. A pegadinha consiste em evitar conflitos silenciando diferenças."
+  }
+ },
+ {
+  "id": "banco_turbo-sim1-028",
+  "area": "Laicidade",
+  "num": "028",
+  "title": "Laicidade",
+  "stem": "Uma equipe escolar revisa suas práticas relacionadas a Laicidade. Qual orientação deve integrar o plano de ação?",
+  "options": {
+   "A": "É adequado impor prática religiosa obrigatória.",
+   "B": "A decisão pode ignorar normas se houver concordância da maioria.",
+   "C": "O tema pertence apenas à administração central, sem implicações escolares.",
+   "D": "A escola pública deve respeitar crenças e não crenças, sem proselitismo."
+  },
+  "correct": "D",
+  "explanations": {
+   "D": "A alternativa D está correta. O fundamento central é: A escola pública deve respeitar crenças e não crenças, sem proselitismo. A pegadinha consiste em impor prática religiosa obrigatória."
+  }
+ },
+ {
+  "id": "banco_turbo-sim1-029",
+  "area": "Equidade",
+  "num": "029",
+  "title": "Equidade",
+  "stem": "Uma equipe escolar revisa suas práticas relacionadas a Equidade. Qual orientação deve integrar o plano de ação?",
+  "options": {
+   "A": "Equidade considera diferenças e barreiras para garantir o direito comum à aprendizagem.",
+   "B": "É adequado oferecer tratamento idêntico em qualquer situação.",
+   "C": "A decisão pode ignorar normas se houver concordância da maioria.",
+   "D": "O tema pertence apenas à administração central, sem implicações escolares."
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "A alternativa A está correta. O fundamento central é: Equidade considera diferenças e barreiras para garantir o direito comum à aprendizagem. A pegadinha consiste em oferecer tratamento idêntico em qualquer situação."
+  }
+ },
+ {
+  "id": "banco_turbo-sim1-030",
+  "area": "Convivência",
+  "num": "030",
+  "title": "Convivência",
+  "stem": "Uma equipe escolar revisa suas práticas relacionadas a Convivência. Qual orientação deve integrar o plano de ação?",
+  "options": {
+   "A": "O tema pertence apenas à administração central, sem implicações escolares.",
+   "B": "Práticas restaurativas priorizam diálogo, responsabilização e reparação de danos.",
+   "C": "É adequado reduzir resposta à punição automática.",
+   "D": "A decisão pode ignorar normas se houver concordância da maioria.   OK"
+  },
+  "correct": "B",
+  "explanations": {
+   "B": "A alternativa B está correta. O fundamento central é: Práticas restaurativas priorizam diálogo, responsabilização e reparação de danos. A pegadinha consiste em reduzir resposta à punição automática.   ?"
+  }
+ },
+ {
+  "id": "banco_turbo-sim2-031",
+  "area": "LDB",
+  "num": "031",
+  "title": "LDB",
+  "stem": "Em uma escola, a direção decidiu atribuir a recuperação apenas à coordenação. À luz do eixo LDB, como avaliar a decisão?",
+  "options": {
+   "A": "A decisão é obrigatória em todas as redes, independentemente do contexto.",
+   "B": "A decisão só poderia ser questionada por estudantes, não pela equipe pedagógica.",
+   "C": "A decisão é inadequada, pois o docente deve estabelecer estratégias de recuperação para estudantes de menor rendimento.",
+   "D": "A decisão é adequada porque a autonomia escolar dispensa fundamentos normativos."
+  },
+  "correct": "C",
+  "explanations": {
+   "C": "A alternativa C está correta. O fundamento central é: O docente deve estabelecer estratégias de recuperação para estudantes de menor rendimento. A pegadinha consiste em atribuir a recuperação apenas à coordenação."
+  }
+ },
+ {
+  "id": "banco_turbo-sim2-032",
+  "area": "LDB",
+  "num": "032",
+  "title": "LDB",
+  "stem": "Em uma escola, a direção decidiu reduzir participação à assinatura de aprovação. À luz do eixo LDB, como avaliar a decisão?",
+  "options": {
+   "A": "A decisão é adequada porque a autonomia escolar dispensa fundamentos normativos.",
+   "B": "A decisão é obrigatória em todas as redes, independentemente do contexto.",
+   "C": "A decisão só poderia ser questionada por estudantes, não pela equipe pedagógica.",
+   "D": "A decisão é inadequada, pois a gestão democrática inclui participação dos profissionais na elaboração do projeto pedagógico."
+  },
+  "correct": "D",
+  "explanations": {
+   "D": "A alternativa D está correta. O fundamento central é: A gestão democrática inclui participação dos profissionais na elaboração do projeto pedagógico. A pegadinha consiste em reduzir participação à assinatura de aprovação."
+  }
+ },
+ {
+  "id": "banco_turbo-sim2-033",
+  "area": "LDB",
+  "num": "033",
+  "title": "LDB",
+  "stem": "Em uma escola, a direção decidiu substituir frequência por bom desempenho. À luz do eixo LDB, como avaliar a decisão?",
+  "options": {
+   "A": "A decisão é inadequada, pois a frequência mínima para aprovação na educação básica é 75% do total de horas letivas.",
+   "B": "A decisão é adequada porque a autonomia escolar dispensa fundamentos normativos.",
+   "C": "A decisão é obrigatória em todas as redes, independentemente do contexto.",
+   "D": "A decisão só poderia ser questionada por estudantes, não pela equipe pedagógica."
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "A alternativa A está correta. O fundamento central é: A frequência mínima para aprovação na educação básica é 75% do total de horas letivas. A pegadinha consiste em substituir frequência por bom desempenho."
+  }
+ },
+ {
+  "id": "banco_turbo-sim2-034",
+  "area": "Educação infantil",
+  "num": "034",
+  "title": "Educação infantil",
+  "stem": "Em uma escola, a direção decidiu usar provas para decidir avanço. À luz do eixo Educação infantil, como avaliar a decisão?",
+  "options": {
+   "A": "A decisão só poderia ser questionada por estudantes, não pela equipe pedagógica.",
+   "B": "A decisão é inadequada, pois a avaliação ocorre por acompanhamento e registro, sem objetivo de promoção.",
+   "C": "A decisão é adequada porque a autonomia escolar dispensa fundamentos normativos.",
+   "D": "A decisão é obrigatória em todas as redes, independentemente do contexto."
+  },
+  "correct": "B",
+  "explanations": {
+   "B": "A alternativa B está correta. O fundamento central é: A avaliação ocorre por acompanhamento e registro, sem objetivo de promoção. A pegadinha consiste em usar provas para decidir avanço."
+  }
+ },
+ {
+  "id": "banco_turbo-sim2-035",
+  "area": "LDB",
+  "num": "035",
+  "title": "LDB",
+  "stem": "Em uma escola, a direção decidiu afirmar que somente pós-graduação habilita. À luz do eixo LDB, como avaliar a decisão?",
+  "options": {
+   "A": "A decisão é obrigatória em todas as redes, independentemente do contexto.",
+   "B": "A decisão só poderia ser questionada por estudantes, não pela equipe pedagógica.",
+   "C": "A decisão é inadequada, pois a formação mínima admitida para educação infantil e cinco primeiros anos pode ser o nível médio, modalidade Normal.",
+   "D": "A decisão é adequada porque a autonomia escolar dispensa fundamentos normativos."
+  },
+  "correct": "C",
+  "explanations": {
+   "C": "A alternativa C está correta. O fundamento central é: A formação mínima admitida para educação infantil e cinco primeiros anos pode ser o nível médio, modalidade Normal. A pegadinha consiste em afirmar que somente pós-graduação habilita."
+  }
+ },
+ {
+  "id": "banco_turbo-sim2-036",
+  "area": "PNE",
+  "num": "036",
+  "title": "PNE",
+  "stem": "Em uma escola, a direção decidiu usar automaticamente o plano de 2014 como vigente. À luz do eixo PNE, como avaliar a decisão?",
+  "options": {
+   "A": "A decisão é adequada porque a autonomia escolar dispensa fundamentos normativos.",
+   "B": "A decisão é obrigatória em todas as redes, independentemente do contexto.",
+   "C": "A decisão só poderia ser questionada por estudantes, não pela equipe pedagógica.",
+   "D": "A decisão é inadequada, pois o PNE vigente foi aprovado pela Lei nº 15.388/2026."
+  },
+  "correct": "D",
+  "explanations": {
+   "D": "A alternativa D está correta. O fundamento central é: O PNE vigente foi aprovado pela Lei nº 15.388/2026. A pegadinha consiste em usar automaticamente o plano de 2014 como vigente."
+  }
+ },
+ {
+  "id": "banco_turbo-sim2-037",
+  "area": "SNE",
+  "num": "037",
+  "title": "SNE",
+  "stem": "Em uma escola, a direção decidiu tratar o SNE apenas como proposta sem lei. À luz do eixo SNE, como avaliar a decisão?",
+  "options": {
+   "A": "A decisão é inadequada, pois o Sistema Nacional de Educação foi instituído pela LC nº 220/2025.",
+   "B": "A decisão é adequada porque a autonomia escolar dispensa fundamentos normativos.",
+   "C": "A decisão é obrigatória em todas as redes, independentemente do contexto.",
+   "D": "A decisão só poderia ser questionada por estudantes, não pela equipe pedagógica."
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "A alternativa A está correta. O fundamento central é: O Sistema Nacional de Educação foi instituído pela LC nº 220/2025. A pegadinha consiste em tratar o SNE apenas como proposta sem lei."
+  }
+ },
+ {
+  "id": "banco_turbo-sim2-038",
+  "area": "Financiamento",
+  "num": "038",
+  "title": "Financiamento",
+  "stem": "Em uma escola, a direção decidiu usar o percentual federal de 18%. À luz do eixo Financiamento, como avaliar a decisão?",
+  "options": {
+   "A": "A decisão só poderia ser questionada por estudantes, não pela equipe pedagógica.",
+   "B": "A decisão é inadequada, pois municípios aplicam no mínimo 25% da receita de impostos em manutenção e desenvolvimento do ensino.",
+   "C": "A decisão é adequada porque a autonomia escolar dispensa fundamentos normativos.",
+   "D": "A decisão é obrigatória em todas as redes, independentemente do contexto."
+  },
+  "correct": "B",
+  "explanations": {
+   "B": "A alternativa B está correta. O fundamento central é: Municípios aplicam no mínimo 25% da receita de impostos em manutenção e desenvolvimento do ensino. A pegadinha consiste em usar o percentual federal de 18%."
+  }
+ },
+ {
+  "id": "banco_turbo-sim2-039",
+  "area": "PPP",
+  "num": "039",
+  "title": "PPP",
+  "stem": "Em uma escola, a direção decidiu terceirizar sua autoria integral. À luz do eixo PPP, como avaliar a decisão?",
+  "options": {
+   "A": "A decisão é obrigatória em todas as redes, independentemente do contexto.",
+   "B": "A decisão só poderia ser questionada por estudantes, não pela equipe pedagógica.",
+   "C": "A decisão é inadequada, pois o projeto político-pedagógico é construção coletiva e contextualizada.",
+   "D": "A decisão é adequada porque a autonomia escolar dispensa fundamentos normativos."
+  },
+  "correct": "C",
+  "explanations": {
+   "C": "A alternativa C está correta. O fundamento central é: O projeto político-pedagógico é construção coletiva e contextualizada. A pegadinha consiste em terceirizar sua autoria integral."
+  }
+ },
+ {
+  "id": "banco_turbo-sim2-040",
+  "area": "Colegiados",
+  "num": "040",
+  "title": "Colegiados",
+  "stem": "Em uma escola, a direção decidiu tratá-los como instância decorativa. À luz do eixo Colegiados, como avaliar a decisão?",
+  "options": {
+   "A": "A decisão é adequada porque a autonomia escolar dispensa fundamentos normativos.",
+   "B": "A decisão é obrigatória em todas as redes, independentemente do contexto.",
+   "C": "A decisão só poderia ser questionada por estudantes, não pela equipe pedagógica.",
+   "D": "A decisão é inadequada, pois conselhos escolares ampliam participação, acompanhamento e controle social."
+  },
+  "correct": "D",
+  "explanations": {
+   "D": "A alternativa D está correta. O fundamento central é: Conselhos escolares ampliam participação, acompanhamento e controle social. A pegadinha consiste em tratá-los como instância decorativa."
+  }
+ },
+ {
+  "id": "banco_turbo-sim2-041",
+  "area": "BNCC",
+  "num": "041",
+  "title": "BNCC",
+  "stem": "Em uma escola, a direção decidiu confundir base comum com currículo único. À luz do eixo BNCC, como avaliar a decisão?",
+  "options": {
+   "A": "A decisão é inadequada, pois a BNCC é referência normativa e não currículo pronto idêntico para todas as escolas.",
+   "B": "A decisão é adequada porque a autonomia escolar dispensa fundamentos normativos.",
+   "C": "A decisão é obrigatória em todas as redes, independentemente do contexto.",
+   "D": "A decisão só poderia ser questionada por estudantes, não pela equipe pedagógica."
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "A alternativa A está correta. O fundamento central é: A BNCC é referência normativa e não currículo pronto idêntico para todas as escolas. A pegadinha consiste em confundir base comum com currículo único."
+  }
+ },
+ {
+  "id": "banco_turbo-sim2-042",
+  "area": "BNCC",
+  "num": "042",
+  "title": "BNCC",
+  "stem": "Em uma escola, a direção decidiu reduzir competência à memorização. À luz do eixo BNCC, como avaliar a decisão?",
+  "options": {
+   "A": "A decisão só poderia ser questionada por estudantes, não pela equipe pedagógica.",
+   "B": "A decisão é inadequada, pois competências mobilizam conhecimentos, habilidades, atitudes e valores.",
+   "C": "A decisão é adequada porque a autonomia escolar dispensa fundamentos normativos.",
+   "D": "A decisão é obrigatória em todas as redes, independentemente do contexto."
+  },
+  "correct": "B",
+  "explanations": {
+   "B": "A alternativa B está correta. O fundamento central é: Competências mobilizam conhecimentos, habilidades, atitudes e valores. A pegadinha consiste em reduzir competência à memorização."
+  }
+ },
+ {
+  "id": "banco_turbo-sim2-043",
+  "area": "Currículo",
+  "num": "043",
+  "title": "Currículo",
+  "stem": "Em uma escola, a direção decidiu eliminar conhecimentos comuns. À luz do eixo Currículo, como avaliar a decisão?",
+  "options": {
+   "A": "A decisão é obrigatória em todas as redes, independentemente do contexto.",
+   "B": "A decisão só poderia ser questionada por estudantes, não pela equipe pedagógica.",
+   "C": "A decisão é inadequada, pois a contextualização articula conhecimentos comuns às realidades dos estudantes.",
+   "D": "A decisão é adequada porque a autonomia escolar dispensa fundamentos normativos."
+  },
+  "correct": "C",
+  "explanations": {
+   "C": "A alternativa C está correta. O fundamento central é: A contextualização articula conhecimentos comuns às realidades dos estudantes. A pegadinha consiste em eliminar conhecimentos comuns."
+  }
+ },
+ {
+  "id": "banco_turbo-sim2-044",
+  "area": "Avaliação",
+  "num": "044",
+  "title": "Avaliação",
+  "stem": "Em uma escola, a direção decidiu usá-la apenas para nota final. À luz do eixo Avaliação, como avaliar a decisão?",
+  "options": {
+   "A": "A decisão é adequada porque a autonomia escolar dispensa fundamentos normativos.",
+   "B": "A decisão é obrigatória em todas as redes, independentemente do contexto.",
+   "C": "A decisão só poderia ser questionada por estudantes, não pela equipe pedagógica.",
+   "D": "A decisão é inadequada, pois avaliação diagnóstica identifica conhecimentos prévios e lacunas para orientar o ensino."
+  },
+  "correct": "D",
+  "explanations": {
+   "D": "A alternativa D está correta. O fundamento central é: Avaliação diagnóstica identifica conhecimentos prévios e lacunas para orientar o ensino. A pegadinha consiste em usá-la apenas para nota final."
+  }
+ },
+ {
+  "id": "banco_turbo-sim2-045",
+  "area": "Avaliação",
+  "num": "045",
+  "title": "Avaliação",
+  "stem": "Em uma escola, a direção decidiu aplicá-la somente no encerramento. À luz do eixo Avaliação, como avaliar a decisão?",
+  "options": {
+   "A": "A decisão é inadequada, pois avaliação formativa fornece evidências para ajustar ensino e aprendizagem durante o processo.",
+   "B": "A decisão é adequada porque a autonomia escolar dispensa fundamentos normativos.",
+   "C": "A decisão é obrigatória em todas as redes, independentemente do contexto.",
+   "D": "A decisão só poderia ser questionada por estudantes, não pela equipe pedagógica."
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "A alternativa A está correta. O fundamento central é: Avaliação formativa fornece evidências para ajustar ensino e aprendizagem durante o processo. A pegadinha consiste em aplicá-la somente no encerramento."
+  }
+ },
+ {
+  "id": "banco_turbo-sim2-046",
+  "area": "Inclusão",
+  "num": "046",
+  "title": "Inclusão",
+  "stem": "Em uma escola, a direção decidiu segregar permanentemente o estudante. À luz do eixo Inclusão, como avaliar a decisão?",
+  "options": {
+   "A": "A decisão só poderia ser questionada por estudantes, não pela equipe pedagógica.",
+   "B": "A decisão é inadequada, pois o AEE complementa ou suplementa a escolarização e não substitui a classe comum.",
+   "C": "A decisão é adequada porque a autonomia escolar dispensa fundamentos normativos.",
+   "D": "A decisão é obrigatória em todas as redes, independentemente do contexto."
+  },
+  "correct": "B",
+  "explanations": {
+   "B": "A alternativa B está correta. O fundamento central é: O AEE complementa ou suplementa a escolarização e não substitui a classe comum. A pegadinha consiste em segregar permanentemente o estudante."
+  }
+ },
+ {
+  "id": "banco_turbo-sim2-047",
+  "area": "Inclusão",
+  "num": "047",
+  "title": "Inclusão",
+  "stem": "Em uma escola, a direção decidiu atribuir toda dificuldade ao indivíduo. À luz do eixo Inclusão, como avaliar a decisão?",
+  "options": {
+   "A": "A decisão é obrigatória em todas as redes, independentemente do contexto.",
+   "B": "A decisão só poderia ser questionada por estudantes, não pela equipe pedagógica.",
+   "C": "A decisão é inadequada, pois barreiras podem ser arquitetônicas, comunicacionais, tecnológicas e atitudinais.",
+   "D": "A decisão é adequada porque a autonomia escolar dispensa fundamentos normativos."
+  },
+  "correct": "C",
+  "explanations": {
+   "C": "A alternativa C está correta. O fundamento central é: Barreiras podem ser arquitetônicas, comunicacionais, tecnológicas e atitudinais. A pegadinha consiste em atribuir toda dificuldade ao indivíduo."
+  }
+ },
+ {
+  "id": "banco_turbo-sim2-048",
+  "area": "DUA",
+  "num": "048",
+  "title": "DUA",
+  "stem": "Em uma escola, a direção decidiu usar uma única forma de ensinar e avaliar. À luz do eixo DUA, como avaliar a decisão?",
+  "options": {
+   "A": "A decisão é adequada porque a autonomia escolar dispensa fundamentos normativos.",
+   "B": "A decisão é obrigatória em todas as redes, independentemente do contexto.",
+   "C": "A decisão só poderia ser questionada por estudantes, não pela equipe pedagógica.",
+   "D": "A decisão é inadequada, pois o desenho universal oferece múltiplos meios de engajamento, representação e ação/expressão."
+  },
+  "correct": "D",
+  "explanations": {
+   "D": "A alternativa D está correta. O fundamento central é: O desenho universal oferece múltiplos meios de engajamento, representação e ação/expressão. A pegadinha consiste em usar uma única forma de ensinar e avaliar."
+  }
+ },
+ {
+  "id": "banco_turbo-sim2-049",
+  "area": "ECA",
+  "num": "049",
+  "title": "ECA",
+  "stem": "Em uma escola, a direção decidiu tratá-los como objetos de tutela. À luz do eixo ECA, como avaliar a decisão?",
+  "options": {
+   "A": "A decisão é inadequada, pois crianças e adolescentes são sujeitos de direitos sob proteção integral.",
+   "B": "A decisão é adequada porque a autonomia escolar dispensa fundamentos normativos.",
+   "C": "A decisão é obrigatória em todas as redes, independentemente do contexto.",
+   "D": "A decisão só poderia ser questionada por estudantes, não pela equipe pedagógica."
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "A alternativa A está correta. O fundamento central é: Crianças e adolescentes são sujeitos de direitos sob proteção integral. A pegadinha consiste em tratá-los como objetos de tutela."
+  }
+ },
+ {
+  "id": "banco_turbo-sim2-050",
+  "area": "ECA",
+  "num": "050",
+  "title": "ECA",
+  "stem": "Em uma escola, a direção decidiu encaminhar qualquer falta sem ação escolar. À luz do eixo ECA, como avaliar a decisão?",
+  "options": {
+   "A": "A decisão só poderia ser questionada por estudantes, não pela equipe pedagógica.",
+   "B": "A decisão é inadequada, pois a escola comunica ao Conselho Tutelar casos previstos em lei, como reiteração de faltas injustificadas após esgotar recursos escolares.",
+   "C": "A decisão é adequada porque a autonomia escolar dispensa fundamentos normativos.",
+   "D": "A decisão é obrigatória em todas as redes, independentemente do contexto."
+  },
+  "correct": "B",
+  "explanations": {
+   "B": "A alternativa B está correta. O fundamento central é: A escola comunica ao Conselho Tutelar casos previstos em lei, como reiteração de faltas injustificadas após esgotar recursos escolares. A pegadinha consiste em encaminhar qualquer falta sem ação escolar."
+  }
+ },
+ {
+  "id": "banco_turbo-sim2-051",
+  "area": "Didática",
+  "num": "051",
+  "title": "Didática",
+  "stem": "Em uma escola, a direção decidiu tratar cada elemento isoladamente. À luz do eixo Didática, como avaliar a decisão?",
+  "options": {
+   "A": "A decisão é obrigatória em todas as redes, independentemente do contexto.",
+   "B": "A decisão só poderia ser questionada por estudantes, não pela equipe pedagógica.",
+   "C": "A decisão é inadequada, pois planejamento articula objetivos, conteúdos, métodos, recursos e avaliação.",
+   "D": "A decisão é adequada porque a autonomia escolar dispensa fundamentos normativos."
+  },
+  "correct": "C",
+  "explanations": {
+   "C": "A alternativa C está correta. O fundamento central é: Planejamento articula objetivos, conteúdos, métodos, recursos e avaliação. A pegadinha consiste em tratar cada elemento isoladamente."
+  }
+ },
+ {
+  "id": "banco_turbo-sim2-052",
+  "area": "Mediação",
+  "num": "052",
+  "title": "Mediação",
+  "stem": "Em uma escola, a direção decidiu abandonar intencionalidade pedagógica. À luz do eixo Mediação, como avaliar a decisão?",
+  "options": {
+   "A": "A decisão é adequada porque a autonomia escolar dispensa fundamentos normativos.",
+   "B": "A decisão é obrigatória em todas as redes, independentemente do contexto.",
+   "C": "A decisão só poderia ser questionada por estudantes, não pela equipe pedagógica.",
+   "D": "A decisão é inadequada, pois o professor organiza situações que favorecem apropriação ativa do conhecimento."
+  },
+  "correct": "D",
+  "explanations": {
+   "D": "A alternativa D está correta. O fundamento central é: O professor organiza situações que favorecem apropriação ativa do conhecimento. A pegadinha consiste em abandonar intencionalidade pedagógica."
+  }
+ },
+ {
+  "id": "banco_turbo-sim2-053",
+  "area": "Tendências pedagógicas",
+  "num": "053",
+  "title": "Tendências pedagógicas",
+  "stem": "Em uma escola, a direção decidiu confundir criticidade com ausência de conteúdo. À luz do eixo Tendências pedagógicas, como avaliar a decisão?",
+  "options": {
+   "A": "A decisão é inadequada, pois práticas progressistas relacionam conhecimento, realidade social e participação crítica.",
+   "B": "A decisão é adequada porque a autonomia escolar dispensa fundamentos normativos.",
+   "C": "A decisão é obrigatória em todas as redes, independentemente do contexto.",
+   "D": "A decisão só poderia ser questionada por estudantes, não pela equipe pedagógica."
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "A alternativa A está correta. O fundamento central é: Práticas progressistas relacionam conhecimento, realidade social e participação crítica. A pegadinha consiste em confundir criticidade com ausência de conteúdo."
+  }
+ },
+ {
+  "id": "banco_turbo-sim2-054",
+  "area": "Tecnologia",
+  "num": "054",
+  "title": "Tecnologia",
+  "stem": "Em uma escola, a direção decidiu usar ferramenta apenas por novidade. À luz do eixo Tecnologia, como avaliar a decisão?",
+  "options": {
+   "A": "A decisão só poderia ser questionada por estudantes, não pela equipe pedagógica.",
+   "B": "A decisão é inadequada, pois tecnologia educacional requer intencionalidade, acessibilidade e avaliação crítica.",
+   "C": "A decisão é adequada porque a autonomia escolar dispensa fundamentos normativos.",
+   "D": "A decisão é obrigatória em todas as redes, independentemente do contexto."
+  },
+  "correct": "B",
+  "explanations": {
+   "B": "A alternativa B está correta. O fundamento central é: Tecnologia educacional requer intencionalidade, acessibilidade e avaliação crítica. A pegadinha consiste em usar ferramenta apenas por novidade."
+  }
+ },
+ {
+  "id": "banco_turbo-sim2-055",
+  "area": "Letramento midiático",
+  "num": "055",
+  "title": "Letramento midiático",
+  "stem": "Em uma escola, a direção decidiu compartilhar pela aparência de credibilidade. À luz do eixo Letramento midiático, como avaliar a decisão?",
+  "options": {
+   "A": "A decisão é obrigatória em todas as redes, independentemente do contexto.",
+   "B": "A decisão só poderia ser questionada por estudantes, não pela equipe pedagógica.",
+   "C": "A decisão é inadequada, pois verificação de fonte, autoria, evidência e contexto ajuda a enfrentar desinformação.",
+   "D": "A decisão é adequada porque a autonomia escolar dispensa fundamentos normativos."
+  },
+  "correct": "C",
+  "explanations": {
+   "C": "A alternativa C está correta. O fundamento central é: Verificação de fonte, autoria, evidência e contexto ajuda a enfrentar desinformação. A pegadinha consiste em compartilhar pela aparência de credibilidade."
+  }
+ },
+ {
+  "id": "banco_turbo-sim2-056",
+  "area": "Relações étnico-raciais",
+  "num": "056",
+  "title": "Relações étnico-raciais",
+  "stem": "Em uma escola, a direção decidiu concentrar o tema em um único evento. À luz do eixo Relações étnico-raciais, como avaliar a decisão?",
+  "options": {
+   "A": "A decisão é adequada porque a autonomia escolar dispensa fundamentos normativos.",
+   "B": "A decisão é obrigatória em todas as redes, independentemente do contexto.",
+   "C": "A decisão só poderia ser questionada por estudantes, não pela equipe pedagógica.",
+   "D": "A decisão é inadequada, pois a educação das relações étnico-raciais deve integrar o currículo, não se limitar a datas comemorativas."
+  },
+  "correct": "D",
+  "explanations": {
+   "D": "A alternativa D está correta. O fundamento central é: A educação das relações étnico-raciais deve integrar o currículo, não se limitar a datas comemorativas. A pegadinha consiste em concentrar o tema em um único evento."
+  }
+ },
+ {
+  "id": "banco_turbo-sim2-057",
+  "area": "Direitos humanos",
+  "num": "057",
+  "title": "Direitos humanos",
+  "stem": "Em uma escola, a direção decidiu evitar conflitos silenciando diferenças. À luz do eixo Direitos humanos, como avaliar a decisão?",
+  "options": {
+   "A": "A decisão é inadequada, pois educação em direitos humanos articula dignidade, participação, diversidade e cultura de paz.",
+   "B": "A decisão é adequada porque a autonomia escolar dispensa fundamentos normativos.",
+   "C": "A decisão é obrigatória em todas as redes, independentemente do contexto.",
+   "D": "A decisão só poderia ser questionada por estudantes, não pela equipe pedagógica."
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "A alternativa A está correta. O fundamento central é: Educação em direitos humanos articula dignidade, participação, diversidade e cultura de paz. A pegadinha consiste em evitar conflitos silenciando diferenças."
+  }
+ },
+ {
+  "id": "banco_turbo-sim2-058",
+  "area": "Laicidade",
+  "num": "058",
+  "title": "Laicidade",
+  "stem": "Em uma escola, a direção decidiu impor prática religiosa obrigatória. À luz do eixo Laicidade, como avaliar a decisão?",
+  "options": {
+   "A": "A decisão só poderia ser questionada por estudantes, não pela equipe pedagógica.",
+   "B": "A decisão é inadequada, pois a escola pública deve respeitar crenças e não crenças, sem proselitismo.",
+   "C": "A decisão é adequada porque a autonomia escolar dispensa fundamentos normativos.",
+   "D": "A decisão é obrigatória em todas as redes, independentemente do contexto."
+  },
+  "correct": "B",
+  "explanations": {
+   "B": "A alternativa B está correta. O fundamento central é: A escola pública deve respeitar crenças e não crenças, sem proselitismo. A pegadinha consiste em impor prática religiosa obrigatória."
+  }
+ },
+ {
+  "id": "banco_turbo-sim2-059",
+  "area": "Equidade",
+  "num": "059",
+  "title": "Equidade",
+  "stem": "Em uma escola, a direção decidiu oferecer tratamento idêntico em qualquer situação. À luz do eixo Equidade, como avaliar a decisão?",
+  "options": {
+   "A": "A decisão é obrigatória em todas as redes, independentemente do contexto.",
+   "B": "A decisão só poderia ser questionada por estudantes, não pela equipe pedagógica.",
+   "C": "A decisão é inadequada, pois equidade considera diferenças e barreiras para garantir o direito comum à aprendizagem.",
+   "D": "A decisão é adequada porque a autonomia escolar dispensa fundamentos normativos."
+  },
+  "correct": "C",
+  "explanations": {
+   "C": "A alternativa C está correta. O fundamento central é: Equidade considera diferenças e barreiras para garantir o direito comum à aprendizagem. A pegadinha consiste em oferecer tratamento idêntico em qualquer situação."
+  }
+ },
+ {
+  "id": "banco_turbo-sim2-060",
+  "area": "Convivência",
+  "num": "060",
+  "title": "Convivência",
+  "stem": "Em uma escola, a direção decidiu reduzir resposta à punição automática. À luz do eixo Convivência, como avaliar a decisão?",
+  "options": {
+   "A": "A decisão é adequada porque a autonomia escolar dispensa fundamentos normativos.",
+   "B": "A decisão é obrigatória em todas as redes, independentemente do contexto.",
+   "C": "A decisão só poderia ser questionada por estudantes, não pela equipe pedagógica.",
+   "D": "A decisão é inadequada, pois práticas restaurativas priorizam diálogo, responsabilização e reparação de danos.   OK"
+  },
+  "correct": "D",
+  "explanations": {
+   "D": "A alternativa D está correta. O fundamento central é: Práticas restaurativas priorizam diálogo, responsabilização e reparação de danos. A pegadinha consiste em reduzir resposta à punição automática.   ?"
+  }
+ },
+ {
+  "id": "banco_turbo-sim3-061",
+  "area": "LDB",
+  "num": "061",
+  "title": "LDB",
+  "stem": "Ao fundamentar uma proposta sobre LDB, uma professora defendeu a seguinte orientação: “O docente deve estabelecer estratégias de recuperação para estudantes de menor rendimento.” Qual justificativa é mais coerente?",
+  "options": {
+   "A": "A orientação articula garantia de direitos, responsabilidade institucional e intencionalidade pedagógica.",
+   "B": "A orientação transforma toda decisão pedagógica em escolha exclusivamente individual.",
+   "C": "A orientação confirma que se deve atribuir a recuperação apenas à coordenação.",
+   "D": "A orientação afasta a necessidade de acompanhamento e avaliação das ações."
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "A alternativa A está correta. O fundamento central é: O docente deve estabelecer estratégias de recuperação para estudantes de menor rendimento. A pegadinha consiste em atribuir a recuperação apenas à coordenação."
+  }
+ },
+ {
+  "id": "banco_turbo-sim3-062",
+  "area": "LDB",
+  "num": "062",
+  "title": "LDB",
+  "stem": "Ao fundamentar uma proposta sobre LDB, uma professora defendeu a seguinte orientação: “A gestão democrática inclui participação dos profissionais na elaboração do projeto pedagógico.” Qual justificativa é mais coerente?",
+  "options": {
+   "A": "A orientação afasta a necessidade de acompanhamento e avaliação das ações.",
+   "B": "A orientação articula garantia de direitos, responsabilidade institucional e intencionalidade pedagógica.",
+   "C": "A orientação transforma toda decisão pedagógica em escolha exclusivamente individual.",
+   "D": "A orientação confirma que se deve reduzir participação à assinatura de aprovação."
+  },
+  "correct": "B",
+  "explanations": {
+   "B": "A alternativa B está correta. O fundamento central é: A gestão democrática inclui participação dos profissionais na elaboração do projeto pedagógico. A pegadinha consiste em reduzir participação à assinatura de aprovação."
+  }
+ },
+ {
+  "id": "banco_turbo-sim3-063",
+  "area": "LDB",
+  "num": "063",
+  "title": "LDB",
+  "stem": "Ao fundamentar uma proposta sobre LDB, uma professora defendeu a seguinte orientação: “A frequência mínima para aprovação na educação básica é 75% do total de horas letivas.” Qual justificativa é mais coerente?",
+  "options": {
+   "A": "A orientação confirma que se deve substituir frequência por bom desempenho.",
+   "B": "A orientação afasta a necessidade de acompanhamento e avaliação das ações.",
+   "C": "A orientação articula garantia de direitos, responsabilidade institucional e intencionalidade pedagógica.",
+   "D": "A orientação transforma toda decisão pedagógica em escolha exclusivamente individual."
+  },
+  "correct": "C",
+  "explanations": {
+   "C": "A alternativa C está correta. O fundamento central é: A frequência mínima para aprovação na educação básica é 75% do total de horas letivas. A pegadinha consiste em substituir frequência por bom desempenho."
+  }
+ },
+ {
+  "id": "banco_turbo-sim3-064",
+  "area": "Educação infantil",
+  "num": "064",
+  "title": "Educação infantil",
+  "stem": "Ao fundamentar uma proposta sobre Educação infantil, uma professora defendeu a seguinte orientação: “A avaliação ocorre por acompanhamento e registro, sem objetivo de promoção.” Qual justificativa é mais coerente?",
+  "options": {
+   "A": "A orientação transforma toda decisão pedagógica em escolha exclusivamente individual.",
+   "B": "A orientação confirma que se deve usar provas para decidir avanço.",
+   "C": "A orientação afasta a necessidade de acompanhamento e avaliação das ações.",
+   "D": "A orientação articula garantia de direitos, responsabilidade institucional e intencionalidade pedagógica."
+  },
+  "correct": "D",
+  "explanations": {
+   "D": "A alternativa D está correta. O fundamento central é: A avaliação ocorre por acompanhamento e registro, sem objetivo de promoção. A pegadinha consiste em usar provas para decidir avanço."
+  }
+ },
+ {
+  "id": "banco_turbo-sim3-065",
+  "area": "LDB",
+  "num": "065",
+  "title": "LDB",
+  "stem": "Ao fundamentar uma proposta sobre LDB, uma professora defendeu a seguinte orientação: “A formação mínima admitida para educação infantil e cinco primeiros anos pode ser o nível médio, modalidade Normal.” Qual justificativa é mais coerente?",
+  "options": {
+   "A": "A orientação articula garantia de direitos, responsabilidade institucional e intencionalidade pedagógica.",
+   "B": "A orientação transforma toda decisão pedagógica em escolha exclusivamente individual.",
+   "C": "A orientação confirma que se deve afirmar que somente pós-graduação habilita.",
+   "D": "A orientação afasta a necessidade de acompanhamento e avaliação das ações."
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "A alternativa A está correta. O fundamento central é: A formação mínima admitida para educação infantil e cinco primeiros anos pode ser o nível médio, modalidade Normal. A pegadinha consiste em afirmar que somente pós-graduação habilita."
+  }
+ },
+ {
+  "id": "banco_turbo-sim3-066",
+  "area": "PNE",
+  "num": "066",
+  "title": "PNE",
+  "stem": "Ao fundamentar uma proposta sobre PNE, uma professora defendeu a seguinte orientação: “O PNE vigente foi aprovado pela Lei nº 15.388/2026.” Qual justificativa é mais coerente?",
+  "options": {
+   "A": "A orientação afasta a necessidade de acompanhamento e avaliação das ações.",
+   "B": "A orientação articula garantia de direitos, responsabilidade institucional e intencionalidade pedagógica.",
+   "C": "A orientação transforma toda decisão pedagógica em escolha exclusivamente individual.",
+   "D": "A orientação confirma que se deve usar automaticamente o plano de 2014 como vigente."
+  },
+  "correct": "B",
+  "explanations": {
+   "B": "A alternativa B está correta. O fundamento central é: O PNE vigente foi aprovado pela Lei nº 15.388/2026. A pegadinha consiste em usar automaticamente o plano de 2014 como vigente."
+  }
+ },
+ {
+  "id": "banco_turbo-sim3-067",
+  "area": "SNE",
+  "num": "067",
+  "title": "SNE",
+  "stem": "Ao fundamentar uma proposta sobre SNE, uma professora defendeu a seguinte orientação: “O Sistema Nacional de Educação foi instituído pela LC nº 220/2025.” Qual justificativa é mais coerente?",
+  "options": {
+   "A": "A orientação confirma que se deve tratar o SNE apenas como proposta sem lei.",
+   "B": "A orientação afasta a necessidade de acompanhamento e avaliação das ações.",
+   "C": "A orientação articula garantia de direitos, responsabilidade institucional e intencionalidade pedagógica.",
+   "D": "A orientação transforma toda decisão pedagógica em escolha exclusivamente individual."
+  },
+  "correct": "C",
+  "explanations": {
+   "C": "A alternativa C está correta. O fundamento central é: O Sistema Nacional de Educação foi instituído pela LC nº 220/2025. A pegadinha consiste em tratar o SNE apenas como proposta sem lei."
+  }
+ },
+ {
+  "id": "banco_turbo-sim3-068",
+  "area": "Financiamento",
+  "num": "068",
+  "title": "Financiamento",
+  "stem": "Ao fundamentar uma proposta sobre Financiamento, uma professora defendeu a seguinte orientação: “Municípios aplicam no mínimo 25% da receita de impostos em manutenção e desenvolvimento do ensino.” Qual justificativa é mais coerente?",
+  "options": {
+   "A": "A orientação transforma toda decisão pedagógica em escolha exclusivamente individual.",
+   "B": "A orientação confirma que se deve usar o percentual federal de 18%.",
+   "C": "A orientação afasta a necessidade de acompanhamento e avaliação das ações.",
+   "D": "A orientação articula garantia de direitos, responsabilidade institucional e intencionalidade pedagógica."
+  },
+  "correct": "D",
+  "explanations": {
+   "D": "A alternativa D está correta. O fundamento central é: Municípios aplicam no mínimo 25% da receita de impostos em manutenção e desenvolvimento do ensino. A pegadinha consiste em usar o percentual federal de 18%."
+  }
+ },
+ {
+  "id": "banco_turbo-sim3-069",
+  "area": "PPP",
+  "num": "069",
+  "title": "PPP",
+  "stem": "Ao fundamentar uma proposta sobre PPP, uma professora defendeu a seguinte orientação: “O projeto político-pedagógico é construção coletiva e contextualizada.” Qual justificativa é mais coerente?",
+  "options": {
+   "A": "A orientação articula garantia de direitos, responsabilidade institucional e intencionalidade pedagógica.",
+   "B": "A orientação transforma toda decisão pedagógica em escolha exclusivamente individual.",
+   "C": "A orientação confirma que se deve terceirizar sua autoria integral.",
+   "D": "A orientação afasta a necessidade de acompanhamento e avaliação das ações."
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "A alternativa A está correta. O fundamento central é: O projeto político-pedagógico é construção coletiva e contextualizada. A pegadinha consiste em terceirizar sua autoria integral."
+  }
+ },
+ {
+  "id": "banco_turbo-sim3-070",
+  "area": "Colegiados",
+  "num": "070",
+  "title": "Colegiados",
+  "stem": "Ao fundamentar uma proposta sobre Colegiados, uma professora defendeu a seguinte orientação: “Conselhos escolares ampliam participação, acompanhamento e controle social.” Qual justificativa é mais coerente?",
+  "options": {
+   "A": "A orientação afasta a necessidade de acompanhamento e avaliação das ações.",
+   "B": "A orientação articula garantia de direitos, responsabilidade institucional e intencionalidade pedagógica.",
+   "C": "A orientação transforma toda decisão pedagógica em escolha exclusivamente individual.",
+   "D": "A orientação confirma que se deve tratá-los como instância decorativa."
+  },
+  "correct": "B",
+  "explanations": {
+   "B": "A alternativa B está correta. O fundamento central é: Conselhos escolares ampliam participação, acompanhamento e controle social. A pegadinha consiste em tratá-los como instância decorativa."
+  }
+ },
+ {
+  "id": "banco_turbo-sim3-071",
+  "area": "BNCC",
+  "num": "071",
+  "title": "BNCC",
+  "stem": "Ao fundamentar uma proposta sobre BNCC, uma professora defendeu a seguinte orientação: “A BNCC é referência normativa e não currículo pronto idêntico para todas as escolas.” Qual justificativa é mais coerente?",
+  "options": {
+   "A": "A orientação confirma que se deve confundir base comum com currículo único.",
+   "B": "A orientação afasta a necessidade de acompanhamento e avaliação das ações.",
+   "C": "A orientação articula garantia de direitos, responsabilidade institucional e intencionalidade pedagógica.",
+   "D": "A orientação transforma toda decisão pedagógica em escolha exclusivamente individual."
+  },
+  "correct": "C",
+  "explanations": {
+   "C": "A alternativa C está correta. O fundamento central é: A BNCC é referência normativa e não currículo pronto idêntico para todas as escolas. A pegadinha consiste em confundir base comum com currículo único."
+  }
+ },
+ {
+  "id": "banco_turbo-sim3-072",
+  "area": "BNCC",
+  "num": "072",
+  "title": "BNCC",
+  "stem": "Ao fundamentar uma proposta sobre BNCC, uma professora defendeu a seguinte orientação: “Competências mobilizam conhecimentos, habilidades, atitudes e valores.” Qual justificativa é mais coerente?",
+  "options": {
+   "A": "A orientação transforma toda decisão pedagógica em escolha exclusivamente individual.",
+   "B": "A orientação confirma que se deve reduzir competência à memorização.",
+   "C": "A orientação afasta a necessidade de acompanhamento e avaliação das ações.",
+   "D": "A orientação articula garantia de direitos, responsabilidade institucional e intencionalidade pedagógica."
+  },
+  "correct": "D",
+  "explanations": {
+   "D": "A alternativa D está correta. O fundamento central é: Competências mobilizam conhecimentos, habilidades, atitudes e valores. A pegadinha consiste em reduzir competência à memorização."
+  }
+ },
+ {
+  "id": "banco_turbo-sim3-073",
+  "area": "Currículo",
+  "num": "073",
+  "title": "Currículo",
+  "stem": "Ao fundamentar uma proposta sobre Currículo, uma professora defendeu a seguinte orientação: “A contextualização articula conhecimentos comuns às realidades dos estudantes.” Qual justificativa é mais coerente?",
+  "options": {
+   "A": "A orientação articula garantia de direitos, responsabilidade institucional e intencionalidade pedagógica.",
+   "B": "A orientação transforma toda decisão pedagógica em escolha exclusivamente individual.",
+   "C": "A orientação confirma que se deve eliminar conhecimentos comuns.",
+   "D": "A orientação afasta a necessidade de acompanhamento e avaliação das ações."
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "A alternativa A está correta. O fundamento central é: A contextualização articula conhecimentos comuns às realidades dos estudantes. A pegadinha consiste em eliminar conhecimentos comuns."
+  }
+ },
+ {
+  "id": "banco_turbo-sim3-074",
+  "area": "Avaliação",
+  "num": "074",
+  "title": "Avaliação",
+  "stem": "Ao fundamentar uma proposta sobre Avaliação, uma professora defendeu a seguinte orientação: “Avaliação diagnóstica identifica conhecimentos prévios e lacunas para orientar o ensino.” Qual justificativa é mais coerente?",
+  "options": {
+   "A": "A orientação afasta a necessidade de acompanhamento e avaliação das ações.",
+   "B": "A orientação articula garantia de direitos, responsabilidade institucional e intencionalidade pedagógica.",
+   "C": "A orientação transforma toda decisão pedagógica em escolha exclusivamente individual.",
+   "D": "A orientação confirma que se deve usá-la apenas para nota final."
+  },
+  "correct": "B",
+  "explanations": {
+   "B": "A alternativa B está correta. O fundamento central é: Avaliação diagnóstica identifica conhecimentos prévios e lacunas para orientar o ensino. A pegadinha consiste em usá-la apenas para nota final."
+  }
+ },
+ {
+  "id": "banco_turbo-sim3-075",
+  "area": "Avaliação",
+  "num": "075",
+  "title": "Avaliação",
+  "stem": "Ao fundamentar uma proposta sobre Avaliação, uma professora defendeu a seguinte orientação: “Avaliação formativa fornece evidências para ajustar ensino e aprendizagem durante o processo.” Qual justificativa é mais coerente?",
+  "options": {
+   "A": "A orientação confirma que se deve aplicá-la somente no encerramento.",
+   "B": "A orientação afasta a necessidade de acompanhamento e avaliação das ações.",
+   "C": "A orientação articula garantia de direitos, responsabilidade institucional e intencionalidade pedagógica.",
+   "D": "A orientação transforma toda decisão pedagógica em escolha exclusivamente individual."
+  },
+  "correct": "C",
+  "explanations": {
+   "C": "A alternativa C está correta. O fundamento central é: Avaliação formativa fornece evidências para ajustar ensino e aprendizagem durante o processo. A pegadinha consiste em aplicá-la somente no encerramento."
+  }
+ },
+ {
+  "id": "banco_turbo-sim3-076",
+  "area": "Inclusão",
+  "num": "076",
+  "title": "Inclusão",
+  "stem": "Ao fundamentar uma proposta sobre Inclusão, uma professora defendeu a seguinte orientação: “O AEE complementa ou suplementa a escolarização e não substitui a classe comum.” Qual justificativa é mais coerente?",
+  "options": {
+   "A": "A orientação transforma toda decisão pedagógica em escolha exclusivamente individual.",
+   "B": "A orientação confirma que se deve segregar permanentemente o estudante.",
+   "C": "A orientação afasta a necessidade de acompanhamento e avaliação das ações.",
+   "D": "A orientação articula garantia de direitos, responsabilidade institucional e intencionalidade pedagógica."
+  },
+  "correct": "D",
+  "explanations": {
+   "D": "A alternativa D está correta. O fundamento central é: O AEE complementa ou suplementa a escolarização e não substitui a classe comum. A pegadinha consiste em segregar permanentemente o estudante."
+  }
+ },
+ {
+  "id": "banco_turbo-sim3-077",
+  "area": "Inclusão",
+  "num": "077",
+  "title": "Inclusão",
+  "stem": "Ao fundamentar uma proposta sobre Inclusão, uma professora defendeu a seguinte orientação: “Barreiras podem ser arquitetônicas, comunicacionais, tecnológicas e atitudinais.” Qual justificativa é mais coerente?",
+  "options": {
+   "A": "A orientação articula garantia de direitos, responsabilidade institucional e intencionalidade pedagógica.",
+   "B": "A orientação transforma toda decisão pedagógica em escolha exclusivamente individual.",
+   "C": "A orientação confirma que se deve atribuir toda dificuldade ao indivíduo.",
+   "D": "A orientação afasta a necessidade de acompanhamento e avaliação das ações."
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "A alternativa A está correta. O fundamento central é: Barreiras podem ser arquitetônicas, comunicacionais, tecnológicas e atitudinais. A pegadinha consiste em atribuir toda dificuldade ao indivíduo."
+  }
+ },
+ {
+  "id": "banco_turbo-sim3-078",
+  "area": "DUA",
+  "num": "078",
+  "title": "DUA",
+  "stem": "Ao fundamentar uma proposta sobre DUA, uma professora defendeu a seguinte orientação: “O desenho universal oferece múltiplos meios de engajamento, representação e ação/expressão.” Qual justificativa é mais coerente?",
+  "options": {
+   "A": "A orientação afasta a necessidade de acompanhamento e avaliação das ações.",
+   "B": "A orientação articula garantia de direitos, responsabilidade institucional e intencionalidade pedagógica.",
+   "C": "A orientação transforma toda decisão pedagógica em escolha exclusivamente individual.",
+   "D": "A orientação confirma que se deve usar uma única forma de ensinar e avaliar."
+  },
+  "correct": "B",
+  "explanations": {
+   "B": "A alternativa B está correta. O fundamento central é: O desenho universal oferece múltiplos meios de engajamento, representação e ação/expressão. A pegadinha consiste em usar uma única forma de ensinar e avaliar."
+  }
+ },
+ {
+  "id": "banco_turbo-sim3-079",
+  "area": "ECA",
+  "num": "079",
+  "title": "ECA",
+  "stem": "Ao fundamentar uma proposta sobre ECA, uma professora defendeu a seguinte orientação: “Crianças e adolescentes são sujeitos de direitos sob proteção integral.” Qual justificativa é mais coerente?",
+  "options": {
+   "A": "A orientação confirma que se deve tratá-los como objetos de tutela.",
+   "B": "A orientação afasta a necessidade de acompanhamento e avaliação das ações.",
+   "C": "A orientação articula garantia de direitos, responsabilidade institucional e intencionalidade pedagógica.",
+   "D": "A orientação transforma toda decisão pedagógica em escolha exclusivamente individual."
+  },
+  "correct": "C",
+  "explanations": {
+   "C": "A alternativa C está correta. O fundamento central é: Crianças e adolescentes são sujeitos de direitos sob proteção integral. A pegadinha consiste em tratá-los como objetos de tutela."
+  }
+ },
+ {
+  "id": "banco_turbo-sim3-080",
+  "area": "ECA",
+  "num": "080",
+  "title": "ECA",
+  "stem": "Ao fundamentar uma proposta sobre ECA, uma professora defendeu a seguinte orientação: “A escola comunica ao Conselho Tutelar casos previstos em lei, como reiteração de faltas injustificadas após esgotar recursos escolares.” Qual justificativa é mais coerente?",
+  "options": {
+   "A": "A orientação transforma toda decisão pedagógica em escolha exclusivamente individual.",
+   "B": "A orientação confirma que se deve encaminhar qualquer falta sem ação escolar.",
+   "C": "A orientação afasta a necessidade de acompanhamento e avaliação das ações.",
+   "D": "A orientação articula garantia de direitos, responsabilidade institucional e intencionalidade pedagógica."
+  },
+  "correct": "D",
+  "explanations": {
+   "D": "A alternativa D está correta. O fundamento central é: A escola comunica ao Conselho Tutelar casos previstos em lei, como reiteração de faltas injustificadas após esgotar recursos escolares. A pegadinha consiste em encaminhar qualquer falta sem ação escolar."
+  }
+ },
+ {
+  "id": "banco_turbo-sim3-081",
+  "area": "Didática",
+  "num": "081",
+  "title": "Didática",
+  "stem": "Ao fundamentar uma proposta sobre Didática, uma professora defendeu a seguinte orientação: “Planejamento articula objetivos, conteúdos, métodos, recursos e avaliação.” Qual justificativa é mais coerente?",
+  "options": {
+   "A": "A orientação articula garantia de direitos, responsabilidade institucional e intencionalidade pedagógica.",
+   "B": "A orientação transforma toda decisão pedagógica em escolha exclusivamente individual.",
+   "C": "A orientação confirma que se deve tratar cada elemento isoladamente.",
+   "D": "A orientação afasta a necessidade de acompanhamento e avaliação das ações."
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "A alternativa A está correta. O fundamento central é: Planejamento articula objetivos, conteúdos, métodos, recursos e avaliação. A pegadinha consiste em tratar cada elemento isoladamente."
+  }
+ },
+ {
+  "id": "banco_turbo-sim3-082",
+  "area": "Mediação",
+  "num": "082",
+  "title": "Mediação",
+  "stem": "Ao fundamentar uma proposta sobre Mediação, uma professora defendeu a seguinte orientação: “O professor organiza situações que favorecem apropriação ativa do conhecimento.” Qual justificativa é mais coerente?",
+  "options": {
+   "A": "A orientação afasta a necessidade de acompanhamento e avaliação das ações.",
+   "B": "A orientação articula garantia de direitos, responsabilidade institucional e intencionalidade pedagógica.",
+   "C": "A orientação transforma toda decisão pedagógica em escolha exclusivamente individual.",
+   "D": "A orientação confirma que se deve abandonar intencionalidade pedagógica."
+  },
+  "correct": "B",
+  "explanations": {
+   "B": "A alternativa B está correta. O fundamento central é: O professor organiza situações que favorecem apropriação ativa do conhecimento. A pegadinha consiste em abandonar intencionalidade pedagógica."
+  }
+ },
+ {
+  "id": "banco_turbo-sim3-083",
+  "area": "Tendências pedagógicas",
+  "num": "083",
+  "title": "Tendências pedagógicas",
+  "stem": "Ao fundamentar uma proposta sobre Tendências pedagógicas, uma professora defendeu a seguinte orientação: “Práticas progressistas relacionam conhecimento, realidade social e participação crítica.” Qual justificativa é mais coerente?",
+  "options": {
+   "A": "A orientação confirma que se deve confundir criticidade com ausência de conteúdo.",
+   "B": "A orientação afasta a necessidade de acompanhamento e avaliação das ações.",
+   "C": "A orientação articula garantia de direitos, responsabilidade institucional e intencionalidade pedagógica.",
+   "D": "A orientação transforma toda decisão pedagógica em escolha exclusivamente individual."
+  },
+  "correct": "C",
+  "explanations": {
+   "C": "A alternativa C está correta. O fundamento central é: Práticas progressistas relacionam conhecimento, realidade social e participação crítica. A pegadinha consiste em confundir criticidade com ausência de conteúdo."
+  }
+ },
+ {
+  "id": "banco_turbo-sim3-084",
+  "area": "Tecnologia",
+  "num": "084",
+  "title": "Tecnologia",
+  "stem": "Ao fundamentar uma proposta sobre Tecnologia, uma professora defendeu a seguinte orientação: “Tecnologia educacional requer intencionalidade, acessibilidade e avaliação crítica.” Qual justificativa é mais coerente?",
+  "options": {
+   "A": "A orientação transforma toda decisão pedagógica em escolha exclusivamente individual.",
+   "B": "A orientação confirma que se deve usar ferramenta apenas por novidade.",
+   "C": "A orientação afasta a necessidade de acompanhamento e avaliação das ações.",
+   "D": "A orientação articula garantia de direitos, responsabilidade institucional e intencionalidade pedagógica."
+  },
+  "correct": "D",
+  "explanations": {
+   "D": "A alternativa D está correta. O fundamento central é: Tecnologia educacional requer intencionalidade, acessibilidade e avaliação crítica. A pegadinha consiste em usar ferramenta apenas por novidade."
+  }
+ },
+ {
+  "id": "banco_turbo-sim3-085",
+  "area": "Letramento midiático",
+  "num": "085",
+  "title": "Letramento midiático",
+  "stem": "Ao fundamentar uma proposta sobre Letramento midiático, uma professora defendeu a seguinte orientação: “Verificação de fonte, autoria, evidência e contexto ajuda a enfrentar desinformação.” Qual justificativa é mais coerente?",
+  "options": {
+   "A": "A orientação articula garantia de direitos, responsabilidade institucional e intencionalidade pedagógica.",
+   "B": "A orientação transforma toda decisão pedagógica em escolha exclusivamente individual.",
+   "C": "A orientação confirma que se deve compartilhar pela aparência de credibilidade.",
+   "D": "A orientação afasta a necessidade de acompanhamento e avaliação das ações."
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "A alternativa A está correta. O fundamento central é: Verificação de fonte, autoria, evidência e contexto ajuda a enfrentar desinformação. A pegadinha consiste em compartilhar pela aparência de credibilidade."
+  }
+ },
+ {
+  "id": "banco_turbo-sim3-086",
+  "area": "Relações étnico-raciais",
+  "num": "086",
+  "title": "Relações étnico-raciais",
+  "stem": "Ao fundamentar uma proposta sobre Relações étnico-raciais, uma professora defendeu a seguinte orientação: “A educação das relações étnico-raciais deve integrar o currículo, não se limitar a datas comemorativas.” Qual justificativa é mais coerente?",
+  "options": {
+   "A": "A orientação afasta a necessidade de acompanhamento e avaliação das ações.",
+   "B": "A orientação articula garantia de direitos, responsabilidade institucional e intencionalidade pedagógica.",
+   "C": "A orientação transforma toda decisão pedagógica em escolha exclusivamente individual.",
+   "D": "A orientação confirma que se deve concentrar o tema em um único evento."
+  },
+  "correct": "B",
+  "explanations": {
+   "B": "A alternativa B está correta. O fundamento central é: A educação das relações étnico-raciais deve integrar o currículo, não se limitar a datas comemorativas. A pegadinha consiste em concentrar o tema em um único evento."
+  }
+ },
+ {
+  "id": "banco_turbo-sim3-087",
+  "area": "Direitos humanos",
+  "num": "087",
+  "title": "Direitos humanos",
+  "stem": "Ao fundamentar uma proposta sobre Direitos humanos, uma professora defendeu a seguinte orientação: “Educação em direitos humanos articula dignidade, participação, diversidade e cultura de paz.” Qual justificativa é mais coerente?",
+  "options": {
+   "A": "A orientação confirma que se deve evitar conflitos silenciando diferenças.",
+   "B": "A orientação afasta a necessidade de acompanhamento e avaliação das ações.",
+   "C": "A orientação articula garantia de direitos, responsabilidade institucional e intencionalidade pedagógica.",
+   "D": "A orientação transforma toda decisão pedagógica em escolha exclusivamente individual."
+  },
+  "correct": "C",
+  "explanations": {
+   "C": "A alternativa C está correta. O fundamento central é: Educação em direitos humanos articula dignidade, participação, diversidade e cultura de paz. A pegadinha consiste em evitar conflitos silenciando diferenças."
+  }
+ },
+ {
+  "id": "banco_turbo-sim3-088",
+  "area": "Laicidade",
+  "num": "088",
+  "title": "Laicidade",
+  "stem": "Ao fundamentar uma proposta sobre Laicidade, uma professora defendeu a seguinte orientação: “A escola pública deve respeitar crenças e não crenças, sem proselitismo.” Qual justificativa é mais coerente?",
+  "options": {
+   "A": "A orientação transforma toda decisão pedagógica em escolha exclusivamente individual.",
+   "B": "A orientação confirma que se deve impor prática religiosa obrigatória.",
+   "C": "A orientação afasta a necessidade de acompanhamento e avaliação das ações.",
+   "D": "A orientação articula garantia de direitos, responsabilidade institucional e intencionalidade pedagógica."
+  },
+  "correct": "D",
+  "explanations": {
+   "D": "A alternativa D está correta. O fundamento central é: A escola pública deve respeitar crenças e não crenças, sem proselitismo. A pegadinha consiste em impor prática religiosa obrigatória."
+  }
+ },
+ {
+  "id": "banco_turbo-sim3-089",
+  "area": "Equidade",
+  "num": "089",
+  "title": "Equidade",
+  "stem": "Ao fundamentar uma proposta sobre Equidade, uma professora defendeu a seguinte orientação: “Equidade considera diferenças e barreiras para garantir o direito comum à aprendizagem.” Qual justificativa é mais coerente?",
+  "options": {
+   "A": "A orientação articula garantia de direitos, responsabilidade institucional e intencionalidade pedagógica.",
+   "B": "A orientação transforma toda decisão pedagógica em escolha exclusivamente individual.",
+   "C": "A orientação confirma que se deve oferecer tratamento idêntico em qualquer situação.",
+   "D": "A orientação afasta a necessidade de acompanhamento e avaliação das ações."
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "A alternativa A está correta. O fundamento central é: Equidade considera diferenças e barreiras para garantir o direito comum à aprendizagem. A pegadinha consiste em oferecer tratamento idêntico em qualquer situação."
+  }
+ },
+ {
+  "id": "banco_turbo-sim3-090",
+  "area": "Convivência",
+  "num": "090",
+  "title": "Convivência",
+  "stem": "Ao fundamentar uma proposta sobre Convivência, uma professora defendeu a seguinte orientação: “Práticas restaurativas priorizam diálogo, responsabilização e reparação de danos.” Qual justificativa é mais coerente?",
+  "options": {
+   "A": "A orientação afasta a necessidade de acompanhamento e avaliação das ações.",
+   "B": "A orientação articula garantia de direitos, responsabilidade institucional e intencionalidade pedagógica.",
+   "C": "A orientação transforma toda decisão pedagógica em escolha exclusivamente individual.",
+   "D": "A orientação confirma que se deve reduzir resposta à punição automática.   OK"
+  },
+  "correct": "B",
+  "explanations": {
+   "B": "A alternativa B está correta. O fundamento central é: Práticas restaurativas priorizam diálogo, responsabilização e reparação de danos. A pegadinha consiste em reduzir resposta à punição automática.   ?"
+  }
+ },
+ {
+  "id": "banco_turbo-sim4-091",
+  "area": "LDB",
+  "num": "091",
+  "title": "LDB",
+  "stem": "Duas equipes discutem LDB. A equipe 1 considera que o docente deve estabelecer estratégias de recuperação para estudantes de menor rendimento. A equipe 2 propõe atribuir a recuperação apenas à coordenação. Assinale a análise correta.",
+  "options": {
+   "A": "Somente a equipe 2 está correta, porque simplifica a tomada de decisão.",
+   "B": "Nenhuma das equipes pode discutir o tema no âmbito da escola.",
+   "C": "A equipe 1 apresenta a orientação mais consistente; a equipe 2 reproduz uma interpretação inadequada.",
+   "D": "As duas equipes estão corretas, pois as práticas escolares não exigem coerência normativa."
+  },
+  "correct": "C",
+  "explanations": {
+   "C": "A alternativa C está correta. O fundamento central é: O docente deve estabelecer estratégias de recuperação para estudantes de menor rendimento. A pegadinha consiste em atribuir a recuperação apenas à coordenação."
+  }
+ },
+ {
+  "id": "banco_turbo-sim4-092",
+  "area": "LDB",
+  "num": "092",
+  "title": "LDB",
+  "stem": "Duas equipes discutem LDB. A equipe 1 considera que a gestão democrática inclui participação dos profissionais na elaboração do projeto pedagógico. A equipe 2 propõe reduzir participação à assinatura de aprovação. Assinale a análise correta.",
+  "options": {
+   "A": "As duas equipes estão corretas, pois as práticas escolares não exigem coerência normativa.",
+   "B": "Somente a equipe 2 está correta, porque simplifica a tomada de decisão.",
+   "C": "Nenhuma das equipes pode discutir o tema no âmbito da escola.",
+   "D": "A equipe 1 apresenta a orientação mais consistente; a equipe 2 reproduz uma interpretação inadequada."
+  },
+  "correct": "D",
+  "explanations": {
+   "D": "A alternativa D está correta. O fundamento central é: A gestão democrática inclui participação dos profissionais na elaboração do projeto pedagógico. A pegadinha consiste em reduzir participação à assinatura de aprovação."
+  }
+ },
+ {
+  "id": "banco_turbo-sim4-093",
+  "area": "LDB",
+  "num": "093",
+  "title": "LDB",
+  "stem": "Duas equipes discutem LDB. A equipe 1 considera que a frequência mínima para aprovação na educação básica é 75% do total de horas letivas. A equipe 2 propõe substituir frequência por bom desempenho. Assinale a análise correta.",
+  "options": {
+   "A": "A equipe 1 apresenta a orientação mais consistente; a equipe 2 reproduz uma interpretação inadequada.",
+   "B": "As duas equipes estão corretas, pois as práticas escolares não exigem coerência normativa.",
+   "C": "Somente a equipe 2 está correta, porque simplifica a tomada de decisão.",
+   "D": "Nenhuma das equipes pode discutir o tema no âmbito da escola."
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "A alternativa A está correta. O fundamento central é: A frequência mínima para aprovação na educação básica é 75% do total de horas letivas. A pegadinha consiste em substituir frequência por bom desempenho."
+  }
+ },
+ {
+  "id": "banco_turbo-sim4-094",
+  "area": "Educação infantil",
+  "num": "094",
+  "title": "Educação infantil",
+  "stem": "Duas equipes discutem Educação infantil. A equipe 1 considera que a avaliação ocorre por acompanhamento e registro, sem objetivo de promoção. A equipe 2 propõe usar provas para decidir avanço. Assinale a análise correta.",
+  "options": {
+   "A": "Nenhuma das equipes pode discutir o tema no âmbito da escola.",
+   "B": "A equipe 1 apresenta a orientação mais consistente; a equipe 2 reproduz uma interpretação inadequada.",
+   "C": "As duas equipes estão corretas, pois as práticas escolares não exigem coerência normativa.",
+   "D": "Somente a equipe 2 está correta, porque simplifica a tomada de decisão."
+  },
+  "correct": "B",
+  "explanations": {
+   "B": "A alternativa B está correta. O fundamento central é: A avaliação ocorre por acompanhamento e registro, sem objetivo de promoção. A pegadinha consiste em usar provas para decidir avanço."
+  }
+ },
+ {
+  "id": "banco_turbo-sim4-095",
+  "area": "LDB",
+  "num": "095",
+  "title": "LDB",
+  "stem": "Duas equipes discutem LDB. A equipe 1 considera que a formação mínima admitida para educação infantil e cinco primeiros anos pode ser o nível médio, modalidade Normal. A equipe 2 propõe afirmar que somente pós-graduação habilita. Assinale a análise correta.",
+  "options": {
+   "A": "Somente a equipe 2 está correta, porque simplifica a tomada de decisão.",
+   "B": "Nenhuma das equipes pode discutir o tema no âmbito da escola.",
+   "C": "A equipe 1 apresenta a orientação mais consistente; a equipe 2 reproduz uma interpretação inadequada.",
+   "D": "As duas equipes estão corretas, pois as práticas escolares não exigem coerência normativa."
+  },
+  "correct": "C",
+  "explanations": {
+   "C": "A alternativa C está correta. O fundamento central é: A formação mínima admitida para educação infantil e cinco primeiros anos pode ser o nível médio, modalidade Normal. A pegadinha consiste em afirmar que somente pós-graduação habilita."
+  }
+ },
+ {
+  "id": "banco_turbo-sim4-096",
+  "area": "PNE",
+  "num": "096",
+  "title": "PNE",
+  "stem": "Duas equipes discutem PNE. A equipe 1 considera que o PNE vigente foi aprovado pela Lei nº 15.388/2026. A equipe 2 propõe usar automaticamente o plano de 2014 como vigente. Assinale a análise correta.",
+  "options": {
+   "A": "As duas equipes estão corretas, pois as práticas escolares não exigem coerência normativa.",
+   "B": "Somente a equipe 2 está correta, porque simplifica a tomada de decisão.",
+   "C": "Nenhuma das equipes pode discutir o tema no âmbito da escola.",
+   "D": "A equipe 1 apresenta a orientação mais consistente; a equipe 2 reproduz uma interpretação inadequada."
+  },
+  "correct": "D",
+  "explanations": {
+   "D": "A alternativa D está correta. O fundamento central é: O PNE vigente foi aprovado pela Lei nº 15.388/2026. A pegadinha consiste em usar automaticamente o plano de 2014 como vigente."
+  }
+ },
+ {
+  "id": "banco_turbo-sim4-097",
+  "area": "SNE",
+  "num": "097",
+  "title": "SNE",
+  "stem": "Duas equipes discutem SNE. A equipe 1 considera que o Sistema Nacional de Educação foi instituído pela LC nº 220/2025. A equipe 2 propõe tratar o SNE apenas como proposta sem lei. Assinale a análise correta.",
+  "options": {
+   "A": "A equipe 1 apresenta a orientação mais consistente; a equipe 2 reproduz uma interpretação inadequada.",
+   "B": "As duas equipes estão corretas, pois as práticas escolares não exigem coerência normativa.",
+   "C": "Somente a equipe 2 está correta, porque simplifica a tomada de decisão.",
+   "D": "Nenhuma das equipes pode discutir o tema no âmbito da escola."
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "A alternativa A está correta. O fundamento central é: O Sistema Nacional de Educação foi instituído pela LC nº 220/2025. A pegadinha consiste em tratar o SNE apenas como proposta sem lei."
+  }
+ },
+ {
+  "id": "banco_turbo-sim4-098",
+  "area": "Financiamento",
+  "num": "098",
+  "title": "Financiamento",
+  "stem": "Duas equipes discutem Financiamento. A equipe 1 considera que municípios aplicam no mínimo 25% da receita de impostos em manutenção e desenvolvimento do ensino. A equipe 2 propõe usar o percentual federal de 18%. Assinale a análise correta.",
+  "options": {
+   "A": "Nenhuma das equipes pode discutir o tema no âmbito da escola.",
+   "B": "A equipe 1 apresenta a orientação mais consistente; a equipe 2 reproduz uma interpretação inadequada.",
+   "C": "As duas equipes estão corretas, pois as práticas escolares não exigem coerência normativa.",
+   "D": "Somente a equipe 2 está correta, porque simplifica a tomada de decisão."
+  },
+  "correct": "B",
+  "explanations": {
+   "B": "A alternativa B está correta. O fundamento central é: Municípios aplicam no mínimo 25% da receita de impostos em manutenção e desenvolvimento do ensino. A pegadinha consiste em usar o percentual federal de 18%."
+  }
+ },
+ {
+  "id": "banco_turbo-sim4-099",
+  "area": "PPP",
+  "num": "099",
+  "title": "PPP",
+  "stem": "Duas equipes discutem PPP. A equipe 1 considera que o projeto político-pedagógico é construção coletiva e contextualizada. A equipe 2 propõe terceirizar sua autoria integral. Assinale a análise correta.",
+  "options": {
+   "A": "Somente a equipe 2 está correta, porque simplifica a tomada de decisão.",
+   "B": "Nenhuma das equipes pode discutir o tema no âmbito da escola.",
+   "C": "A equipe 1 apresenta a orientação mais consistente; a equipe 2 reproduz uma interpretação inadequada.",
+   "D": "As duas equipes estão corretas, pois as práticas escolares não exigem coerência normativa."
+  },
+  "correct": "C",
+  "explanations": {
+   "C": "A alternativa C está correta. O fundamento central é: O projeto político-pedagógico é construção coletiva e contextualizada. A pegadinha consiste em terceirizar sua autoria integral."
+  }
+ },
+ {
+  "id": "banco_turbo-sim4-100",
+  "area": "Colegiados",
+  "num": "100",
+  "title": "Colegiados",
+  "stem": "Duas equipes discutem Colegiados. A equipe 1 considera que conselhos escolares ampliam participação, acompanhamento e controle social. A equipe 2 propõe tratá-los como instância decorativa. Assinale a análise correta.",
+  "options": {
+   "A": "As duas equipes estão corretas, pois as práticas escolares não exigem coerência normativa.",
+   "B": "Somente a equipe 2 está correta, porque simplifica a tomada de decisão.",
+   "C": "Nenhuma das equipes pode discutir o tema no âmbito da escola.",
+   "D": "A equipe 1 apresenta a orientação mais consistente; a equipe 2 reproduz uma interpretação inadequada."
+  },
+  "correct": "D",
+  "explanations": {
+   "D": "A alternativa D está correta. O fundamento central é: Conselhos escolares ampliam participação, acompanhamento e controle social. A pegadinha consiste em tratá-los como instância decorativa."
+  }
+ },
+ {
+  "id": "banco_turbo-sim4-101",
+  "area": "BNCC",
+  "num": "101",
+  "title": "BNCC",
+  "stem": "Duas equipes discutem BNCC. A equipe 1 considera que a BNCC é referência normativa e não currículo pronto idêntico para todas as escolas. A equipe 2 propõe confundir base comum com currículo único. Assinale a análise correta.",
+  "options": {
+   "A": "A equipe 1 apresenta a orientação mais consistente; a equipe 2 reproduz uma interpretação inadequada.",
+   "B": "As duas equipes estão corretas, pois as práticas escolares não exigem coerência normativa.",
+   "C": "Somente a equipe 2 está correta, porque simplifica a tomada de decisão.",
+   "D": "Nenhuma das equipes pode discutir o tema no âmbito da escola."
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "A alternativa A está correta. O fundamento central é: A BNCC é referência normativa e não currículo pronto idêntico para todas as escolas. A pegadinha consiste em confundir base comum com currículo único."
+  }
+ },
+ {
+  "id": "banco_turbo-sim4-102",
+  "area": "BNCC",
+  "num": "102",
+  "title": "BNCC",
+  "stem": "Duas equipes discutem BNCC. A equipe 1 considera que competências mobilizam conhecimentos, habilidades, atitudes e valores. A equipe 2 propõe reduzir competência à memorização. Assinale a análise correta.",
+  "options": {
+   "A": "Nenhuma das equipes pode discutir o tema no âmbito da escola.",
+   "B": "A equipe 1 apresenta a orientação mais consistente; a equipe 2 reproduz uma interpretação inadequada.",
+   "C": "As duas equipes estão corretas, pois as práticas escolares não exigem coerência normativa.",
+   "D": "Somente a equipe 2 está correta, porque simplifica a tomada de decisão."
+  },
+  "correct": "B",
+  "explanations": {
+   "B": "A alternativa B está correta. O fundamento central é: Competências mobilizam conhecimentos, habilidades, atitudes e valores. A pegadinha consiste em reduzir competência à memorização."
+  }
+ },
+ {
+  "id": "banco_turbo-sim4-103",
+  "area": "Currículo",
+  "num": "103",
+  "title": "Currículo",
+  "stem": "Duas equipes discutem Currículo. A equipe 1 considera que a contextualização articula conhecimentos comuns às realidades dos estudantes. A equipe 2 propõe eliminar conhecimentos comuns. Assinale a análise correta.",
+  "options": {
+   "A": "Somente a equipe 2 está correta, porque simplifica a tomada de decisão.",
+   "B": "Nenhuma das equipes pode discutir o tema no âmbito da escola.",
+   "C": "A equipe 1 apresenta a orientação mais consistente; a equipe 2 reproduz uma interpretação inadequada.",
+   "D": "As duas equipes estão corretas, pois as práticas escolares não exigem coerência normativa."
+  },
+  "correct": "C",
+  "explanations": {
+   "C": "A alternativa C está correta. O fundamento central é: A contextualização articula conhecimentos comuns às realidades dos estudantes. A pegadinha consiste em eliminar conhecimentos comuns."
+  }
+ },
+ {
+  "id": "banco_turbo-sim4-104",
+  "area": "Avaliação",
+  "num": "104",
+  "title": "Avaliação",
+  "stem": "Duas equipes discutem Avaliação. A equipe 1 considera que avaliação diagnóstica identifica conhecimentos prévios e lacunas para orientar o ensino. A equipe 2 propõe usá-la apenas para nota final. Assinale a análise correta.",
+  "options": {
+   "A": "As duas equipes estão corretas, pois as práticas escolares não exigem coerência normativa.",
+   "B": "Somente a equipe 2 está correta, porque simplifica a tomada de decisão.",
+   "C": "Nenhuma das equipes pode discutir o tema no âmbito da escola.",
+   "D": "A equipe 1 apresenta a orientação mais consistente; a equipe 2 reproduz uma interpretação inadequada."
+  },
+  "correct": "D",
+  "explanations": {
+   "D": "A alternativa D está correta. O fundamento central é: Avaliação diagnóstica identifica conhecimentos prévios e lacunas para orientar o ensino. A pegadinha consiste em usá-la apenas para nota final."
+  }
+ },
+ {
+  "id": "banco_turbo-sim4-105",
+  "area": "Avaliação",
+  "num": "105",
+  "title": "Avaliação",
+  "stem": "Duas equipes discutem Avaliação. A equipe 1 considera que avaliação formativa fornece evidências para ajustar ensino e aprendizagem durante o processo. A equipe 2 propõe aplicá-la somente no encerramento. Assinale a análise correta.",
+  "options": {
+   "A": "A equipe 1 apresenta a orientação mais consistente; a equipe 2 reproduz uma interpretação inadequada.",
+   "B": "As duas equipes estão corretas, pois as práticas escolares não exigem coerência normativa.",
+   "C": "Somente a equipe 2 está correta, porque simplifica a tomada de decisão.",
+   "D": "Nenhuma das equipes pode discutir o tema no âmbito da escola."
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "A alternativa A está correta. O fundamento central é: Avaliação formativa fornece evidências para ajustar ensino e aprendizagem durante o processo. A pegadinha consiste em aplicá-la somente no encerramento."
+  }
+ },
+ {
+  "id": "banco_turbo-sim4-106",
+  "area": "Inclusão",
+  "num": "106",
+  "title": "Inclusão",
+  "stem": "Duas equipes discutem Inclusão. A equipe 1 considera que o AEE complementa ou suplementa a escolarização e não substitui a classe comum. A equipe 2 propõe segregar permanentemente o estudante. Assinale a análise correta.",
+  "options": {
+   "A": "Nenhuma das equipes pode discutir o tema no âmbito da escola.",
+   "B": "A equipe 1 apresenta a orientação mais consistente; a equipe 2 reproduz uma interpretação inadequada.",
+   "C": "As duas equipes estão corretas, pois as práticas escolares não exigem coerência normativa.",
+   "D": "Somente a equipe 2 está correta, porque simplifica a tomada de decisão."
+  },
+  "correct": "B",
+  "explanations": {
+   "B": "A alternativa B está correta. O fundamento central é: O AEE complementa ou suplementa a escolarização e não substitui a classe comum. A pegadinha consiste em segregar permanentemente o estudante."
+  }
+ },
+ {
+  "id": "banco_turbo-sim4-107",
+  "area": "Inclusão",
+  "num": "107",
+  "title": "Inclusão",
+  "stem": "Duas equipes discutem Inclusão. A equipe 1 considera que barreiras podem ser arquitetônicas, comunicacionais, tecnológicas e atitudinais. A equipe 2 propõe atribuir toda dificuldade ao indivíduo. Assinale a análise correta.",
+  "options": {
+   "A": "Somente a equipe 2 está correta, porque simplifica a tomada de decisão.",
+   "B": "Nenhuma das equipes pode discutir o tema no âmbito da escola.",
+   "C": "A equipe 1 apresenta a orientação mais consistente; a equipe 2 reproduz uma interpretação inadequada.",
+   "D": "As duas equipes estão corretas, pois as práticas escolares não exigem coerência normativa."
+  },
+  "correct": "C",
+  "explanations": {
+   "C": "A alternativa C está correta. O fundamento central é: Barreiras podem ser arquitetônicas, comunicacionais, tecnológicas e atitudinais. A pegadinha consiste em atribuir toda dificuldade ao indivíduo."
+  }
+ },
+ {
+  "id": "banco_turbo-sim4-108",
+  "area": "DUA",
+  "num": "108",
+  "title": "DUA",
+  "stem": "Duas equipes discutem DUA. A equipe 1 considera que o desenho universal oferece múltiplos meios de engajamento, representação e ação/expressão. A equipe 2 propõe usar uma única forma de ensinar e avaliar. Assinale a análise correta.",
+  "options": {
+   "A": "As duas equipes estão corretas, pois as práticas escolares não exigem coerência normativa.",
+   "B": "Somente a equipe 2 está correta, porque simplifica a tomada de decisão.",
+   "C": "Nenhuma das equipes pode discutir o tema no âmbito da escola.",
+   "D": "A equipe 1 apresenta a orientação mais consistente; a equipe 2 reproduz uma interpretação inadequada."
+  },
+  "correct": "D",
+  "explanations": {
+   "D": "A alternativa D está correta. O fundamento central é: O desenho universal oferece múltiplos meios de engajamento, representação e ação/expressão. A pegadinha consiste em usar uma única forma de ensinar e avaliar."
+  }
+ },
+ {
+  "id": "banco_turbo-sim4-109",
+  "area": "ECA",
+  "num": "109",
+  "title": "ECA",
+  "stem": "Duas equipes discutem ECA. A equipe 1 considera que crianças e adolescentes são sujeitos de direitos sob proteção integral. A equipe 2 propõe tratá-los como objetos de tutela. Assinale a análise correta.",
+  "options": {
+   "A": "A equipe 1 apresenta a orientação mais consistente; a equipe 2 reproduz uma interpretação inadequada.",
+   "B": "As duas equipes estão corretas, pois as práticas escolares não exigem coerência normativa.",
+   "C": "Somente a equipe 2 está correta, porque simplifica a tomada de decisão.",
+   "D": "Nenhuma das equipes pode discutir o tema no âmbito da escola."
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "A alternativa A está correta. O fundamento central é: Crianças e adolescentes são sujeitos de direitos sob proteção integral. A pegadinha consiste em tratá-los como objetos de tutela."
+  }
+ },
+ {
+  "id": "banco_turbo-sim4-110",
+  "area": "ECA",
+  "num": "110",
+  "title": "ECA",
+  "stem": "Duas equipes discutem ECA. A equipe 1 considera que a escola comunica ao Conselho Tutelar casos previstos em lei, como reiteração de faltas injustificadas após esgotar recursos escolares. A equipe 2 propõe encaminhar qualquer falta sem ação escolar. Assinale a análise correta.",
+  "options": {
+   "A": "Nenhuma das equipes pode discutir o tema no âmbito da escola.",
+   "B": "A equipe 1 apresenta a orientação mais consistente; a equipe 2 reproduz uma interpretação inadequada.",
+   "C": "As duas equipes estão corretas, pois as práticas escolares não exigem coerência normativa.",
+   "D": "Somente a equipe 2 está correta, porque simplifica a tomada de decisão."
+  },
+  "correct": "B",
+  "explanations": {
+   "B": "A alternativa B está correta. O fundamento central é: A escola comunica ao Conselho Tutelar casos previstos em lei, como reiteração de faltas injustificadas após esgotar recursos escolares. A pegadinha consiste em encaminhar qualquer falta sem ação escolar."
+  }
+ },
+ {
+  "id": "banco_turbo-sim4-111",
+  "area": "Didática",
+  "num": "111",
+  "title": "Didática",
+  "stem": "Duas equipes discutem Didática. A equipe 1 considera que planejamento articula objetivos, conteúdos, métodos, recursos e avaliação. A equipe 2 propõe tratar cada elemento isoladamente. Assinale a análise correta.",
+  "options": {
+   "A": "Somente a equipe 2 está correta, porque simplifica a tomada de decisão.",
+   "B": "Nenhuma das equipes pode discutir o tema no âmbito da escola.",
+   "C": "A equipe 1 apresenta a orientação mais consistente; a equipe 2 reproduz uma interpretação inadequada.",
+   "D": "As duas equipes estão corretas, pois as práticas escolares não exigem coerência normativa."
+  },
+  "correct": "C",
+  "explanations": {
+   "C": "A alternativa C está correta. O fundamento central é: Planejamento articula objetivos, conteúdos, métodos, recursos e avaliação. A pegadinha consiste em tratar cada elemento isoladamente."
+  }
+ },
+ {
+  "id": "banco_turbo-sim4-112",
+  "area": "Mediação",
+  "num": "112",
+  "title": "Mediação",
+  "stem": "Duas equipes discutem Mediação. A equipe 1 considera que o professor organiza situações que favorecem apropriação ativa do conhecimento. A equipe 2 propõe abandonar intencionalidade pedagógica. Assinale a análise correta.",
+  "options": {
+   "A": "As duas equipes estão corretas, pois as práticas escolares não exigem coerência normativa.",
+   "B": "Somente a equipe 2 está correta, porque simplifica a tomada de decisão.",
+   "C": "Nenhuma das equipes pode discutir o tema no âmbito da escola.",
+   "D": "A equipe 1 apresenta a orientação mais consistente; a equipe 2 reproduz uma interpretação inadequada."
+  },
+  "correct": "D",
+  "explanations": {
+   "D": "A alternativa D está correta. O fundamento central é: O professor organiza situações que favorecem apropriação ativa do conhecimento. A pegadinha consiste em abandonar intencionalidade pedagógica."
+  }
+ },
+ {
+  "id": "banco_turbo-sim4-113",
+  "area": "Tendências pedagógicas",
+  "num": "113",
+  "title": "Tendências pedagógicas",
+  "stem": "Duas equipes discutem Tendências pedagógicas. A equipe 1 considera que práticas progressistas relacionam conhecimento, realidade social e participação crítica. A equipe 2 propõe confundir criticidade com ausência de conteúdo. Assinale a análise correta.",
+  "options": {
+   "A": "A equipe 1 apresenta a orientação mais consistente; a equipe 2 reproduz uma interpretação inadequada.",
+   "B": "As duas equipes estão corretas, pois as práticas escolares não exigem coerência normativa.",
+   "C": "Somente a equipe 2 está correta, porque simplifica a tomada de decisão.",
+   "D": "Nenhuma das equipes pode discutir o tema no âmbito da escola."
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "A alternativa A está correta. O fundamento central é: Práticas progressistas relacionam conhecimento, realidade social e participação crítica. A pegadinha consiste em confundir criticidade com ausência de conteúdo."
+  }
+ },
+ {
+  "id": "banco_turbo-sim4-114",
+  "area": "Tecnologia",
+  "num": "114",
+  "title": "Tecnologia",
+  "stem": "Duas equipes discutem Tecnologia. A equipe 1 considera que tecnologia educacional requer intencionalidade, acessibilidade e avaliação crítica. A equipe 2 propõe usar ferramenta apenas por novidade. Assinale a análise correta.",
+  "options": {
+   "A": "Nenhuma das equipes pode discutir o tema no âmbito da escola.",
+   "B": "A equipe 1 apresenta a orientação mais consistente; a equipe 2 reproduz uma interpretação inadequada.",
+   "C": "As duas equipes estão corretas, pois as práticas escolares não exigem coerência normativa.",
+   "D": "Somente a equipe 2 está correta, porque simplifica a tomada de decisão."
+  },
+  "correct": "B",
+  "explanations": {
+   "B": "A alternativa B está correta. O fundamento central é: Tecnologia educacional requer intencionalidade, acessibilidade e avaliação crítica. A pegadinha consiste em usar ferramenta apenas por novidade."
+  }
+ },
+ {
+  "id": "banco_turbo-sim4-115",
+  "area": "Letramento midiático",
+  "num": "115",
+  "title": "Letramento midiático",
+  "stem": "Duas equipes discutem Letramento midiático. A equipe 1 considera que verificação de fonte, autoria, evidência e contexto ajuda a enfrentar desinformação. A equipe 2 propõe compartilhar pela aparência de credibilidade. Assinale a análise correta.",
+  "options": {
+   "A": "Somente a equipe 2 está correta, porque simplifica a tomada de decisão.",
+   "B": "Nenhuma das equipes pode discutir o tema no âmbito da escola.",
+   "C": "A equipe 1 apresenta a orientação mais consistente; a equipe 2 reproduz uma interpretação inadequada.",
+   "D": "As duas equipes estão corretas, pois as práticas escolares não exigem coerência normativa."
+  },
+  "correct": "C",
+  "explanations": {
+   "C": "A alternativa C está correta. O fundamento central é: Verificação de fonte, autoria, evidência e contexto ajuda a enfrentar desinformação. A pegadinha consiste em compartilhar pela aparência de credibilidade."
+  }
+ },
+ {
+  "id": "banco_turbo-sim4-116",
+  "area": "Relações étnico-raciais",
+  "num": "116",
+  "title": "Relações étnico-raciais",
+  "stem": "Duas equipes discutem Relações étnico-raciais. A equipe 1 considera que a educação das relações étnico-raciais deve integrar o currículo, não se limitar a datas comemorativas. A equipe 2 propõe concentrar o tema em um único evento. Assinale a análise correta.",
+  "options": {
+   "A": "As duas equipes estão corretas, pois as práticas escolares não exigem coerência normativa.",
+   "B": "Somente a equipe 2 está correta, porque simplifica a tomada de decisão.",
+   "C": "Nenhuma das equipes pode discutir o tema no âmbito da escola.",
+   "D": "A equipe 1 apresenta a orientação mais consistente; a equipe 2 reproduz uma interpretação inadequada."
+  },
+  "correct": "D",
+  "explanations": {
+   "D": "A alternativa D está correta. O fundamento central é: A educação das relações étnico-raciais deve integrar o currículo, não se limitar a datas comemorativas. A pegadinha consiste em concentrar o tema em um único evento."
+  }
+ },
+ {
+  "id": "banco_turbo-sim4-117",
+  "area": "Direitos humanos",
+  "num": "117",
+  "title": "Direitos humanos",
+  "stem": "Duas equipes discutem Direitos humanos. A equipe 1 considera que educação em direitos humanos articula dignidade, participação, diversidade e cultura de paz. A equipe 2 propõe evitar conflitos silenciando diferenças. Assinale a análise correta.",
+  "options": {
+   "A": "A equipe 1 apresenta a orientação mais consistente; a equipe 2 reproduz uma interpretação inadequada.",
+   "B": "As duas equipes estão corretas, pois as práticas escolares não exigem coerência normativa.",
+   "C": "Somente a equipe 2 está correta, porque simplifica a tomada de decisão.",
+   "D": "Nenhuma das equipes pode discutir o tema no âmbito da escola."
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "A alternativa A está correta. O fundamento central é: Educação em direitos humanos articula dignidade, participação, diversidade e cultura de paz. A pegadinha consiste em evitar conflitos silenciando diferenças."
+  }
+ },
+ {
+  "id": "banco_turbo-sim4-118",
+  "area": "Laicidade",
+  "num": "118",
+  "title": "Laicidade",
+  "stem": "Duas equipes discutem Laicidade. A equipe 1 considera que a escola pública deve respeitar crenças e não crenças, sem proselitismo. A equipe 2 propõe impor prática religiosa obrigatória. Assinale a análise correta.",
+  "options": {
+   "A": "Nenhuma das equipes pode discutir o tema no âmbito da escola.",
+   "B": "A equipe 1 apresenta a orientação mais consistente; a equipe 2 reproduz uma interpretação inadequada.",
+   "C": "As duas equipes estão corretas, pois as práticas escolares não exigem coerência normativa.",
+   "D": "Somente a equipe 2 está correta, porque simplifica a tomada de decisão."
+  },
+  "correct": "B",
+  "explanations": {
+   "B": "A alternativa B está correta. O fundamento central é: A escola pública deve respeitar crenças e não crenças, sem proselitismo. A pegadinha consiste em impor prática religiosa obrigatória."
+  }
+ },
+ {
+  "id": "banco_turbo-sim4-119",
+  "area": "Equidade",
+  "num": "119",
+  "title": "Equidade",
+  "stem": "Duas equipes discutem Equidade. A equipe 1 considera que equidade considera diferenças e barreiras para garantir o direito comum à aprendizagem. A equipe 2 propõe oferecer tratamento idêntico em qualquer situação. Assinale a análise correta.",
+  "options": {
+   "A": "Somente a equipe 2 está correta, porque simplifica a tomada de decisão.",
+   "B": "Nenhuma das equipes pode discutir o tema no âmbito da escola.",
+   "C": "A equipe 1 apresenta a orientação mais consistente; a equipe 2 reproduz uma interpretação inadequada.",
+   "D": "As duas equipes estão corretas, pois as práticas escolares não exigem coerência normativa."
+  },
+  "correct": "C",
+  "explanations": {
+   "C": "A alternativa C está correta. O fundamento central é: Equidade considera diferenças e barreiras para garantir o direito comum à aprendizagem. A pegadinha consiste em oferecer tratamento idêntico em qualquer situação."
+  }
+ },
+ {
+  "id": "banco_turbo-sim4-120",
+  "area": "Convivência",
+  "num": "120",
+  "title": "Convivência",
+  "stem": "Duas equipes discutem Convivência. A equipe 1 considera que práticas restaurativas priorizam diálogo, responsabilização e reparação de danos. A equipe 2 propõe reduzir resposta à punição automática. Assinale a análise correta.",
+  "options": {
+   "A": "As duas equipes estão corretas, pois as práticas escolares não exigem coerência normativa.",
+   "B": "Somente a equipe 2 está correta, porque simplifica a tomada de decisão.",
+   "C": "Nenhuma das equipes pode discutir o tema no âmbito da escola.",
+   "D": "A equipe 1 apresenta a orientação mais consistente; a equipe 2 reproduz uma interpretação inadequada.   OK"
+  },
+  "correct": "D",
+  "explanations": {
+   "D": "A alternativa D está correta. O fundamento central é: Práticas restaurativas priorizam diálogo, responsabilização e reparação de danos. A pegadinha consiste em reduzir resposta à punição automática.   OK Mapa de desempenho Eixo Acertos Total Prioridade LDB e ECA □ alta □ média □ baixa PNE, SNE e financiamento □ alta □ média □ baixa BNCC e currículo □ alta □ média □ baixa Avaliação □ alta □ média □ baixa Inclusão □ alta □ média □ baixa Didática □ alta □ média □ baixa Gestão □ alta □ média □ baixa Diversidade □ alta □ média □ baixa Tecnologia e convivência □ alta □ média □ baixa"
+  }
+ }
+]

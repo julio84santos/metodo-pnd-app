@@ -1,0 +1,678 @@
+[
+ {
+  "id": 1,
+  "titulo": "LDB — Lei nº 9.394/1996",
+  "subtitulo": "Diretrizes e Bases da Educação Nacional",
+  "ramos": [
+   {
+    "nome": "Princípios e fins",
+    "itens": [
+     "Educação é dever da família e do Estado; fins: pleno desenvolvimento, cidadania e qualificação para o trabalho",
+     "Igualdade de condições de acesso e permanência · gratuidade no ensino público",
+     "Liberdade de aprender e ensinar · pluralismo de ideias e concepções pedagógicas",
+     "Gestão democrática · valorização do profissional · garantia de padrão de qualidade"
+    ]
+   },
+   {
+    "nome": "Incumbências do docente",
+    "itens": [
+     "Participar da elaboração da proposta pedagógica da escola",
+     "Elaborar e cumprir plano de trabalho, segundo a proposta pedagógica",
+     "Zelar pela aprendizagem dos alunos",
+     "Estabelecer estratégias de recuperação para alunos de menor rendimento",
+     "Ministrar os dias letivos e participar de planejamento, avaliação e desenvolvimento profissional"
+    ]
+   },
+   {
+    "nome": "Gestão democrática",
+    "itens": [
+     "Participação dos profissionais da educação na elaboração do projeto pedagógico",
+     "Participação das comunidades escolar e local em conselhos escolares ou equivalentes",
+     "Progressivos graus de autonomia pedagógica, administrativa e de gestão financeira",
+     "Normas próprias definidas por cada sistema de ensino"
+    ]
+   },
+   {
+    "nome": "Organização da educação básica",
+    "itens": [
+     "200 dias letivos e carga mínima de 800 horas anuais",
+     "Frequência mínima de 75% do total de horas letivas para aprovação",
+     "Séries anuais, ciclos, grupos não seriados · classificação e reclassificação",
+     "Recuperação, de preferência paralela ao período letivo"
+    ]
+   },
+   {
+    "nome": "Etapas e modalidades",
+    "itens": [
+     "Infantil: creche (0 a 3) e pré-escola (4 e 5); avaliação sem objetivo de promoção; frequência de 60%",
+     "Fundamental: 9 anos, obrigatório e gratuito, com início aos 6 anos",
+     "Médio: 2.400h de formação geral básica + 600h de itinerários (Lei 14.945/2024)",
+     "Modalidades: EJA, especial, profissional, indígena, do campo, quilombola e a distância"
+    ]
+   },
+   {
+    "nome": "Formação e valorização",
+    "itens": [
+     "Formação de docentes em nível superior, em licenciatura plena (art. 62)",
+     "Nível médio na modalidade normal: formação mínima admitida para infantil e anos iniciais",
+     "Prática como componente curricular e formação continuada em serviço",
+     "Piso salarial profissional, plano de carreira e ingresso por concurso público"
+    ]
+   }
+  ],
+  "pegadinhas": [
+   {
+    "titulo": "Frequência: 75% ou 60%?",
+    "texto": "Na educação infantil também são 800h e 200 dias, mas o controle de frequência exige o mínimo de 60% — e a avaliação não tem objetivo de promoção."
+   },
+   {
+    "titulo": "O 1/3 não está na LDB",
+    "texto": "A hora-atividade sem alunos vem da Lei do Piso (11.738/2008), que limita a 2/3 a carga de interação com educandos."
+   },
+   {
+    "titulo": "Art. 62 não foi revogado",
+    "texto": "A licenciatura plena é a regra; a formação em nível médio na modalidade normal segue admitida como mínima para infantil e anos iniciais."
+   }
+  ]
+ },
+ {
+  "id": 2,
+  "titulo": "Novo PNE — Lei nº 15.388/2026",
+  "subtitulo": "Lei nº 15.388, de 14 de abril de 2026, sancionada sem vetos",
+  "ramos": [
+   {
+    "nome": "O que mudou",
+    "itens": [
+     "Substitui o PNE 2014–2024 (Lei 13.005/2014), que estava vencido",
+     "19 objetivos, 73 metas e 372 estratégias para o decênio",
+     "Equidade como princípio transversal a todos os objetivos",
+     "Pela 1ª vez, metas específicas de redução de desigualdade entre grupos sociais"
+    ]
+   },
+   {
+    "nome": "Financiamento",
+    "itens": [
+     "7,5% do PIB em educação até o 7º ano de vigência",
+     "10% do PIB até o fim do decênio",
+     "Articulado ao Fundeb permanente (EC 108/2020) e ao Custo Aluno-Qualidade",
+     "Monitoramento periódico por indicadores, com participação social"
+    ]
+   },
+   {
+    "nome": "As 10 temáticas",
+    "itens": [
+     "Educação infantil · alfabetização · ensino fundamental e médio",
+     "Educação integral em tempo integral",
+     "Diversidade e inclusão · educação profissional e tecnológica · educação superior",
+     "EJA e pessoas idosas · estrutura e funcionamento · participação social e gestão democrática"
+    ]
+   },
+   {
+    "nome": "Metas que a banca adora",
+    "itens": [
+     "Universalizar a pré-escola para crianças de 4 e 5 anos",
+     "Creche: 100% da demanda manifesta e ao menos 60% das crianças de até 3 anos",
+     "Alfabetizar e garantir aprendizagem adequada em matemática até o fim do 2º ano",
+     "Tempo integral em 65% das escolas públicas, atendendo 50% dos estudantes"
+    ]
+   },
+   {
+    "nome": "Do plano nacional à escola",
+    "itens": [
+     "Estados, DF e municípios devem alinhar seus planos ao novo PNE",
+     "O PPP é o instrumento que materializa as metas no cotidiano escolar",
+     "Fóruns e conferências de educação como espaço de controle social",
+     "Base construída a partir da Conae 2024"
+    ]
+   },
+   {
+    "nome": "Como cai na prova",
+    "itens": [
+     "Situação-problema pedindo alinhamento do PPP a uma meta do PNE",
+     "Leitura de indicador educacional comparado à meta",
+     "Articulação com o SNE (LC 220/2025) e o regime de colaboração",
+     "Distinção conceitual entre objetivo, meta e estratégia"
+    ]
+   }
+  ],
+  "pegadinhas": [
+   {
+    "titulo": "Confundir PNE com SNE",
+    "texto": "O PNE (Lei 15.388/2026) define metas do decênio; o SNE (LC 220/2025) organiza a governança federativa. São normas distintas e complementares."
+   },
+   {
+    "titulo": "Achar que o plano de 2014 ainda vigora",
+    "texto": "O plano decenal 2014–2024 estava vencido e foi substituído pela Lei 15.388/2026 — usar as 20 metas antigas é erro clássico."
+   },
+   {
+    "titulo": "Planos locais como pré-condição",
+    "texto": "O novo PNE já produz efeitos por si só; os planos estaduais e municipais é que devem se alinhar a ele, não o contrário."
+   }
+  ]
+ },
+ {
+  "id": 3,
+  "titulo": "ECA — Lei nº 8.069/1990",
+  "subtitulo": "Estatuto da Criança e do Adolescente",
+  "ramos": [
+   {
+    "nome": "Bases doutrinárias",
+    "itens": [
+     "Doutrina da proteção integral, ancorada no art. 227 da Constituição",
+     "Absoluta prioridade: dever da família, da comunidade, da sociedade e do poder público",
+     "Criança: até 12 anos incompletos · adolescente: de 12 a 18 anos",
+     "Criança e adolescente como sujeitos de direitos, não objetos de tutela"
+    ]
+   },
+   {
+    "nome": "Direito à educação",
+    "itens": [
+     "Igualdade de condições para o acesso e a permanência na escola",
+     "Direito de ser respeitado por seus educadores",
+     "Direito de contestar critérios avaliativos, recorrendo às instâncias superiores",
+     "Organização e participação em entidades estudantis"
+    ]
+   },
+   {
+    "nome": "Dever do Estado",
+    "itens": [
+     "Ensino fundamental obrigatório e gratuito, inclusive a quem não teve acesso na idade própria",
+     "Atendimento em creche e pré-escola às crianças de até 5 anos",
+     "Atendimento educacional especializado às pessoas com deficiência",
+     "Programas de material didático, transporte, alimentação e assistência à saúde"
+    ]
+   },
+   {
+    "nome": "O que a escola deve comunicar",
+    "itens": [
+     "Casos de maus-tratos envolvendo estudantes",
+     "Reiteração de faltas injustificadas e evasão, esgotados os recursos escolares",
+     "Elevados níveis de repetência",
+     "Art. 58: respeito aos valores culturais, artísticos e históricos do contexto do estudante"
+    ]
+   },
+   {
+    "nome": "Rede de proteção",
+    "itens": [
+     "Conselho Tutelar · CMDCA · Ministério Público · Defensoria",
+     "Medidas de proteção (art. 101) e socioeducativas (art. 112)",
+     "Sinase — Lei 12.594/2012",
+     "Busca ativa escolar como ação conjunta entre escola, assistência e saúde"
+    ]
+   },
+   {
+    "nome": "Atualizações cobradas",
+    "itens": [
+     "Lei 13.010/2014 (Menino Bernardo): educar sem castigo físico ou tratamento cruel",
+     "Lei 13.431/2017: escuta especializada e depoimento especial",
+     "Lei 13.185/2015: Programa de Combate à Intimidação Sistemática",
+     "Lei 14.811/2024: bullying e cyberbullying tipificados e política de prevenção"
+    ]
+   }
+  ],
+  "pegadinhas": [
+   {
+    "titulo": "Comunicação ao Conselho Tutelar não é automática",
+    "texto": "O art. 56 exige comunicação diante de reiteração de faltas injustificadas e evasão, esgotados os recursos escolares — não no primeiro sinal."
+   },
+   {
+    "titulo": "Direito de contestar não é absoluto sem regra",
+    "texto": "O estudante pode contestar critérios avaliativos e recorrer às instâncias escolares superiores; a autonomia docente não é ilimitada nem exige representação legal para isso."
+   },
+   {
+    "titulo": "AEE nunca substitui a classe comum",
+    "texto": "O atendimento educacional especializado é complementar ou suplementar — regra que atravessa ECA, LBI e LDB juntos."
+   }
+  ]
+ },
+ {
+  "id": 4,
+  "titulo": "BNCC — Base Nacional Comum Curricular",
+  "subtitulo": "LDB, art. 26 e 35-A · Homologada em 2017 (EI e EF) e 2018 (EM)",
+  "ramos": [
+   {
+    "nome": "Natureza e alcance",
+    "itens": [
+     "Documento normativo e obrigatório para toda a educação básica",
+     "Define aprendizagens essenciais: referência para currículos, não currículo",
+     "Currículo = BNCC + parte diversificada + projeto político-pedagógico",
+     "Aplica-se às redes pública e privada"
+    ]
+   },
+   {
+    "nome": "As 10 competências gerais",
+    "itens": [
+     "Conhecimento · pensamento científico, crítico e criativo · repertório cultural",
+     "Comunicação · cultura digital · trabalho e projeto de vida",
+     "Argumentação · autoconhecimento e autocuidado",
+     "Empatia e cooperação · responsabilidade e cidadania"
+    ]
+   },
+   {
+    "nome": "Educação infantil",
+    "itens": [
+     "6 direitos de aprendizagem: conviver, brincar, participar, explorar, expressar, conhecer-se",
+     "5 campos de experiências — não há disciplinas nesta etapa",
+     "Objetivos por 3 grupos etários: bebês, crianças bem pequenas e pequenas",
+     "Eixos estruturantes da prática: interações e brincadeira"
+    ]
+   },
+   {
+    "nome": "Ensino fundamental",
+    "itens": [
+     "Linguagens · Matemática · Ciências da Natureza · Ciências Humanas · Ensino Religioso",
+     "Organização: unidades temáticas, objetos de conhecimento e habilidades",
+     "Código alfanumérico: etapa + ano + componente + nº (ex.: EF67LP08)",
+     "Progressão e continuidade entre anos iniciais e finais"
+    ]
+   },
+   {
+    "nome": "Ensino médio",
+    "itens": [
+     "Formação geral básica de 2.400h organizada por áreas do conhecimento",
+     "600h de itinerários formativos, com exceções para a formação técnica",
+     "Total de 3.000h nos três anos",
+     "Projeto de vida e articulação com a educação profissional e tecnológica"
+    ]
+   },
+   {
+    "nome": "Temas contemporâneos",
+    "itens": [
+     "Cidadania e civismo · ciência e tecnologia · economia",
+     "Meio ambiente · saúde · multiculturalismo",
+     "Educação alimentar, financeira, digital e para o trânsito",
+     "História e cultura afro-brasileira e indígena · direitos humanos · educação ambiental"
+    ]
+   }
+  ],
+  "pegadinhas": [
+   {
+    "titulo": "BNCC não é currículo",
+    "texto": "Ela é a referência obrigatória. O currículo é construído pela rede e pela escola, no PPP. Alternativa que diz 'a BNCC é o currículo nacional' está errada."
+   },
+   {
+    "titulo": "Na infantil não há disciplina",
+    "texto": "São campos de experiências e direitos de aprendizagem. Questão que fala de 'componentes curriculares na educação infantil' costuma ser distrator."
+   },
+   {
+    "titulo": "Saber ler o código resolve",
+    "texto": "EF67LP08 = Ensino Fundamental, 6º e 7º anos, Língua Portuguesa, habilidade 08. Decodificar já elimina alternativas."
+   }
+  ]
+ },
+ {
+  "id": 5,
+  "titulo": "Avaliação — da sala de aula ao Ideb",
+  "subtitulo": "Planejamento e avaliação do ensino e da aprendizagem",
+  "ramos": [
+   {
+    "nome": "Funções",
+    "itens": [
+     "Diagnóstica: identifica o ponto de partida e as lacunas",
+     "Formativa: acompanha e regula o processo durante o percurso",
+     "Somativa: sintetiza resultados ao final de um período",
+     "A avaliação serve para decidir a intervenção, não para classificar"
+    ]
+   },
+   {
+    "nome": "Autores-chave",
+    "itens": [
+     "Luckesi: da avaliação classificatória à diagnóstica; crítica à 'pedagogia do exame'",
+     "Hoffmann: avaliação mediadora, dialógica e processual",
+     "Perrenoud: avaliação formativa, regulação e diferenciação pedagógica",
+     "Vasconcellos: avaliação articulada ao projeto pedagógico"
+    ]
+   },
+   {
+    "nome": "Instrumentos",
+    "itens": [
+     "Prova, portfólio, rubrica, autoavaliação, observação registrada, seminário",
+     "Conselho de classe como espaço coletivo de análise e decisão",
+     "Devolutiva qualificada (feedback) como parte do ato avaliativo",
+     "Recuperação paralela — LDB art. 13, IV e art. 24, V"
+    ]
+   },
+   {
+    "nome": "Avaliação em larga escala",
+    "itens": [
+     "Saeb: Língua Portuguesa e Matemática, com aplicação censitária",
+     "Ideb: escala de 0 a 10, combina desempenho no Saeb e fluxo do Censo Escolar",
+     "Enem · Pisa (OCDE) · Enade das Licenciaturas · PND",
+     "Ideb 2023: 5,7 anos iniciais · 5,0 anos finais · 4,3 ensino médio"
+    ]
+   },
+   {
+    "nome": "Usos e limites",
+    "itens": [
+     "Uso pedagógico: subsidiar o PPP e o plano de intervenção da escola",
+     "Riscos: ranqueamento, estreitamento curricular e teaching to the test",
+     "Accountability e responsabilização por resultados",
+     "Equidade exige ler o dado desagregado por raça, renda e território"
+    ]
+   },
+   {
+    "nome": "Progressão e fluxo",
+    "itens": [
+     "Progressão continuada ≠ aprovação automática",
+     "Distorção idade-série, reprovação, abandono e evasão",
+     "Avaliação diagnóstica de entrada como política de rede",
+     "Recomposição e recuperação das aprendizagens"
+    ]
+   }
+  ],
+  "pegadinhas": [
+   {
+    "titulo": "Progressão continuada não é automática",
+    "texto": "Progressão continuada pressupõe intervenção pedagógica, recuperação e registro. Aprovação automática não pressupõe nada disso."
+   },
+   {
+    "titulo": "Ideb tem duas metades",
+    "texto": "Metade do indicador é fluxo. Escola que reprova muito derruba o próprio Ideb, mesmo com boa nota no Saeb."
+   },
+   {
+    "titulo": "Data para anotar",
+    "texto": "O Ideb 2025 será divulgado em 28/08/2026 — antes da prova. Pode virar contexto de item; guarde os números de 2023 como base."
+   }
+  ]
+ },
+ {
+  "id": 6,
+  "titulo": "Educação especial e inclusiva",
+  "subtitulo": "Direito de todos na escola comum · LBI · AEE · DUA",
+  "ramos": [
+   {
+    "nome": "Fundamentos legais",
+    "itens": [
+     "CF, art. 208, III: AEE, preferencialmente na rede regular de ensino",
+     "LDB, capítulo V — arts. 58 a 60",
+     "Convenção da ONU — Decreto 6.949/2009, com status de emenda constitucional",
+     "Política Nacional de Educação Especial na Perspectiva da Educação Inclusiva (2008)"
+    ]
+   },
+   {
+    "nome": "LBI — Lei 13.146/2015",
+    "itens": [
+     "Assegura sistema educacional inclusivo em todos os níveis e modalidades",
+     "Proíbe a cobrança de valores adicionais por recursos de acessibilidade",
+     "Projeto pedagógico institucional deve prever acessibilidade e adaptações",
+     "Nomeia o capacitismo como forma de discriminação"
+    ]
+   },
+   {
+    "nome": "Como se organiza",
+    "itens": [
+     "AEE em sala de recursos multifuncionais, geralmente no contraturno",
+     "Plano de AEE / PEI: individualizado, complementar ou suplementar",
+     "Profissional de apoio escolar e tecnologia assistiva",
+     "Jamais substitui a escolarização na classe comum"
+    ]
+   },
+   {
+    "nome": "Público e legislações",
+    "itens": [
+     "Deficiência · transtornos globais do desenvolvimento · altas habilidades ou superdotação",
+     "TEA: Lei 12.764/2012 (Berenice Piana) e Lei 14.254/2021",
+     "Libras: Lei 10.436/2002 e Decreto 5.626/2005",
+     "Educação bilíngue de surdos incluída na LDB pela Lei 14.191/2021"
+    ]
+   },
+   {
+    "nome": "Prática pedagógica",
+    "itens": [
+     "Desenho Universal para a Aprendizagem (DUA): múltiplos meios de acesso, ação e engajamento",
+     "Adaptações de acesso e curriculares · flexibilização de tempo e instrumentos",
+     "Avaliação processual com critérios explicitados no PEI",
+     "Trabalho colaborativo entre professor regente e professor do AEE"
+    ]
+   },
+   {
+    "nome": "Números para citar",
+    "itens": [
+     "2,5 milhões de matrículas na educação especial em 2025",
+     "Crescimento de 82% em relação a 2021",
+     "Maioria absoluta em classes comuns da rede pública",
+     "Fonte: Inep, Censo Escolar 2025"
+    ]
+   }
+  ],
+  "pegadinhas": [
+   {
+    "titulo": "Integração ≠ inclusão",
+    "texto": "Na integração o estudante precisa se adaptar à escola. Na inclusão a escola se reorganiza. Trocar os dois é o erro mais comum."
+   },
+   {
+    "titulo": "AEE nunca substitui",
+    "texto": "É complementar ou suplementar. Alternativa que fala de 'atendimento em classe especial substitutiva' quase sempre é a errada."
+   },
+   {
+    "titulo": "Laudo não é condição",
+    "texto": "Não se pode exigir laudo médico para matrícula nem para acesso ao AEE. O direito não depende de diagnóstico."
+   }
+  ]
+ },
+ {
+  "id": 7,
+  "titulo": "Teorias pedagógicas e didática",
+  "subtitulo": "Tendências pedagógicas, aprendizagem e planejamento de ensino",
+  "ramos": [
+   {
+    "nome": "Tendências liberais",
+    "itens": [
+     "Tradicional: professor transmite, aluno memoriza; conteúdo como fim",
+     "Renovada progressivista: aprender a aprender, centrada no aluno (Dewey)",
+     "Renovada não-diretiva: Rogers, autorrealização e clima afetivo",
+     "Tecnicista: objetivos operacionais, eficiência, condicionamento (Skinner)"
+    ]
+   },
+   {
+    "nome": "Tendências progressistas",
+    "itens": [
+     "Libertadora: Freire — temas geradores, diálogo, conscientização",
+     "Libertária: autogestão pedagógica e vivência grupal",
+     "Crítico-social dos conteúdos: Libâneo — apropriação do saber elaborado",
+     "Histórico-crítica: Saviani — escola como socialização do conhecimento"
+    ]
+   },
+   {
+    "nome": "Saviani — 5 momentos",
+    "itens": [
+     "1. Prática social inicial · 2. Problematização",
+     "3. Instrumentalização: apropriação dos instrumentos culturais",
+     "4. Catarse: incorporação do novo saber",
+     "5. Prática social final: retorno transformado à realidade"
+    ]
+   },
+   {
+    "nome": "Aprendizagem e desenvolvimento",
+    "itens": [
+     "Piaget: estágios, assimilação e acomodação, equilibração",
+     "Vygotsky: mediação, zona de desenvolvimento proximal, papel da linguagem",
+     "Wallon: afetividade, motricidade e desenvolvimento integral",
+     "Ausubel: aprendizagem significativa e organizadores prévios"
+    ]
+   },
+   {
+    "nome": "Planejamento",
+    "itens": [
+     "Plano de curso, de unidade e de aula · objetivos de aprendizagem observáveis",
+     "Sequência didática e situações de aprendizagem contextualizadas",
+     "Taxonomia de Bloom revisada: lembrar → entender → aplicar → analisar → avaliar → criar",
+     "Transposição didática (Chevallard) e contrato didático"
+    ]
+   },
+   {
+    "nome": "Metodologias ativas",
+    "itens": [
+     "Aprendizagem baseada em problemas e em projetos",
+     "Sala de aula invertida · rotação por estações · ensino híbrido",
+     "Aprendizagem entre pares · gamificação · STEAM",
+     "Cultura digital, letramento midiático e uso pedagógico da IA"
+    ]
+   }
+  ],
+  "pegadinhas": [
+   {
+    "titulo": "Frequência: 75% ou 60%?",
+    "texto": "Na educação infantil também são 800h e 200 dias, mas o controle de frequência exige o mínimo de 60% — e a avaliação não tem objetivo de promoção."
+   },
+   {
+    "titulo": "Freire não dispensa conteúdo",
+    "texto": "A crítica à educação bancária é ao método de transmissão vertical, não ao conhecimento. Alternativa que diz 'Freire propõe abandonar os conteúdos' está errada."
+   },
+   {
+    "titulo": "Construtivismo não é método",
+    "texto": "É uma teoria do conhecimento. 'Aplicar o método construtivista' é formulação incorreta e costuma ser distrator."
+   }
+  ]
+ },
+ {
+  "id": 8,
+  "titulo": "Gestão democrática, PPP e financiamento",
+  "subtitulo": "Planejamento, organização e gestão democrática · Financiamento da educação",
+  "ramos": [
+   {
+    "nome": "Gestão democrática",
+    "itens": [
+     "CF, art. 206, VI e LDB, art. 3º, VIII e art. 14",
+     "Participação, autonomia, transparência e descentralização",
+     "Eleição de diretores, colegiados e mecanismos de escuta",
+     "Gestão democrática ≠ gestão gerencial por resultados"
+    ]
+   },
+   {
+    "nome": "PPP",
+    "itens": [
+     "Político (intencionalidade e projeto de sociedade) e pedagógico (ação educativa)",
+     "Marcos situacional, conceitual e operacional",
+     "Construção coletiva; documento vivo, não peça burocrática",
+     "Referências: Veiga, Vasconcellos, Gadotti, Libâneo"
+    ]
+   },
+   {
+    "nome": "Colegiados",
+    "itens": [
+     "Conselho escolar · conselho de classe · grêmio estudantil",
+     "APM / caixa escolar · conselho de acompanhamento e controle social do Fundeb",
+     "Conselhos municipais e estaduais de educação",
+     "Conferências de educação (Conae) e fóruns permanentes"
+    ]
+   },
+   {
+    "nome": "Financiamento",
+    "itens": [
+     "União: 18% · estados, DF e municípios: 25% da receita de impostos",
+     "Fundeb permanente pela EC 108/2020, com complementação da União",
+     "Salário-educação · PDDE · PNAE · PNATE",
+     "CAQ — Custo Aluno-Qualidade como referência de padrão mínimo"
+    ]
+   },
+   {
+    "nome": "SNE — LC 220/2025",
+    "itens": [
+     "Institui o Sistema Nacional de Educação em 31/10/2025",
+     "Fixa normas de cooperação entre União, estados e municípios",
+     "CITE nacional e CIBEs estaduais como instâncias de pactuação",
+     "Padrão de qualidade e CAQ integrados à estrutura do sistema"
+    ]
+   },
+   {
+    "nome": "Quem faz o quê",
+    "itens": [
+     "Municípios: prioridade na educação infantil e no ensino fundamental",
+     "Estados: prioridade no ensino fundamental e médio",
+     "União: função redistributiva e supletiva, coordenação da política nacional",
+     "Planos estaduais e municipais alinhados ao PNE"
+    ]
+   }
+  ],
+  "pegadinhas": [
+   {
+    "titulo": "SNE já existe",
+    "texto": "Muita apostila ainda afirma que o SNE não foi instituído! A LC 220/2025 mudou isso. É um dos pontos mais prováveis de atualização na prova."
+   },
+   {
+    "titulo": "Fundeb é permanente",
+    "texto": "Desde a EC 108/2020 o Fundeb está na Constituição, sem prazo de validade. Alternativa que fala de 'fundo temporário' está desatualizada."
+   },
+   {
+    "titulo": "Obrigatória, mas normatizada localmente",
+    "texto": "A gestão democrática é obrigatória no ensino público; a LDB delega às redes a definição das normas concretas."
+   }
+  ]
+ },
+ {
+  "id": 9,
+  "titulo": "Relações étnico-raciais, gênero e direitos humanos",
+  "subtitulo": "Obrigatoriedades curriculares e prática antidiscriminatória",
+  "ramos": [
+   {
+    "nome": "Étnico-raciais",
+    "itens": [
+     "Lei 10.639/2003: história e cultura afro-brasileira e africana",
+     "Lei 11.645/2008: acrescenta história e cultura dos povos indígenas",
+     "LDB, art. 26-A · Parecer CNE/CP 03/2004 e Resolução CNE/CP 01/2004",
+     "Estatuto da Igualdade Racial — Lei 12.288/2010"
+    ]
+   },
+   {
+    "nome": "Conceitos para citar",
+    "itens": [
+     "Racismo estrutural, institucional e recreativo",
+     "Epistemicídio · branquitude · letramento racial",
+     "Interseccionalidade · decolonialidade · currículo eurocêntrico",
+     "Lei 14.532/2023: injúria racial equiparada ao crime de racismo"
+    ]
+   },
+   {
+    "nome": "Gênero e sexualidade",
+    "itens": [
+     "Educação para as relações de gênero e sexualidade consta expressamente na matriz da PND",
+     "Lei 11.340/2006 (Maria da Penha) · Lei 14.164/2021: prevenção da violência contra a mulher nos currículos",
+     "Direito ao nome social e enfrentamento da LGBTQfobia",
+     "Currículo e linguagem não discriminatórios"
+    ]
+   },
+   {
+    "nome": "Direitos humanos",
+    "itens": [
+     "Diretrizes Nacionais para a Educação em Direitos Humanos — Res. CNE/CP 01/2012",
+     "Plano Nacional de Educação em Direitos Humanos",
+     "Convivência democrática, mediação de conflitos e cultura de paz",
+     "Lei 14.811/2024: bullying e cyberbullying"
+    ]
+   },
+   {
+    "nome": "Socioambiental",
+    "itens": [
+     "Política Nacional de Educação Ambiental — Lei 9.795/1999",
+     "Diretrizes Curriculares Nacionais para a Educação Ambiental (2012)",
+     "Agenda 2030 e ODS 4: educação de qualidade e inclusiva",
+     "Emergência climática, justiça ambiental e território como conteúdo escolar"
+    ]
+   },
+   {
+    "nome": "Da lei à prática",
+    "itens": [
+     "Currículo, acervo da biblioteca e critérios de escolha do material didático",
+     "Calendário escolar com abordagem crítica, não folclorizada",
+     "Formação continuada da equipe e protocolo institucional para casos de discriminação",
+     "Registro, acolhimento e encaminhamento à rede de proteção"
+    ]
+   }
+  ],
+  "pegadinhas": [
+   {
+    "titulo": "A 11.645 ampliou, não revogou",
+    "texto": "A Lei 11.645/2008 alterou o art. 26-A da LDB para incluir a história indígena. A obrigatoriedade afro-brasileira da Lei 10.639/2003 permanece."
+   },
+   {
+    "titulo": "Não é 'projeto de novembro'",
+    "texto": "A temática afro-brasileira e indígena é obrigatória em todo o currículo, com ênfase em Arte, Literatura e História. Ação pontual não cumpre a lei."
+   },
+   {
+    "titulo": "O eixo mais provável na discursiva",
+    "texto": "Diversidade aparece nas três competências da matriz e foi o campo do tema de 2025 (idadismo). É o eixo com maior chance de reaparecer."
+   }
+  ]
+ }
+]

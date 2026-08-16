@@ -1,0 +1,250 @@
+{
+ "semanas": [
+  {
+   "n": 1,
+   "titulo": "Diagnóstico e legislação estruturante",
+   "resumo": "Descobrir onde você está e fixar a espinha dorsal: LDB e ECA.",
+   "dias": [
+    {
+     "dia": "Segunda",
+     "tarefa": "Simulado completo, cronometrado em 75 minutos, sem consulta."
+    },
+    {
+     "dia": "Terça",
+     "tarefa": "Corrigir o simulado. Ler todos os comentários e preencher o mapa de erros por eixo."
+    },
+    {
+     "dia": "Quarta",
+     "tarefa": "Mapa 01 — LDB. Leitura ativa: sublinhar só o que não sabia."
+    },
+    {
+     "dia": "Quinta",
+     "tarefa": "Mapa 01 de memória (os 6 ramos, sem olhar) + refazer as questões 01 a 05."
+    },
+    {
+     "dia": "Sexta",
+     "tarefa": "Mapa 03 — ECA. Atenção especial aos artigos 53, 54 e 56."
+    },
+    {
+     "dia": "Sábado",
+     "tarefa": "Kit da Discursiva: Abertura + Proposta 0. Escrever a resposta em 30 minutos."
+    },
+    {
+     "dia": "Domingo",
+     "tarefa": "Revisar apenas os eixos marcados como prioridade alta no mapa de erros."
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "titulo": "Currículo e BNCC",
+   "resumo": "A BNCC aparece direta ou indiretamente em boa parte dos itens.",
+   "dias": [
+    {
+     "dia": "Segunda",
+     "tarefa": "Mapa 04 — BNCC: natureza do documento e as 10 competências gerais."
+    },
+    {
+     "dia": "Terça",
+     "tarefa": "Mapa 04 — etapas (infantil, fundamental, médio) e temas contemporâneos transversais."
+    },
+    {
+     "dia": "Quarta",
+     "tarefa": "Kit: Bloco 1 completo — anatomia, comando, arquitetura de 5 blocos."
+    },
+    {
+     "dia": "Quinta",
+     "tarefa": "Reescrever a resposta da Proposta 0 aplicando a arquitetura de 5 blocos."
+    },
+    {
+     "dia": "Sexta",
+     "tarefa": "Mapa 07 — teorias pedagógicas e didática."
+    },
+    {
+     "dia": "Sábado",
+     "tarefa": "Proposta 01 (étnico-raciais), cronometrada. Corrigir pelo espelho no mesmo dia."
+    },
+    {
+     "dia": "Domingo",
+     "tarefa": "Revisão espaçada: Mapas 01 e 03, só as pegadinhas."
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "titulo": "Políticas, gestão e financiamento",
+   "resumo": "O eixo com mais atualização em 2026: novo PNE e SNE.",
+   "dias": [
+    {
+     "dia": "Segunda",
+     "tarefa": "Mapa 02 — novo PNE (Lei 15.388/2026). Decorar: 19 objetivos, 73 metas, 372 estratégias."
+    },
+    {
+     "dia": "Terça",
+     "tarefa": "Mapa 08 — gestão democrática, SNE (LC 220/2025), Fundeb e CF art. 212."
+    },
+    {
+     "dia": "Quarta",
+     "tarefa": "Kit: Bloco 2, eixos 01 a 03 do repertório."
+    },
+    {
+     "dia": "Quinta",
+     "tarefa": "Refazer as questões 06 a 10 e reler os comentários."
+    },
+    {
+     "dia": "Sexta",
+     "tarefa": "Kit: Bloco 2, eixos 04 a 06 do repertório."
+    },
+    {
+     "dia": "Sábado",
+     "tarefa": "Proposta 02 (inclusão), cronometrada. Corrigir pelo espelho."
+    },
+    {
+     "dia": "Domingo",
+     "tarefa": "Revisão espaçada: Mapa 04 + tabela dos 24 objetos de conhecimento."
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "titulo": "Avaliação e inclusão",
+   "resumo": "Dois eixos de alta densidade: avaliação e educação especial.",
+   "dias": [
+    {
+     "dia": "Segunda",
+     "tarefa": "Mapa 05 — avaliação: funções, autores, Saeb e Ideb."
+    },
+    {
+     "dia": "Terça",
+     "tarefa": "Mapa 06 — inclusão: LBI, AEE, DUA, Libras."
+    },
+    {
+     "dia": "Quarta",
+     "tarefa": "Refazer as questões 15 a 23 e reler os comentários."
+    },
+    {
+     "dia": "Quinta",
+     "tarefa": "Consolidar o repertório de dados: Censo Escolar 2025 e indicadores de avaliação."
+    },
+    {
+     "dia": "Sexta",
+     "tarefa": "Ideb 2025 é divulgado hoje (28/08). Atualizar os números do seu repertório."
+    },
+    {
+     "dia": "Sábado",
+     "tarefa": "Proposta 03 (desinformação e letramento científico), cronometrada."
+    },
+    {
+     "dia": "Domingo",
+     "tarefa": "Revisão espaçada: Mapas 02 e 08."
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "titulo": "Diversidade e direitos humanos",
+   "resumo": "O eixo com maior probabilidade de virar discursiva.",
+   "dias": [
+    {
+     "dia": "Segunda",
+     "tarefa": "Mapa 09 — relações étnico-raciais, gênero, direitos humanos e socioambiental."
+    },
+    {
+     "dia": "Terça",
+     "tarefa": "Refazer as questões 24 a 30 e reler os comentários."
+    },
+    {
+     "dia": "Quarta",
+     "tarefa": "Kit: 20 frases-coringa + tabela competências × repertório."
+    },
+    {
+     "dia": "Quinta",
+     "tarefa": "Proposta 04 (emergência climática), cronometrada."
+    },
+    {
+     "dia": "Sexta",
+     "tarefa": "Proposta 05 (convivência e saúde mental), cronometrada."
+    },
+    {
+     "dia": "Sábado",
+     "tarefa": "Corrigir as propostas 04 e 05 pelo espelho. Listar os erros que reincidem."
+    },
+    {
+     "dia": "Domingo",
+     "tarefa": "Revisão espaçada: Mapas 05 e 06."
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "titulo": "Consolidação e segunda medição",
+   "resumo": "Repetir a medição inicial para ver o quanto avançou.",
+   "dias": [
+    {
+     "dia": "Segunda",
+     "tarefa": "Refazer o simulado completo, cronometrado, sem consulta."
+    },
+    {
+     "dia": "Terça",
+     "tarefa": "Corrigir e comparar com o resultado da Semana 1. Registrar a diferença por eixo."
+    },
+    {
+     "dia": "Quarta",
+     "tarefa": "Revisar somente os eixos que continuam abaixo de 70% de acerto."
+    },
+    {
+     "dia": "Quinta",
+     "tarefa": "Reescrever, do zero, a proposta em que você teve o pior desempenho."
+    },
+    {
+     "dia": "Sexta",
+     "tarefa": "Ler os 9 mapas em sequência, 15 minutos cada. Não parar para anotar."
+    },
+    {
+     "dia": "Sábado",
+     "tarefa": "Planejar em tópicos, sem redigir, as 5 variações das propostas."
+    },
+    {
+     "dia": "Domingo",
+     "tarefa": "Descanso ativo: reler só as 27 pegadinhas dos mapas mentais."
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "titulo": "Semana da prova",
+   "resumo": "Nada de conteúdo novo. Só recuperação e logística.",
+   "dias": [
+    {
+     "dia": "Segunda",
+     "tarefa": "Mapas 01, 02 e 03 — apenas as pegadinhas e os hubs centrais."
+    },
+    {
+     "dia": "Terça",
+     "tarefa": "Mapas 04, 05 e 06 — apenas as pegadinhas e os hubs centrais."
+    },
+    {
+     "dia": "Quarta",
+     "tarefa": "Mapas 07, 08 e 09 — apenas as pegadinhas e os hubs centrais."
+    },
+    {
+     "dia": "Quinta",
+     "tarefa": "Reler os 6 critérios de correção e a arquitetura de 5 blocos em 30 linhas."
+    },
+    {
+     "dia": "Sexta",
+     "tarefa": "Escrever uma última discursiva (variação livre), em 30 minutos."
+    },
+    {
+     "dia": "Sábado",
+     "tarefa": "Logística: conferir local, horário e documento. Dormir cedo. Sem conteúdo novo."
+    },
+    {
+     "dia": "Domingo",
+     "tarefa": "PROVA NACIONAL DOCENTE — chegue com antecedência."
+    }
+   ]
+  }
+ ],
+ "data_prova": "2026-09-20"
+}

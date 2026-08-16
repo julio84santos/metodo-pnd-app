@@ -1,0 +1,245 @@
+{
+ "criterios": [
+  {
+   "id": "clareza",
+   "nome": "Clareza",
+   "pergunta": "A tese aparece sem ambiguidade?"
+  },
+  {
+   "id": "coerencia",
+   "nome": "Coerência",
+   "pergunta": "As ideias se sustentam sem contradição?"
+  },
+  {
+   "id": "coesao",
+   "nome": "Coesão",
+   "pergunta": "As relações entre frases e parágrafos estão marcadas?"
+  },
+  {
+   "id": "argumentacao",
+   "nome": "Argumentação",
+   "pergunta": "Há lei, conceito, dado ou referência pertinente?"
+  },
+  {
+   "id": "vocabulario",
+   "nome": "Vocabulário",
+   "pergunta": "Os termos pedagógicos estão empregados com precisão?"
+  },
+  {
+   "id": "norma",
+   "nome": "Norma padrão",
+   "pergunta": "Pontuação, concordância e ortografia estão dominadas?"
+  }
+ ],
+ "arquitetura": [
+  {
+   "bloco": "Tese",
+   "linhas": "1–5",
+   "descricao": "Nomear o problema com o termo técnico, defini-lo em uma oração e assumir posição."
+  },
+  {
+   "bloco": "Concretização",
+   "linhas": "6–11",
+   "descricao": "Trazer o problema para o cotidiano escolar com dois ou três exemplos verificáveis."
+  },
+  {
+   "bloco": "Fundamentação",
+   "linhas": "12–18",
+   "descricao": "Dois ou três apoios de naturezas distintas: dispositivo legal, conceito pedagógico, dado oficial."
+  },
+  {
+   "bloco": "Intervenção",
+   "linhas": "19–26",
+   "descricao": "Três ações em níveis diferentes — currículo, sala de aula, gestão ou formação."
+  },
+  {
+   "bloco": "Fechamento",
+   "linhas": "27–30",
+   "descricao": "Retomar a tese sem repeti-la e projetar o efeito formativo."
+  }
+ ],
+ "eixos": [
+  {
+   "num": 1,
+   "nome": "Fundamentos e teorias",
+   "quando": "concepção de escola, papel do conhecimento, relação professor–estudante, sentido da educação"
+  },
+  {
+   "num": 2,
+   "nome": "Didática, currículo e avaliação",
+   "quando": "nota, reprovação, recuperação, planejamento, escolha de conteúdo, BNCC, PPP"
+  },
+  {
+   "num": 3,
+   "nome": "Políticas, gestão e financiamento",
+   "quando": "decisão da direção, conselho escolar, recurso, meta de plano, rede de ensino"
+  },
+  {
+   "num": 4,
+   "nome": "Diversidade e inclusão",
+   "quando": "deficiência, raça, gênero, religião, idade, discriminação, acessibilidade"
+  },
+  {
+   "num": 5,
+   "nome": "Escola, família e território",
+   "quando": "evasão, infrequência, vulnerabilidade, comunidade, desastre, trabalho infantil"
+  },
+  {
+   "num": 6,
+   "nome": "Tecnologias e letramento científico",
+   "quando": "celular, IA, desinformação, pesquisa, ensino de ciências, cultura digital"
+  }
+ ],
+ "frases_coringa": {
+  "Abertura": [
+   "A situação descrita não constitui exceção pontual, mas expressão de um problema estrutural da educação básica brasileira.",
+   "O caso apresentado evidencia a distância entre a previsão legal e a sua materialização no cotidiano escolar.",
+   "Antes de propor soluções, é necessário nomear com precisão o problema em questão.",
+   "O que está em disputa, no caso analisado, não é a boa intenção da equipe, mas a adequação da resposta pedagógica."
+  ],
+  "Fundamentação": [
+   "O amparo normativo para essa exigência é explícito e não deixa margem à discricionariedade da escola.",
+   "A legislação educacional brasileira, ao estabelecer esse princípio, converte o que seria escolha pedagógica em obrigação institucional.",
+   "Cabe recorrer, nesse ponto, tanto ao dispositivo legal quanto ao acúmulo do campo pedagógico.",
+   "Não se trata de acréscimo temático ao currículo, mas de deslocamento na própria concepção de conhecimento escolar."
+  ],
+  "Análise": [
+   "É preciso distinguir dois planos que a situação tende a confundir: o do acesso e o da permanência qualificada.",
+   "A resposta adotada trata o sintoma e preserva a causa, razão pela qual tende a se repetir.",
+   "O problema não se resolve no plano individual porque suas condições de produção são institucionais.",
+   "Ler o dado desagregado é condição para identificar onde a desigualdade efetivamente se concentra."
+  ],
+  "Intervenção": [
+   "A intervenção, para ser sustentável, precisa incidir simultaneamente no currículo, na organização do tempo e na formação continuada.",
+   "Uma primeira ação consiste em submeter o projeto político-pedagógico à revisão coletiva, com registro nos planos de trabalho.",
+   "Cabe instituir protocolo explícito, conhecido pela comunidade escolar, que defina fluxos de acolhimento, registro e encaminhamento.",
+   "A articulação com a rede intersetorial não transfere responsabilidade: delimita competências e amplia a capacidade de resposta."
+  ],
+  "Fechamento": [
+   "Ao assumir essa tarefa como princípio curricular, e não como ação comemorativa, a escola cumpre a legislação e amplia sua função formativa.",
+   "Reconhecer os limites da atuação docente não enfraquece o argumento: delimita com precisão o que é exigível da escola.",
+   "A escola que converte o problema vivido em objeto de conhecimento devolve à comunidade a condição de interlocutora.",
+   "Trata-se, portanto, de tarefa curricular, de gestão e ética do trabalho docente."
+  ]
+ },
+ "propostas": [
+  {
+   "id": 0,
+   "titulo": "Proposta 0 · Idadismo (prova real 26/10/2025)",
+   "objetos": "Reconstituída a partir do divulgado pelo Inep",
+   "textos_motivadores": [
+    "Lei nº 10.741/2003, art. 22 (Estatuto da Pessoa Idosa): Nos currículos mínimos dos diversos níveis de ensino formal serão inseridos conteúdos voltados ao processo de envelhecimento, ao respeito e à valorização da pessoa idosa, de forma a eliminar o preconceito.",
+    "Texto de Paulo Freire sobre juventude e velhice como atitudes diante da vida, não faixas de idade — e definição de idadismo como estereótipos e práticas discriminatórias fundadas na idade."
+   ],
+   "comando": "A partir da leitura dos textos motivadores, redija um texto dissertativo-argumentativo que discuta os efeitos das diferenças entre gerações no contexto escolar, apresentando proposta de intervenção que promova a integração intergeracional e o enfrentamento de estereótipos baseados na idade.",
+   "modelo": "A escola é um dos poucos espaços em que gerações distintas convivem cotidianamente e, por isso, um lugar privilegiado tanto para reproduzir quanto para desmontar o idadismo. Compreendido como o conjunto de estereótipos e práticas discriminatórias fundados na idade, ele opera em duas direções: desqualifica a pessoa idosa por supostamente não acompanhar o presente e desqualifica o jovem por supostamente não possuir experiência.\n\nNo ambiente escolar, esse mecanismo assume formas concretas. Estudantes da educação de jovens e adultos são tratados como alunos em atraso, e não como sujeitos com trajetórias próprias; docentes mais velhos são associados à resistência tecnológica; professores recém-formados têm sua autoridade questionada. Em todos os casos, a idade substitui a análise da prática, e a instituição perde a possibilidade da aprendizagem intergeracional.\n\nO amparo normativo para o enfrentamento é explícito. O artigo 22 do Estatuto da Pessoa Idosa determina a inserção, nos currículos, de conteúdos sobre o processo de envelhecimento e a valorização da pessoa idosa, com a finalidade de eliminar o preconceito. A Lei de Diretrizes e Bases, ao inscrever entre seus princípios a garantia do direito à aprendizagem ao longo da vida, sustenta a mesma perspectiva. Freire oferece a chave pedagógica: o que define a abertura ao aprender não é a idade, mas a disposição para o diálogo.\n\nCabe, portanto, planejar situações em que a diferença geracional seja conteúdo, e não obstáculo. Projetos de história oral, em que estudantes entrevistam moradores idosos do território e produzem material para o acervo escolar, articulam Língua Portuguesa, História e Arte e reposicionam a pessoa idosa como fonte de conhecimento. Nas turmas da educação de jovens e adultos, duplas produtivas podem combinar repertório de vida e domínio tecnológico. Na formação continuada, grupos de estudo entre docentes de diferentes gerações rompem a lógica do especialista único.\n\nEnfrentar o idadismo é tarefa curricular e de gestão. Ao tratar a convivência entre gerações como aprendizagem, a escola cumpre a legislação, amplia seu repertório cultural e forma sujeitos capazes de reconhecer, em qualquer idade, a condição de quem ainda aprende."
+  },
+  {
+   "id": 1,
+   "titulo": "Proposta 01 · Relações étnico-raciais",
+   "objetos": "Objetos de conhecimento XX e XXIV · Competências II e III",
+   "textos_motivadores": [
+    "LDB, art. 26-A: torna-se obrigatório o estudo da história e cultura afro-brasileira e indígena, incluindo diversos aspectos da história e cultura que caracterizam a formação da população brasileira (redação dada pelas Leis 10.639/2003 e 11.645/2008).",
+    "Caso: em uma escola de ensino fundamental, a temática afro-brasileira aparece exclusivamente em um mural na semana de 20 de novembro. O acervo da biblioteca não conta com autores negros ou indígenas, e o material didático trata a escravidão em duas páginas."
+   ],
+   "comando": "Considerando os textos motivadores, redija um texto dissertativo-argumentativo em que você analise por que a obrigatoriedade legal, isoladamente, não garante a transformação da prática curricular, e apresente propostas de intervenção para a escola descrita.",
+   "modelo": "A permanência de um currículo eurocentrado evidencia que a obrigatoriedade legal, isolada, não transforma a prática pedagógica. A situação descrita — projeto restrito ao mês de novembro e acervo sem autores negros ou indígenas — configura o que se denomina folclorização: a cultura afro-brasileira é tratada como episódio exótico, e não como matriz constitutiva da sociedade brasileira.\n\nO fundamento dessa exigência é normativo. O artigo 26-A da LDB, com a redação dada pelas Leis 10.639/2003 e 11.645/2008, torna obrigatório o estudo da história e da cultura afro-brasileira, africana e indígena em todo o currículo. Não se trata de acréscimo temático, mas de deslocamento epistemológico: o conhecimento produzido por populações negras e indígenas integra o patrimônio a ser ensinado.\n\nA intervenção, portanto, precisa ser sistêmica. Uma primeira ação consiste em submeter o projeto político-pedagógico à revisão coletiva, mapeando em quais componentes e bimestres a temática será desenvolvida, com registro nos planos de trabalho. Uma segunda é a auditoria do acervo e do material didático, com critérios explícitos de representatividade. Uma terceira é a formação continuada nos horários coletivos, para que a equipe desenvolva letramento racial.\n\nCabe ainda prever protocolo institucional de acolhimento, uma vez que a Lei 14.532/2023 equiparou a injúria racial ao crime de racismo. Uma escola que assume a educação antirracista como princípio curricular, e não como comemoração, cumpre a legislação e forma sujeitos capazes de reconhecer criticamente a diversidade que os constitui."
+  },
+  {
+   "id": 2,
+   "titulo": "Proposta 02 · Inclusão e capacitismo",
+   "objetos": "Objetos de conhecimento XII, XIII e XXI · Competências I e III",
+   "textos_motivadores": [
+    "Lei nº 13.146/2015 (LBI), art. 28: incumbe ao poder público assegurar sistema educacional inclusivo em todos os níveis; é vedada a cobrança de valores adicionais em matrículas no cumprimento dessas determinações.",
+    "Caso: um estudante do 6º ano com TEA está matriculado em classe comum. A escola informa que só organizará adaptações após laudo atualizado; o estudante permanece sem material adaptado."
+   ],
+   "comando": "Com base nos textos motivadores, redija um texto dissertativo-argumentativo que discuta a diferença entre garantir o acesso e assegurar a permanência de estudantes com deficiência, apresentando propostas de intervenção para o caso descrito.",
+   "modelo": "O caso apresentado expõe a distância entre matrícula garantida e permanência qualificada. Assegurar a vaga cumpre a lei; não reorganizar o ensino para que o estudante aprenda reproduz, sob nova aparência, a lógica da integração, em que o ônus da adaptação recai sobre quem tem deficiência.\n\nO marco normativo é explícito. A Constituição, no artigo 208, III, assegura AEE preferencialmente na rede regular. A LBI determina sistema educacional inclusivo, veda cobrança adicional por acessibilidade e nomeia o capacitismo como forma de discriminação. O atendimento especializado é complementar ou suplementar, nunca substitutivo da classe comum.\n\nDuas ilegalidades precisam ser corrigidas de imediato. A primeira é condicionar a adaptação pedagógica à apresentação de laudo: o direito não depende de diagnóstico. A segunda é a ausência de tempo comum de planejamento entre a professora do AEE e os docentes regentes.\n\nA resposta organiza-se em três frentes: plano de AEE construído a partir das potencialidades do estudante; momento fixo de planejamento conjunto no horário coletivo; e adoção do Desenho Universal para a Aprendizagem, que beneficia toda a turma e reduz adaptações individuais tardias. Enfrentar o capacitismo é tarefa curricular, de gestão e ética do trabalho docente."
+  },
+  {
+   "id": 3,
+   "titulo": "Proposta 03 · Desinformação, IA e letramento científico",
+   "objetos": "Objetos de conhecimento X e XI · Competências I e II",
+   "textos_motivadores": [
+    "BNCC, Competência Geral 2: exercitar a curiosidade intelectual e recorrer à abordagem própria das ciências para investigar causas e formular soluções.",
+    "Caso: em uma turma de 9º ano, circula um vídeo gerado por IA em que uma suposta autoridade sanitária desaconselha a vacinação infantil. A escola discute proibir celulares, sem tratar o problema pedagógico."
+   ],
+   "comando": "A partir dos textos motivadores, redija um texto dissertativo-argumentativo que discuta o papel da escola na formação do letramento científico e midiático diante da desinformação produzida por tecnologias digitais, propondo intervenções pedagógicas para o caso descrito.",
+   "modelo": "A circulação de conteúdos falsos entre estudantes não constitui apenas problema de comportamento digital: é questão curricular. Cabe à escola, nesse cenário, ensinar critérios de validação, e não somente transmitir conteúdos consolidados.\n\nA BNCC oferece o fundamento dessa tarefa. Entre as competências gerais figuram o pensamento científico, crítico e criativo, a cultura digital e a argumentação com base em dados confiáveis. O letramento científico não se confunde com acúmulo de terminologia: consiste em compreender como o conhecimento é produzido, revisado e comunicado.\n\nDo ponto de vista didático, a intervenção mais consistente é transformar a desinformação em objeto de estudo: uma sequência didática pode partir do próprio vídeo e conduzir os estudantes à investigação da fonte, da autoria e da existência de revisão por pares, culminando em material de divulgação para as famílias.\n\nO uso da inteligência artificial exige tratamento igualmente pedagógico. Proibir sem mediar apenas transfere o uso para fora da escola; é mais produtivo estabelecer protocolo explícito sobre em que tarefas a ferramenta é permitida. Ensinar a duvidar com método é, hoje, condição para o exercício da cidadania."
+  },
+  {
+   "id": 4,
+   "titulo": "Proposta 04 · Emergência climática e educação socioambiental",
+   "objetos": "Objetos de conhecimento XIX e XXII · Competências I e II",
+   "textos_motivadores": [
+    "Lei nº 9.795/1999, art. 2º e 10: a educação ambiental é componente essencial e permanente, não devendo ser implantada como disciplina específica.",
+    "Caso: após uma enchente, uma escola de periferia fica fechada por duas semanas. A equipe gestora propõe recuperar conteúdo com reforço e uma campanha de coleta de lixo na semana do meio ambiente."
+   ],
+   "comando": "Considerando os textos motivadores, redija um texto dissertativo-argumentativo que analise os limites da abordagem proposta pela equipe gestora e apresente uma proposta de intervenção que articule educação socioambiental, currículo e relação com a comunidade.",
+   "modelo": "O episódio descrito desloca a educação ambiental do terreno do projeto pontual para o da realidade vivida. Tratar o clima como tema de campanha, quando a comunidade acabou de experimentar um evento extremo, esvazia a função social da escola.\n\nO amparo legal é consolidado: a Lei 9.795/1999 define a educação ambiental como componente essencial e permanente, vedando sua implantação como disciplina específica. A proposta da equipe gestora, ao concentrar a temática em uma semana, contraria o caráter permanente exigido pela norma.\n\nA intervenção ganha consistência quando parte do território: mapeamento das áreas de risco do bairro, cruzando observação de campo e relatos das famílias atingidas, pode fundamentar um plano comunitário de prevenção, apresentado ao conselho escolar. Igualmente necessário é o cuidado com os efeitos do desastre: acolher perdas, reorganizar calendário e prever recomposição das aprendizagens.\n\nA educação socioambiental não consiste em sensibilizar para o descarte correto de resíduos, mas em formar sujeitos capazes de ler criticamente as causas da vulnerabilidade e agir coletivamente sobre elas."
+  },
+  {
+   "id": 5,
+   "titulo": "Proposta 05 · Convivência, saúde mental e violência escolar",
+   "objetos": "Objetos de conhecimento XVI e XXI · Competências II e III",
+   "textos_motivadores": [
+    "ECA, art. 53, I e II: direito à educação, com igualdade de condições de acesso e permanência e direito de ser respeitado por seus educadores.",
+    "Caso: aumentam os conflitos e relatos de ansiedade em turmas de anos finais. Um grupo criou perfil para ridicularizar colegas; a resposta institucional tem sido apenas suspensão, sem escuta nem registro."
+   ],
+   "comando": "Com base nos textos motivadores, redija um texto dissertativo-argumentativo que discuta os limites da resposta punitiva a situações de violência e sofrimento psíquico na escola, apresentando proposta de intervenção institucional para o caso descrito.",
+   "modelo": "O agravamento dos conflitos e do sofrimento psíquico entre estudantes tem sido tratado como caso de disciplina. Essa leitura individualiza um problema que é relacional e institucional: o clima escolar não é soma de comportamentos, mas efeito das regras e vínculos que a escola sustenta.\n\nO ordenamento jurídico avançou em direção oposta à adotada pela escola do caso. A Lei 13.185/2015 instituiu o dever de prevenir; a Lei 14.811/2024 tipificou bullying e cyberbullying. A suspensão sem escuta nem registro descumpre essa arquitetura de proteção.\n\nA resposta institucional exige método: diagnosticar com instrumento de escuta sobre clima escolar; constituir protocolo explícito que diferencie conflito, indisciplina e violência; investir em práticas restaurativas, deslocando o foco da punição para a responsabilização e reparação do vínculo.\n\nÉ preciso, por fim, reconhecer os limites da atuação docente: sofrimento psíquico intenso demanda articulação com a rede de saúde. Uma política de convivência bem construída é, simultaneamente, medida de proteção e condição para a aprendizagem."
+  }
+ ],
+ "checklist_criterios": [
+  {
+   "id": "comando",
+   "nome": "Atendimento ao comando",
+   "pergunta": "Respondi a todos os verbos e recortes solicitados?"
+  },
+  {
+   "id": "tese",
+   "nome": "Tese",
+   "pergunta": "Minha posição aparece no primeiro parágrafo?"
+  },
+  {
+   "id": "analise",
+   "nome": "Análise",
+   "pergunta": "Expliquei causas, efeitos ou tensões do problema?"
+  },
+  {
+   "id": "contexto",
+   "nome": "Contexto escolar",
+   "pergunta": "Concretizei a discussão em práticas e relações escolares?"
+  },
+  {
+   "id": "fundamentacao",
+   "nome": "Fundamentação",
+   "pergunta": "Usei legislação, conceito ou autor pertinente?"
+  },
+  {
+   "id": "intervencao",
+   "nome": "Intervenção",
+   "pergunta": "Indiquei agente, ação, meio e finalidade viáveis?"
+  },
+  {
+   "id": "coesao",
+   "nome": "Coesão",
+   "pergunta": "Conectivos mostram relações entre ideias?"
+  },
+  {
+   "id": "vocabulario",
+   "nome": "Precisão vocabular",
+   "pergunta": "Empreguei termos pedagógicos corretamente?"
+  },
+  {
+   "id": "norma",
+   "nome": "Norma padrão",
+   "pergunta": "Revisei concordância, pontuação e ortografia?"
+  },
+  {
+   "id": "extensao",
+   "nome": "Extensão e legibilidade",
+   "pergunta": "Mantive 15 a 30 linhas e letra legível?"
+  }
+ ]
+}

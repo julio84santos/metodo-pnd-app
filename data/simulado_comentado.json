@@ -1,0 +1,542 @@
+[
+ {
+  "id": "comentado-01",
+  "area": "LDB · TRABALHO DOCENTE",
+  "num": "01",
+  "title": "LDB · TRABALHO DOCENTE",
+  "stem": "Uma professora do 5º ano identifica que sete estudantes não consolidaram a leitura de textos informativos. Ela comunica a situação à coordenação e solicita que os estudantes sejam encaminhados a um projeto de reforço no contraturno, conduzido por outro profissional, entendendo que o atendimento a esse grupo extrapola sua atribuição.",
+  "options": {
+   "A": "A conduta é inadequada, porque a recuperação só pode ocorrer ao final do ano letivo, em caráter final.",
+   "B": "A conduta é adequada, pois a recuperação de aprendizagem é atribuição exclusiva da equipe de coordenação pedagógica.",
+   "C": "A conduta é parcialmente adequada, mas incompleta: a Lei de Diretrizes e Bases atribui ao docente estabelecer estratégias de recuperação para estudantes de menor rendimento.",
+   "D": "A conduta é inadequada, pois a legislação veda o encaminhamento de estudantes a atividades no contraturno.",
+   "E": "A conduta é adequada, uma vez que a jornada docente se limita às aulas ministradas em sala."
+  },
+  "correct": null,
+  "explanations": {
+   "geral": "O art. 13, IV, da LDB inclui entre as incumbências do docente “estabelecer estratégias de recuperação para os alunos de menor rendimento”. Comunicar a coordenação é correto e desejável, mas não transfere a atribuição: o planejamento da recuperação começa no trabalho de quem ensina. Por que as outras caem:B e E deslocam para outros a responsabilidade que a lei atribui ao docente; E ainda contraria o art. 13, V, que inclui na jornada o planejamento e a avaliação. D inventa vedação inexistente. A contraria o art. 24, V, “e”, que prevê recuperação preferencialmente paralela ao período letivo."
+  }
+ },
+ {
+  "id": "comentado-02",
+  "area": "LDB · GESTÃO DEMOCRÁTICA",
+  "num": "02",
+  "title": "LDB · GESTÃO DEMOCRÁTICA",
+  "stem": "Uma escola pública precisa revisar seu projeto pedagógico. A direção elabora o documento com a coordenação, apresenta-o em reunião e solicita que os professores assinem a lista de presença como registro de aprovação. As famílias recebem um resumo por aplicativo de mensagens.",
+  "options": {
+   "A": "O procedimento é insuficiente, porque a LDB assegura a participação dos profissionais da educação na elaboração do projeto pedagógico, e não apenas na sua validação.",
+   "B": "O procedimento é insuficiente apenas quanto às famílias, já que a participação docente foi garantida pela reunião.",
+   "C": "O procedimento é adequado, pois a gestão democrática se aplica somente às escolas que possuem conselho escolar constituído.",
+   "D": "O procedimento atende à legislação, pois houve apresentação do documento à comunidade escolar.",
+   "E": "O procedimento atende à legislação, uma vez que a elaboração do projeto pedagógico é competência privativa da direção."
+  },
+  "correct": null,
+  "explanations": {
+   "geral": "O art. 14, I, da LDB determina a participação dos profissionais da educação na elaboração do projeto pedagógico. Apresentar documento pronto para assinatura converte participação em homologação — o oposto do princípio da gestão democrática (art. 3º, VIII). Por que as outras caem:D confunde informação com participação. E contraria expressamente o art. 14. B identifica só metade do problema: a participação docente também foi descumprida. C inverte a lógica: o conselho é consequência da gestão democrática, não condição dela."
+  }
+ },
+ {
+  "id": "comentado-03",
+  "area": "LDB · ORGANIZAÇÃO DO ANO LETIVO",
+  "num": "03",
+  "title": "LDB · ORGANIZAÇÃO DO ANO LETIVO",
+  "stem": "Ao final do ano, a secretaria de uma escola de ensino fundamental constata que um estudante cumpriu 540 das 800 horas letivas previstas, com aproveitamento satisfatório nas avaliações. A coordenação questiona se é possível aprová-lo.",
+  "options": {
+   "A": "Sim, pois o desempenho nas avaliações prevalece sobre o controle de frequência em qualquer etapa.",
+   "B": "Não, pois a LDB exige frequência integral, admitindo apenas faltas justificadas por atestado.",
+   "C": "Sim, desde que o estudante compense as horas por meio de atividades domiciliares registradas.",
+   "D": "Sim, pois a frequência mínima exigida na educação básica é de 60% do total de horas letivas.",
+   "E": "Não, pois a LDB exige frequência mínima de 75% do total de horas letivas para aprovação."
+  },
+  "correct": null,
+  "explanations": {
+   "geral": "O art. 24, VI, da LDB exige frequência mínima de 75% do total de horas letivas para aprovação. Quinhentas e quarenta de 800 horas correspondem a 67,5% — abaixo do mínimo legal. O bom desempenho nas avaliações não substitui o requisito de frequência. Por que as outras caem:D aplica o percentual da educação infantil (60%, art. 31, IV), etapa em que a avaliação não tem objetivo de promoção. A desconsidera o critério legal de frequência. B exagera a exigência. C cria mecanismo sem previsão geral na lei."
+  }
+ },
+ {
+  "id": "comentado-04",
+  "area": "LDB · EDUCAÇÃO INFANTIL",
+  "num": "04",
+  "title": "LDB · EDUCAÇÃO INFANTIL",
+  "stem": "Uma creche organiza, no fim do semestre, provas escritas para crianças de 4 anos, com a finalidade de decidir quais delas estão aptas a avançar para o próximo grupo etário.",
+  "options": {
+   "A": "A prática é adequada, desde que os resultados sejam comunicados às famílias por escrito.",
+   "B": "A prática é inadequada, porque na educação infantil a avaliação se faz mediante acompanhamento e registro do desenvolvimento, sem objetivo de promoção.",
+   "C": "A prática é inadequada apenas pelo formato escrito; o objetivo de promoção é legítimo nessa etapa.",
+   "D": "A prática é adequada, uma vez que a BNCC estabelece habilidades a serem certificadas na pré-escola.",
+   "E": "A prática é adequada, pois a avaliação diagnóstica é obrigatória em todas as etapas da educação básica."
+  },
+  "correct": null,
+  "explanations": {
+   "geral": "O art. 31, I, da LDB estabelece que na educação infantil a avaliação se dá “mediante acompanhamento e registro do desenvolvimento das crianças, sem o objetivo de promoção, mesmo para o acesso ao ensino fundamental”. Por que as outras caem:E e A ignoram a vedação legal. C acerta a crítica ao instrumento, mas mantém o objetivo proibido. D é falsa: a BNCC organiza a etapa em campos de experiências e objetivos de aprendizagem, sem certificação."
+  }
+ },
+ {
+  "id": "comentado-05",
+  "area": "LDB · FORMAÇÃO DOCENTE",
+  "num": "05",
+  "title": "LDB · FORMAÇÃO DOCENTE",
+  "stem": "Uma rede municipal abre processo seletivo para professores de educação infantil e anos iniciais. Uma candidata possui curso Normal em nível médio concluído; outra possui licenciatura em Pedagogia. A comissão discute a validade da primeira formação.",
+  "options": {
+   "A": "A Comissão de Financiamento do Fundeb, no âmbito do Ministério da Educação.",
+   "B": "A Conferência Nacional de Educação, com periodicidade anual obrigatória.",
+   "C": "O Conselho Nacional de Educação, que passou a acumular essa função.",
+   "D": "A Comissão Intergestores Tripartite da Educação, de âmbito nacional, acompanhada das comissões bipartites estaduais.",
+   "E": "O Fórum Nacional de Educação, extinto pela mesma lei complementar."
+  },
+  "correct": null,
+  "explanations": {
+   "geral": "O art. 62 da LDB estabelece a licenciatura plena como regra e admite, como formação mínima, a de nível médio na modalidade Normal para a educação infantil e os cinco primeiros anos do ensino fundamental. Por que as outras caem:C afirma revogação que não ocorreu. E estende indevidamente a etapas que exigem licenciatura. A cria requisito inexistente. B inventa condição procedimental."
+  }
+ },
+ {
+  "id": "comentado-06",
+  "area": "PNE · LEI 15.388/2026",
+  "num": "06",
+  "title": "PNE · LEI 15.388/2026",
+  "stem": "Em 2026, a equipe gestora de uma escola municipal decide alinhar seu plano de ação às metas do plano nacional vigente. A coordenadora afirma que devem utilizar as vinte metas do plano decenal aprovado em 2014.",
+  "options": {
+   "A": "A afirmação está incorreta: o plano vigente é o aprovado pela Lei nº 15.388/2026, que estabelece 19 objetivos, 73 metas e 372 estratégias para o decênio 2026–2036.",
+   "B": "A afirmação está correta, uma vez que o novo plano nacional só produz efeitos após a aprovação dos planos municipais.",
+   "C": "A afirmação está incorreta, porque o plano nacional foi substituído por lei complementar que instituiu o Sistema Nacional de Educação.",
+   "D": "A afirmação está correta, pois planos decenais só vinculam a União.",
+   "E": "A afirmação está correta, pois o plano de 2014 permanece vigente até 2034."
+  },
+  "correct": "A",
+  "explanations": {
+   "geral": "A Lei nº 15.388, de 14 de abril de 2026, aprovou o novo Plano Nacional de Educação para o decênio 2026–2036, com 19 objetivos, 73 metas e 372 estratégias, sucedendo o plano da Lei 13.005/2014. Por que as outras caem: E e D desconhecem a nova lei e o alcance do plano, que vincula os três níveis federativos. B inverte a ordem: os planos locais se alinham ao nacional. C confunde o PNE com o SNE (LC 220/2025): são normas distintas e complementares."
+  }
+ },
+ {
+  "id": "comentado-07",
+  "area": "SNE · LC 220/2025",
+  "num": "07",
+  "title": "SNE · LC 220/2025",
+  "stem": "Uma secretaria municipal de educação questiona qual é a instância nacional de pactuação criada para operacionalizar o regime de colaboração entre União, estados e municípios no Sistema Nacional de Educação.",
+  "options": {
+   "A": "A Comissão de Financiamento do Fundeb, no âmbito do Ministério da Educação.",
+   "B": "A Conferência Nacional de Educação, com periodicidade anual obrigatória.",
+   "C": "O Conselho Nacional de Educação, que passou a acumular essa função.",
+   "D": "A Comissão Intergestores Tripartite da Educação, de âmbito nacional, acompanhada das comissões bipartites estaduais.",
+   "E": "O Fórum Nacional de Educação, extinto pela mesma lei complementar."
+  },
+  "correct": "D",
+  "explanations": {
+   "geral": "A Lei Complementar nº 220, de 31 de outubro de 2025, instituiu o Sistema Nacional de Educação e criou a Comissão Intergestores Tripartite da Educação (CITE), de âmbito nacional, além das comissões intergestores bipartites estaduais (CIBEs), como instâncias permanentes de pactuação. Por que as outras caem: C confunde a função normativa do CNE com a de pactuação federativa. E, A e B descrevem órgãos ou instâncias com outras finalidades — nenhuma delas é a instância tripartite criada pela lei."
+  }
+ },
+ {
+  "id": "comentado-08",
+  "area": "FINANCIAMENTO",
+  "num": "08",
+  "title": "FINANCIAMENTO",
+  "stem": "Durante a discussão do orçamento, um vereador afirma que o município pode reduzir o percentual mínimo aplicado em manutenção e desenvolvimento do ensino porque o Fundeb, sendo fundo temporário, deixará de existir.",
+  "options": {
+   "A": "A afirmação é correta, pois o Fundeb foi substituído pelo salário-educação.",
+   "B": "A afirmação é correta em ambos os pontos.",
+   "C": "A afirmação é incorreta: a Constituição fixa em 25% o mínimo para municípios e o Fundeb tornou-se permanente pela Emenda Constitucional nº 108/2020.",
+   "D": "A afirmação é correta quanto ao percentual, que é de 18% para municípios.",
+   "E": "A afirmação é incorreta apenas quanto ao Fundeb; o percentual municipal é fixado por lei local."
+  },
+  "correct": null,
+  "explanations": {
+   "geral": "O art. 212 da Constituição fixa em 25% da receita resultante de impostos o mínimo para estados, DF e municípios (18% para a União), e a EC 108/2020 tornou o Fundeb permanente, inscrevendo-o no texto constitucional. Por que as outras caem:D troca os percentuais da União e dos municípios. E afirma competência local para um mínimo que é constitucional. B e A partem de premissa falsa sobre a extinção do fundo."
+  }
+ },
+ {
+  "id": "comentado-09",
+  "area": "PPP",
+  "num": "09",
+  "title": "PPP",
+  "stem": "Ao assumir a direção de uma escola, um gestor encontra o projeto político-pedagógico arquivado, sem revisão há seis anos, e propõe atualizá-lo contratando uma consultoria externa para redigir o documento em trinta dias, com base nos indicadores da rede.",
+  "options": {
+   "A": "A proposta é adequada, desde que o documento final seja submetido à Secretaria de Educação.",
+   "B": "A proposta é inadequada apenas no prazo; a autoria externa é admitida pela legislação.",
+   "C": "A proposta é adequada, uma vez que o projeto político-pedagógico tem natureza exclusivamente administrativa.",
+   "D": "A proposta é adequada, pois assegura qualidade técnica e agilidade ao documento.",
+   "E": "A proposta é inadequada, porque o projeto político-pedagógico se constitui como construção coletiva da comunidade escolar, e não como produto técnico externo."
+  },
+  "correct": null,
+  "explanations": {
+   "geral": "O PPP é simultaneamente político — expressa intencionalidade e projeto de sociedade — e pedagógico. Sua legitimidade decorre do processo coletivo de construção, previsto no art. 14, I, da LDB, e não da qualidade técnica da redação. Por que as outras caem:D, A e B tratam o PPP como produto e não como processo. C reduz o documento à dimensão administrativa, apagando justamente o que o qualifica como político-pedagógico."
+  }
+ },
+ {
+  "id": "comentado-10",
+  "area": "COLEGIADOS",
+  "num": "10",
+  "title": "COLEGIADOS",
+  "stem": "Em um conselho de classe do 8º ano, a discussão se concentra em listar os estudantes com notas baixas e definir quais serão reprovados. Não há registro de estratégias pedagógicas nem análise das condições de ensino oferecidas.",
+  "options": {
+   "A": "A conduta é adequada, pois o conselho de classe é instância de deliberação sobre aprovação e reprovação.",
+   "B": "A conduta é limitada: o conselho de classe é espaço coletivo de análise do processo de ensino e de aprendizagem, do qual devem resultar decisões de intervenção pedagógica.",
+   "C": "A conduta é inadequada, porque o conselho de classe não pode tratar de desempenho individual.",
+   "D": "A conduta é adequada, desde que os pais sejam informados por escrito das reprovações.",
+   "E": "A conduta é inadequada, pois a decisão sobre reprovação cabe exclusivamente ao professor regente."
+  },
+  "correct": null,
+  "explanations": {
+   "geral": "O conselho de classe cumpre função diagnóstica e propositiva: analisa a turma, as condições de ensino e o trabalho pedagógico, produzindo estratégias de intervenção. Reduzi-lo a triagem de reprovações esvazia sua finalidade formativa. Por que as outras caem:A e D confundem a função do colegiado com ato administrativo de registro. C exclui indevidamente a análise de casos individuais, que é parte do trabalho. E individualiza uma decisão que é coletiva."
+  }
+ },
+ {
+  "id": "comentado-11",
+  "area": "BNCC · NATUREZA",
+  "num": "11",
+  "title": "BNCC · NATUREZA",
+  "stem": "Em uma formação continuada, um professor afirma que, com a homologação da BNCC, as escolas não precisam mais construir currículo próprio, bastando seguir o documento nacional.",
+  "options": {
+   "A": "A afirmação é incorreta, porque a BNCC tem caráter meramente sugestivo.",
+   "B": "A afirmação é correta, desde que a escola adote material didático alinhado ao documento.",
+   "C": "A afirmação é correta: a BNCC substituiu os currículos das redes.",
+   "D": "A afirmação é incorreta: a BNCC define aprendizagens essenciais e é referência obrigatória para a elaboração dos currículos, que se completam com a parte diversificada e o projeto pedagógico.",
+   "E": "A afirmação é correta apenas para a rede pública."
+  },
+  "correct": null,
+  "explanations": {
+   "geral": "A BNCC é normativa e obrigatória, mas não é currículo: define o conjunto de aprendizagens essenciais que devem orientar a construção dos currículos das redes e das escolas, articulados à parte diversificada (art. 26 da LDB). Por que as outras caem:C, E e B confundem base com currículo. A erra no sentido oposto, negando o caráter normativo do documento."
+  }
+ },
+ {
+  "id": "comentado-12",
+  "area": "BNCC · EDUCAÇÃO INFANTIL",
+  "num": "12",
+  "title": "BNCC · EDUCAÇÃO INFANTIL",
+  "stem": "Uma equipe de educação infantil precisa organizar o planejamento anual e discute qual estrutura adotar, de acordo com a BNCC.",
+  "options": {
+   "A": "Componentes curriculares por disciplina, com carga horária semanal definida para cada um.",
+   "B": "Cinco campos de experiências, articulados aos direitos de aprendizagem e desenvolvimento e aos objetivos por grupos etários.",
+   "C": "Áreas do conhecimento, como no ensino fundamental, com unidades temáticas e habilidades codificadas.",
+   "D": "Eixos de letramento e numeramento, com metas de alfabetização ao final da pré-escola.",
+   "E": "Itinerários formativos escolhidos pelas famílias no início do ano."
+  },
+  "correct": null,
+  "explanations": {
+   "geral": "Na educação infantil, a BNCC organiza-se em cinco campos de experiências, ancorados em seis direitos de aprendizagem e desenvolvimento (conviver, brincar, participar, explorar, expressar e conhecer-se) e em objetivos definidos para três grupos etários. Por que as outras caem:A e C transpõem indevidamente a estrutura de etapas posteriores. D antecipa metas de alfabetização à etapa. E descreve organização própria do ensino médio. GABARITO COMENTADO"
+  }
+ },
+ {
+  "id": "comentado-13",
+  "area": "BNCC · ENSINO MÉDIO",
+  "num": "13",
+  "title": "BNCC · ENSINO MÉDIO",
+  "stem": "Uma escola de ensino médio revisa sua matriz curricular para adequá-la à legislação vigente após a Lei nº 14.945/2024 e precisa distribuir a carga horária total de 3.000 horas.",
+  "options": {
+   "A": "2.400 horas de formação geral básica e 600 horas de itinerários formativos, com exceções para a formação técnica e profissional.",
+   "B": "3.000 horas exclusivamente de formação geral básica, extintos os itinerários.",
+   "C": "1.000 horas de formação geral básica e 2.000 horas de itinerários formativos.",
+   "D": "2.000 horas de formação geral básica e 1.000 horas de projeto de vida.",
+   "E": "1.800 horas de formação geral básica e 1.200 horas de itinerários formativos."
+  },
+  "correct": null,
+  "explanations": {
+   "geral": "A Lei nº 14.945/2024 fixou a formação geral básica em 2.400 horas e os itinerários formativos em 600 horas, totalizando 3.000 horas nos três anos, com regras próprias para a educação profissional e técnica. Por que as outras caem:E reproduz a distribuição anterior, da Lei 13.415/2017. B afirma extinção que não ocorreu. C e D apresentam divisões sem previsão legal."
+  }
+ },
+ {
+  "id": "comentado-14",
+  "area": "TEMAS TRANSVERSAIS",
+  "num": "14",
+  "title": "TEMAS TRANSVERSAIS",
+  "stem": "A coordenação de uma escola pretende inserir educação financeira, educação em direitos humanos e educação ambiental na organização curricular e avalia como fazê-lo.",
+  "options": {
+   "A": "Concentrar cada tema em uma semana temática ao longo do ano, com culminância em feira.",
+   "B": "Delegar os três temas ao componente de Ensino Religioso, por afinidade formativa.",
+   "C": "Incluir os temas apenas no projeto político-pedagógico, sem desdobramento em planos de aula.",
+   "D": "Criar três disciplinas específicas no contraturno, com professores especialistas.",
+   "E": "Tratar os temas de forma transversal e integrada aos componentes curriculares, conforme previsto na BNCC e na legislação específica de cada temática."
+  },
+  "correct": null,
+  "explanations": {
+   "geral": "A BNCC prevê os temas contemporâneos transversais como abordagem integrada aos componentes. No caso da educação ambiental, a Lei 9.795/1999 é expressa: prática educativa integrada, contínua e permanente, não devendo ser implantada como disciplina específica. Por que as outras caem:D contraria a vedação legal quanto à educação ambiental. A reduz obrigatoriedade permanente a evento pontual. B desloca os temas para um único componente. C deixa a previsão sem materialização no planejamento."
+  }
+ },
+ {
+  "id": "comentado-15",
+  "area": "AVALIAÇÃO · FUNÇÕES",
+  "num": "15",
+  "title": "AVALIAÇÃO · FUNÇÕES",
+  "stem": "No início do ano, uma professora aplica um instrumento para identificar quais habilidades a turma já domina, a fim de reorganizar seu planejamento antes de iniciar o primeiro conteúdo previsto.",
+  "options": {
+   "A": "Trata-se de autoavaliação, dado que ocorre antes do ensino formal do conteúdo.",
+   "B": "Trata-se de avaliação somativa, pois sintetiza aprendizagens anteriores.",
+   "C": "Trata-se de avaliação diagnóstica, cuja função é subsidiar decisões de planejamento a partir do ponto de partida da turma.",
+   "D": "Trata-se de avaliação classificatória, pois hierarquiza os estudantes por desempenho.",
+   "E": "Trata-se de avaliação externa, por utilizar habilidades de referência nacional."
+  },
+  "correct": null,
+  "explanations": {
+   "geral": "A função diagnóstica caracteriza-se pelo uso da informação para decidir o que e como ensinar. Como afirma a crítica de Luckesi à “pedagogia do exame”, a avaliação só se justifica quando produz decisão pedagógica. Por que as outras caem:B descreve função de síntese final. D nomeia o uso que a avaliação diagnóstica justamente recusa. E confunde origem do referencial com natureza do instrumento. A troca o sujeito da avaliação."
+  }
+ },
+ {
+  "id": "comentado-16",
+  "area": "AVALIAÇÃO · RECUPERAÇÃO",
+  "num": "16",
+  "title": "AVALIAÇÃO · RECUPERAÇÃO",
+  "stem": "Uma escola concentra toda a recuperação de estudos na última semana do ano letivo, por meio de uma prova única por componente, aplicada após o encerramento das aulas.",
+  "options": {
+   "A": "O modelo é adequado, desde que a prova contemple todos os conteúdos do ano.",
+   "B": "O modelo é inadequado porque a LDB proíbe qualquer forma de recuperação por prova.",
+   "C": "O modelo é adequado apenas no ensino médio.",
+   "D": "O modelo atende à LDB, que determina recuperação ao final do período letivo.",
+   "E": "O modelo é frágil: a LDB prevê estudos de recuperação, de preferência paralelos ao período letivo, e atribui ao docente estabelecer estratégias para estudantes de menor rendimento."
+  },
+  "correct": null,
+  "explanations": {
+   "geral": "O art. 24, V, “e”, da LDB determina “obrigatoriedade de estudos de recuperação, de preferência paralelos ao período letivo”, e o art. 13, IV, atribui ao docente estabelecer estratégias de recuperação. Prova final única não constitui estudos de recuperação. Por que as outras caem:D e A confundem prova final com estudos de recuperação. B cria proibição inexistente — o problema é o desenho, não o instrumento. C restringe indevidamente a etapa."
+  }
+ },
+ {
+  "id": "comentado-17",
+  "area": "AVALIAÇÃO · PROGRESSÃO",
+  "num": "17",
+  "title": "AVALIAÇÃO · PROGRESSÃO",
+  "stem": "Em reunião pedagógica, dois professores discutem: um afirma que a progressão continuada equivale à aprovação automática; outro sustenta que são conceitos distintos.",
+  "options": {
+   "A": "O segundo está correto, mas apenas na educação de jovens e adultos.",
+   "B": "O primeiro está correto: ambos os termos designam a mesma prática.",
+   "C": "O segundo está correto: a progressão continuada pressupõe acompanhamento, intervenção pedagógica e registro, enquanto a aprovação automática dispensa essas condições.",
+   "D": "Ambos estão incorretos, pois nenhum dos dois regimes é admitido pela legislação brasileira.",
+   "E": "O primeiro está correto, desde que a rede adote ciclos de aprendizagem."
+  },
+  "correct": null,
+  "explanations": {
+   "geral": "A progressão continuada organiza o percurso em ciclos e exige avaliação processual, recuperação e registro das intervenções. A aprovação automática não prevê essas condições. A distinção é frequentemente cobrada porque separa política pedagógica de omissão. Por que as outras caem:B e E igualam os conceitos. D nega a possibilidade legal da organização em ciclos, prevista no art. 23 da LDB. A restringe sem fundamento a etapa de aplicação."
+  }
+ },
+ {
+  "id": "comentado-18",
+  "area": "AVALIAÇÃO EM LARGA ESCALA",
+  "num": "18",
+  "title": "AVALIAÇÃO EM LARGA ESCALA",
+  "stem": "Uma escola melhorou o desempenho médio no Saeb, mas aumentou significativamente a taxa de reprovação no mesmo período. A gestão estranha o fato de o Ideb não ter subido.",
+  "options": {
+   "A": "O Ideb combina desempenho no Saeb e indicador de fluxo obtido no Censo Escolar; o aumento da reprovação reduz o componente de fluxo e neutraliza o ganho de proficiência.",
+   "B": "O Ideb considera apenas o fluxo escolar, o que explica integralmente o resultado.",
+   "C": "O Ideb é calculado exclusivamente a partir das notas do Enem por escola.",
+   "D": "O Ideb desconsidera reprovações ocorridas em anos não avaliados pelo Saeb.",
+   "E": "O Ideb considera apenas o desempenho no Saeb, de modo que o resultado é inexplicável."
+  },
+  "correct": null,
+  "explanations": {
+   "geral": "O Ideb, em escala de 0 a 10, resulta da combinação entre proficiência no Saeb e fluxo escolar (aprovação), este obtido no Censo Escolar. Elevar a reprovação derruba o segundo componente, ainda que a nota melhore. Por que as outras caem:E e B consideram apenas uma das metades do indicador. C troca a base de cálculo. D cria regra de exclusão inexistente. GABARITO COMENTADO"
+  }
+ },
+ {
+  "id": "comentado-19",
+  "area": "INCLUSÃO · AEE",
+  "num": "19",
+  "title": "INCLUSÃO · AEE",
+  "stem": "Uma escola propõe transferir um estudante com deficiência intelectual para uma sala especial em período integral, alegando que assim ele receberá atendimento mais adequado do que na classe comum.",
+  "options": {
+   "A": "A proposta é adequada, pois a legislação admite a classe especial como alternativa preferencial.",
+   "B": "A proposta é inadequada: o atendimento educacional especializado é complementar ou suplementar à escolarização na classe comum, nunca substitutivo.",
+   "C": "A proposta é adequada, desde que autorizada pela família por escrito.",
+   "D": "A proposta é inadequada apenas se a escola não dispuser de sala de recursos multifuncionais.",
+   "E": "A proposta é adequada, uma vez que a Constituição prevê atendimento exclusivamente especializado."
+  },
+  "correct": null,
+  "explanations": {
+   "geral": "A Constituição (art. 208, III) assegura o AEE preferencialmente na rede regular, e a Política Nacional de Educação Especial na Perspectiva da Educação Inclusiva, reforçada pela LBI, define o AEE como complementar ou suplementar — nunca substitutivo da classe comum. Por que as outras caem:A e E invertem o sentido da norma constitucional. C trata direito indisponível como objeto de anuência. D condiciona a ilegalidade à infraestrutura."
+  }
+ },
+ {
+  "id": "comentado-20",
+  "area": "INCLUSÃO · LBI",
+  "num": "20",
+  "title": "INCLUSÃO · LBI",
+  "stem": "A secretaria de uma escola privada informa à família de uma criança com deficiência que a matrícula será efetivada mediante apresentação de laudo médico e pagamento de acréscimo mensal destinado a custear o profissional de apoio.",
+  "options": {
+   "A": "Apenas a exigência de laudo é ilegal; a cobrança é admitida em instituições privadas.",
+   "B": "As exigências são legítimas se previstas no contrato de prestação de serviços educacionais.",
+   "C": "As duas exigências são legítimas, pois decorrem do custo adicional do atendimento.",
+   "D": "As duas exigências são ilegais: a Lei Brasileira de Inclusão veda a cobrança de valores adicionais e o direito ao atendimento não pode ser condicionado à apresentação de laudo.",
+   "E": "Apenas a cobrança é ilegal; a exigência de laudo é requisito para a matrícula."
+  },
+  "correct": null,
+  "explanations": {
+   "geral": "O art. 28, §1º, da Lei 13.146/2015 estende às instituições privadas as obrigações do sistema educacional inclusivo e veda a cobrança de valores adicionais de qualquer natureza. O acesso ao atendimento também não depende de laudo: a barreira identificada na escola é suficiente para acionar o apoio. Por que as outras caem:C, A e B admitem cobrança expressamente vedada. E mantém como requisito uma exigência que a legislação e as orientações do próprio sistema afastam."
+  }
+ },
+ {
+  "id": "comentado-21",
+  "area": "INCLUSÃO · DUA",
+  "num": "21",
+  "title": "INCLUSÃO · DUA",
+  "stem": "Uma professora percebe que, a cada aula, precisa produzir uma versão diferente da atividade para três estudantes com necessidades distintas, o que se tornou insustentável. Ela busca uma abordagem que reduza a necessidade de adaptações individuais posteriores.",
+  "options": {
+   "A": "Adotar avaliação diferenciada apenas para esses três estudantes, mantendo o planejamento único.",
+   "B": "Planejar desde o início com múltiplos meios de representação, de ação e expressão e de engajamento, conforme o Desenho Universal para a Aprendizagem.",
+   "C": "Encaminhar os três estudantes ao contraturno, concentrando as adaptações no atendimento especializado.",
+   "D": "Solicitar redução do conteúdo previsto para a turma como um todo.",
+   "E": "Aguardar a chegada de profissional de apoio antes de alterar o planejamento."
+  },
+  "correct": null,
+  "explanations": {
+   "geral": "O Desenho Universal para a Aprendizagem propõe antecipar a diversidade no próprio desenho da aula, oferecendo múltiplos meios de representação, de ação e expressão e de engajamento. A adaptação deixa de ser remendo posterior e passa a ser característica do planejamento. Por que as outras caem:A mantém o problema. C transfere ao AEE função que é do professor regente e o descaracteriza como complementar. D confunde acessibilidade com redução de expectativas. E condiciona o direito à disponibilidade de pessoal."
+  }
+ },
+ {
+  "id": "comentado-22",
+  "area": "LIBRAS E IDENTIDADE SURDA",
+  "num": "22",
+  "title": "LIBRAS E IDENTIDADE SURDA",
+  "stem": "Uma rede estadual precisa organizar a oferta educacional para estudantes surdos e discute o marco legal aplicável.",
+  "options": {
+   "A": "A afirmação é incorreta, pois ambas as temáticas passaram a ser facultativas.",
+   "B": "A afirmação é correta, uma vez que a BNCC unificou as duas temáticas em um único tema transversal.",
+   "C": "A afirmação é correta: houve revogação tácita da obrigatoriedade anterior.",
+   "D": "A afirmação é incorreta: a Lei 11.645/2008 alterou o art. 26-A da LDB para incluir a temática indígena, mantendo a obrigatoriedade relativa à história e cultura afro-brasileira e africana.",
+   "E": "A afirmação é correta apenas para o ensino fundamental."
+  },
+  "correct": null,
+  "explanations": {
+   "geral": "A Lei 10.436/2002 reconheceu a Libras, o Decreto 5.626/2005 a regulamentou e a Lei 14.191/2021 alterou a LDB para prever a educação bilíngue de surdos como modalidade, tendo a Libras como primeira língua e o português escrito como segunda. Por que as outras caem:D e B desconhecem o desenho bilíngue: a Libras é língua de instrução e o português escrito é ensinado como segunda língua. A nega a previsão de escolas e classes bilíngues. C erra a norma de origem do reconhecimento."
+  }
+ },
+ {
+  "id": "comentado-23",
+  "area": "RELAÇÕES ÉTNICO-RACIAIS",
+  "num": "23",
+  "title": "RELAÇÕES ÉTNICO-RACIAIS",
+  "stem": "Um professor de História sustenta que, após a Lei 11.645/2008, a obrigatoriedade do ensino de história e cultura afrobrasileira foi substituída pela temática indígena.",
+  "options": {
+   "A": "A afirmação é incorreta, pois ambas as temáticas passaram a ser facultativas.",
+   "B": "A afirmação é correta, uma vez que a BNCC unificou as duas temáticas em um único tema transversal.",
+   "C": "A afirmação é correta: houve revogação tácita da obrigatoriedade anterior.",
+   "D": "A afirmação é incorreta: a Lei 11.645/2008 alterou o art. 26-A da LDB para incluir a temática indígena, mantendo a obrigatoriedade relativa à história e cultura afro-brasileira e africana.",
+   "E": "A afirmação é correta apenas para o ensino fundamental."
+  },
+  "correct": "D",
+  "explanations": {
+   "geral": "A Lei 10.639/2003 inseriu o art. 26-A na LDB e a Lei 11.645/2008 ampliou sua redação para abranger a história e a cultura indígena. As duas obrigatoriedades coexistem, com ênfase nas áreas de Arte, Literatura e História. Por que as outras caem: C e E afirmam revogação inexistente. A nega o caráter obrigatório. B confunde a abordagem transversal da BNCC com a norma legal específica."
+  }
+ },
+ {
+  "id": "comentado-24",
+  "area": "ECA · EVASÃO",
+  "num": "24",
+  "title": "ECA · EVASÃO",
+  "stem": "Um estudante do 7º ano acumula vinte faltas consecutivas sem justificativa. A secretaria da escola registra o caso e, no mesmo dia, encaminha ofício ao Conselho Tutelar, sem nenhum contato prévio com a família e sem registro de tentativas de reaproximação.",
+  "options": {
+   "A": "O procedimento é precipitado: o ECA determina a comunicação ao Conselho Tutelar quanto à reiteração de faltas injustificadas e evasão, esgotados os recursos escolares.",
+   "B": "O procedimento é inadequado, porque a escola não tem competência para comunicar casos ao Conselho Tutelar.",
+   "C": "O procedimento é adequado, desde que a família seja informada após o envio do ofício.",
+   "D": "O procedimento é inadequado, pois a comunicação deve ser feita apenas ao Ministério Público.",
+   "E": "O procedimento é adequado, pois o encaminhamento imediato é obrigação legal a partir da décima falta."
+  },
+  "correct": null,
+  "explanations": {
+   "geral": "O art. 56, II, do ECA obriga os dirigentes de estabelecimentos de ensino a comunicar ao Conselho Tutelar a reiteração de faltas injustificadas e a evasão escolar, esgotados os recursos escolares. A busca ativa antecede o encaminhamento. Por que as outras caem:E e C eliminam a condição legal de esgotamento dos recursos escolares. B nega dever expresso da escola. D troca indevidamente o órgão de destino previsto no artigo. GABARITO COMENTADO"
+  }
+ },
+ {
+  "id": "comentado-25",
+  "area": "ECA · DIREITO À EDUCAÇÃO",
+  "num": "25",
+  "title": "ECA · DIREITO À EDUCAÇÃO",
+  "stem": "Uma estudante do 9º ano solicita revisão dos critérios utilizados em uma avaliação, alegando que não foram informados previamente. A coordenação responde que a decisão do professor é soberana e não cabe questionamento.",
+  "options": {
+   "A": "A resposta é correta, uma vez que o direito de contestação exige representação por responsável legal.",
+   "B": "A resposta é correta, pois a autonomia docente na avaliação é absoluta.",
+   "C": "A resposta é incorreta: o ECA assegura ao estudante o direito de contestar critérios avaliativos, podendo recorrer às instâncias escolares superiores.",
+   "D": "A resposta é correta, desde que registrada em ata do conselho de classe.",
+   "E": "A resposta é incorreta apenas no ensino médio, etapa em que o direito é previsto."
+  },
+  "correct": null,
+  "explanations": {
+   "geral": "O art. 53, III, do ECA garante à criança e ao adolescente o direito de contestar critérios avaliativos, podendo recorrer às instâncias escolares superiores. Trata-se de direito do estudante, não de concessão da escola. Por que as outras caem:B e D tratam a autonomia docente como ilimitada. E restringe o direito a uma etapa. A cria requisito de representação não previsto no dispositivo."
+  }
+ },
+ {
+  "id": "comentado-26",
+  "area": "CONVIVÊNCIA E BULLYING",
+  "num": "26",
+  "title": "CONVIVÊNCIA E BULLYING",
+  "stem": "Após episódios de hostilização sistemática de um estudante em grupos de mensagens, a escola aplica suspensão aos envolvidos, sem escuta das partes, sem registro e sem qualquer ação preventiva subsequente.",
+  "options": {
+   "A": "A conduta é insuficiente: a Lei 13.185/2015 e a Lei 14.811/2024 impõem à escola o dever de prevenção e de política institucional, e não apenas a reação punitiva.",
+   "B": "A conduta é inadequada, porque a escola não pode aplicar medidas disciplinares em casos ocorridos fora do ambiente escolar.",
+   "C": "A conduta é suficiente, desde que comunicada às famílias por escrito.",
+   "D": "A conduta é inadequada, uma vez que casos de cyberbullying são de competência exclusiva da autoridade policial.",
+   "E": "A conduta é suficiente, pois a sanção disciplinar cumpre a finalidade pedagógica."
+  },
+  "correct": null,
+  "explanations": {
+   "geral": "A Lei 13.185/2015 instituiu o Programa de Combate à Intimidação Sistemática, com ênfase na prevenção, e a Lei 14.811/2024 tipificou o bullying e o cyberbullying, reforçando a exigência de políticas institucionais. Punir sem diagnosticar, registrar e prevenir não cumpre a norma. Por que as outras caem:E e C reduzem a política de convivência à sanção. B ignora que o efeito do cyberbullying se produz na relação escolar. D exclui indevidamente a responsabilidade pedagógica da escola."
+  }
+ },
+ {
+  "id": "comentado-27",
+  "area": "EDUCAÇÃO SOCIOAMBIENTAL",
+  "num": "27",
+  "title": "EDUCAÇÃO SOCIOAMBIENTAL",
+  "stem": "Para atender à legislação de educação ambiental, uma escola cria a disciplina “Meio Ambiente”, com duas aulas semanais e professor específico, retirando o tema dos demais componentes.",
+  "options": {
+   "A": "A solução é adequada, desde que a disciplina seja optativa.",
+   "B": "A solução é inadequada apenas por reduzir a carga horária dos demais componentes.",
+   "C": "A solução é adequada no ensino fundamental e vedada no ensino médio.",
+   "D": "A solução é adequada e recomendada pela Política Nacional de Educação Ambiental.",
+   "E": "A solução contraria a Lei 9.795/1999, que define a educação ambiental como prática educativa integrada, contínua e permanente, não devendo ser implantada como disciplina específica."
+  },
+  "correct": null,
+  "explanations": {
+   "geral": "O art. 10 da Lei 9.795/1999 é expresso: a educação ambiental será desenvolvida como prática educativa integrada, contínua e permanente em todos os níveis, não devendo ser implantada como disciplina específica no currículo de ensino. Por que as outras caem:D, A e C contrariam a vedação legal. B identifica um efeito colateral, mas não o vício central: a disciplinarização do tema."
+  }
+ },
+ {
+  "id": "comentado-28",
+  "area": "TEORIAS PEDAGÓGICAS",
+  "num": "28",
+  "title": "TEORIAS PEDAGÓGICAS",
+  "stem": "Ao planejar uma sequência sobre saneamento básico, uma professora parte de um problema real do bairro, sistematiza com a turma os conceitos científicos necessários, promove a apropriação desses conceitos e conclui com a produção de um documento entregue à associação de moradores.",
+  "options": {
+   "A": "O percurso corresponde à pedagogia tecnicista, por partir de objetivos operacionais.",
+   "B": "O percurso corresponde aos momentos da pedagogia histórico-crítica: prática social inicial, problematização, instrumentalização, catarse e prática social final.",
+   "C": "O percurso corresponde à pedagogia renovada não-diretiva, centrada na autorrealização do estudante.",
+   "D": "O percurso corresponde à pedagogia tradicional, por sistematizar conceitos científicos.",
+   "E": "O percurso corresponde à pedagogia libertária, por dispensar a mediação docente."
+  },
+  "correct": null,
+  "explanations": {
+   "geral": "A sequência reproduz os cinco momentos propostos por Saviani: parte da prática social inicial, passa pela problematização e pela instrumentalização, promove a catarse (incorporação do novo saber) e retorna transformada à prática social final. Por que as outras caem:A e D descrevem tendências que não partem da prática social nem a ela retornam. C e E desconsideram a centralidade da mediação docente e do conhecimento sistematizado no percurso descrito."
+  }
+ },
+ {
+  "id": "comentado-29",
+  "area": "PSICOLOGIA DA EDUCAÇÃO",
+  "num": "29",
+  "title": "PSICOLOGIA DA EDUCAÇÃO",
+  "stem": "Uma professora observa que um estudante não resolve sozinho um problema de divisão, mas o resolve corretamente quando ela formula perguntas orientadoras. Ela decide organizar duplas produtivas para tarefas semelhantes.",
+  "options": {
+   "A": "A decisão contraria a teoria histórico-cultural, que recomenda tarefas individuais até a consolidação autônoma.",
+   "B": "A decisão se apoia no condicionamento operante, por utilizar reforço positivo verbal.",
+   "C": "A decisão se apoia no conceito de zona de desenvolvimento proximal, que designa a distância entre o que o estudante realiza sozinho e o que realiza com mediação.",
+   "D": "A decisão se apoia no conceito de assimilação, que descreve a incorporação de novos dados a esquemas já existentes.",
+   "E": "A decisão se apoia no conceito de zona de desenvolvimento proximal, entendida como o nível de dificuldade adequado de uma tarefa."
+  },
+  "correct": null,
+  "explanations": {
+   "geral": "A zona de desenvolvimento proximal, formulada por Vygotsky, é a distância entre o nível de desenvolvimento real (o que o sujeito faz sozinho) e o nível potencial (o que faz com mediação de um parceiro mais experiente). Duplas produtivas operam exatamente nessa zona. Por que as outras caem:D descreve conceito piagetiano, que não sustenta a decisão pela mediação entre pares. E distorce a definição: ZDP não é grau de dificuldade da tarefa. A inverte a orientação da teoria histórico-cultural. B confunde mediação com reforço comportamental."
+  }
+ },
+ {
+  "id": "comentado-30",
+  "area": "LETRAMENTO CIENTÍFICO",
+  "num": "30",
+  "title": "LETRAMENTO CIENTÍFICO",
+  "stem": "Diante da circulação de um conteúdo falso sobre vacinas entre estudantes do 9º ano, uma professora de Ciências decide organizar uma investigação em que a turma analisa a fonte, a autoria, a data e a existência de revisão por pares do material, produzindo depois um texto de divulgação para as famílias.",
+  "options": {
+   "A": "A estratégia é adequada apenas se substituir o conteúdo previsto no currículo pelo tema da desinformação.",
+   "B": "A estratégia é inadequada, pois a análise de fontes é competência exclusiva dos componentes de Linguagens.",
+   "C": "A estratégia é inadequada, pois dar visibilidade ao conteúdo falso amplia sua circulação.",
+   "D": "A estratégia promove letramento científico e midiático, ao ensinar critérios de validação do conhecimento e devolver o resultado à comunidade.",
+   "E": "A estratégia é inadequada, porque a checagem de informações não integra os objetos de conhecimento da formação docente."
+  },
+  "correct": null,
+  "explanations": {
+   "geral": "A proposta desenvolve letramento científico — compreender como o conhecimento é produzido, revisado e comunicado — e letramento midiático, articulando-se à competência geral da BNCC que trata do pensamento científico, crítico e criativo e à que trata da argumentação com base em informações confiáveis. Por que as outras caem:C confunde tratamento pedagógico com difusão. E contraria a matriz, que inclui letramento científico entre os objetos de conhecimento. A cria falsa oposição com o currículo. B restringe indevidamente a análise de fontes a uma área. DIAGNÓSTICO Mapa de erros por eixo Preencha esta tabela ao terminar a correção. Ela transforma uma nota em um plano: você só precisa revisar as linhas em que a taxa de acerto ficou baixa. EIXO QUESTÕES ACERTOS PRIORIDADE LDB e trabalho docente 01, 02, 03, 04, 05 ____ / 5 alta Políticas, gestão e financiamento 06, 07, 08, 09, 10 ____ / 5 alta Currículo e BNCC 11, 12, 13, 14 ____ / 4 alta Avaliação 15, 16, 17, 18 ____ / 4 alta Inclusão e Libras 19, 20, 21, 22 ____ / 4 alta Diversidade, direitos humanos e socioambiental 23, 24, 25, 26, 27 ____ / 5 alta Fundamentos, didática e letramento científico 28, 29, 30 ____ / 3 alta Registro dos palpites Liste aqui as questões que você marcou como P na folha de respostas, ainda que tenha acertado. São essas — e não os erros — que costumam reaparecer como erro na prova real. Questões marcadas como palpite: 1 2 3 O QUE FAZER COM O RESULTADO PRÓXIMO PASSO Para cada eixo de prioridade alta: releia o mapa mental Leve os eixos de prioridade alta para a Semana 1 do correspondente, escreva de memória os seis ramos e Planner de 7 Semanas. O planner já reserva dois blocos refaça só as questões daquele eixo em três dias. semanais para revisão dirigida — use-os com este mapa Repetição espaçada em intervalo curto é o que converte em mãos. reconhecimento em domínio. PRÓXIMO PASSO · NÃO PARE NA LEITURA Converta erros em plano de estudo Corrija todas as alternativas, registre o percentual de cada eixo e leve somente as prioridades altas para os Mapas Mentais e para o Caderno de Revisão Ativa. AÇÃO IMEDIATA Faça a atividade indicada 1 Sem consulta e com tempo definido. Registre o resultado 2 Use o Painel de Desempenho ou o mapa de erros. Escolha uma prioridade 3 Leve apenas a principal lacuna para a próxima revisão. Agende a retomada 4 Revisite em 7 e 14 dias para consolidar. CONEXÕES DISPONÍVEIS NO PACOTE Painel de Desempenho · Caderno de Revisão Ativa · Reta Final em 10 Dias · Radar Legislativo · Checklist da Discursiva · Banco Turbo · Discursiva Intensiva MÉTODO PND 7 SEMANAS · EDIÇÃO INTEGRADA 2026 PRÓXIMO PASSO"
+  }
+ }
+]
