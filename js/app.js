@@ -92,7 +92,8 @@ function render() {
     'discursiva-write': renderDiscursivaWrite,
     'discursiva-check': renderDiscursivaCheck,
     planner: renderPlanner,
-    'planner-10dias': renderRetaFinal10
+    'planner-10dias': renderRetaFinal10,
+    materiais: renderMateriais
   };
   const fn = views[ROUTE.view] || renderHome;
   main.innerHTML = `<div class="view">${fn(ROUTE.params)}</div>`;
@@ -142,6 +143,30 @@ function renderHome() {
         <span class="badge alt">Abrir</span>
       </div>
     </div>
+    <div class="card tap" data-go="materiais">
+      <div class="card-row">
+        <div><h3>Materiais em PDF</h3><p class="mute">Os guias originais, para abrir ou baixar.</p></div>
+        <span class="badge alt">Abrir</span>
+      </div>
+    </div>
+  `;
+}
+
+/* ================= MATERIAIS ================= */
+function renderMateriais() {
+  const cards = DATA.materiais.map(m => `
+    <a class="card tap" href="${esc(m.arquivo)}" target="_blank" rel="noopener" style="display:block;text-decoration:none;">
+      <div class="card-row">
+        <div><h3>${esc(m.titulo)}</h3><p class="mute">${esc(m.descricao)}</p></div>
+        <span class="badge alt">${esc(m.tamanho)}</span>
+      </div>
+    </a>`).join('');
+  return `
+    <div class="back-link" data-go="home">&larr; Início</div>
+    <span class="eyebrow">Guias originais</span>
+    <h1>Materiais em PDF</h1>
+    <p class="mute">Os documentos completos do Método PND, para ler offline ou imprimir.</p>
+    ${cards}
   `;
 }
 

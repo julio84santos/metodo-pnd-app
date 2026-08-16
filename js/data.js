@@ -4,6 +4,7 @@ const DATA = {
   discursiva: null,
   planner: null,
   retaFinal10: null,
+  materiais: [],
   eixos: [],
   meta: 0.8,
   questoes: [] // unificação de simulado_comentado + questoes_especificas + banco_turbo
@@ -51,11 +52,12 @@ function normalizeQuestion(q, fonte) {
 }
 
 async function loadAllData() {
-  const [mapas, discursiva, planner, retaFinal10, eixosData, comentado, especificas, bancoTurbo] = await Promise.all([
+  const [mapas, discursiva, planner, retaFinal10, materiais, eixosData, comentado, especificas, bancoTurbo] = await Promise.all([
     loadJSON('data/mapas.json'),
     loadJSON('data/discursiva.json'),
     loadJSON('data/planner.json'),
     loadJSON('data/reta_final_10_dias.json'),
+    loadJSON('data/materiais.json'),
     loadJSON('data/eixos.json'),
     loadJSON('data/simulado_comentado.json'),
     loadJSON('data/questoes_especificas.json'),
@@ -66,6 +68,7 @@ async function loadAllData() {
   DATA.discursiva = discursiva;
   DATA.planner = planner;
   DATA.retaFinal10 = retaFinal10;
+  DATA.materiais = materiais;
   DATA.eixos = eixosData.eixos;
   DATA.meta = eixosData.meta;
 
