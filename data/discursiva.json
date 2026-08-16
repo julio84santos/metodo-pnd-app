@@ -190,6 +190,11 @@
    "modelo": "O agravamento dos conflitos e do sofrimento psíquico entre estudantes tem sido tratado como caso de disciplina. Essa leitura individualiza um problema que é relacional e institucional: o clima escolar não é soma de comportamentos, mas efeito das regras e vínculos que a escola sustenta.\n\nO ordenamento jurídico avançou em direção oposta à adotada pela escola do caso. A Lei 13.185/2015 instituiu o dever de prevenir; a Lei 14.811/2024 tipificou bullying e cyberbullying. A suspensão sem escuta nem registro descumpre essa arquitetura de proteção.\n\nA resposta institucional exige método: diagnosticar com instrumento de escuta sobre clima escolar; constituir protocolo explícito que diferencie conflito, indisciplina e violência; investir em práticas restaurativas, deslocando o foco da punição para a responsabilização e reparação do vínculo.\n\nÉ preciso, por fim, reconhecer os limites da atuação docente: sofrimento psíquico intenso demanda articulação com a rede de saúde. Uma política de convivência bem construída é, simultaneamente, medida de proteção e condição para a aprendizagem."
   }
  ],
+ "plano_reescrita": [
+  { "id": "problema", "label": "Meu principal problema foi" },
+  { "id": "proxima_versao", "label": "Na próxima versão, vou" },
+  { "id": "trecho", "label": "Frase ou trecho que precisa ser refeito" }
+ ],
  "checklist_criterios": [
   {
    "id": "comando",

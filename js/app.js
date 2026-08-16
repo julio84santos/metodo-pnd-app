@@ -2,17 +2,21 @@
 const STORE_KEY = 'pnd_v1';
 
 function loadState() {
-  try {
-    const raw = localStorage.getItem(STORE_KEY);
-    if (raw) return JSON.parse(raw);
-  } catch (e) {}
-  return {
+  const defaults = {
     eixoStats: {},
     areaStats: {},
     discursivaScores: {},
     plannerDone: {},
+    retaFinalDone: {},
+    provaChecklistDone: {},
+    reescritaNotas: {},
     counters: { questoesRespondidas: 0, discursivasEscritas: 0 }
   };
+  try {
+    const raw = localStorage.getItem(STORE_KEY);
+    if (raw) return Object.assign(defaults, JSON.parse(raw));
+  } catch (e) {}
+  return defaults;
 }
 let STATE = loadState();
 function saveState() {
@@ -87,7 +91,8 @@ function render() {
     'discursiva-detail': renderDiscursivaDetail,
     'discursiva-write': renderDiscursivaWrite,
     'discursiva-check': renderDiscursivaCheck,
-    planner: renderPlanner
+    planner: renderPlanner,
+    'planner-10dias': renderRetaFinal10
   };
   const fn = views[ROUTE.view] || renderHome;
   main.innerHTML = `<div class="view">${fn(ROUTE.params)}</div>`;
@@ -404,11 +409,21 @@ function renderDiscursivaCheck(params) {
         <button data-val="nao">Não</button>
       </div>
     </div>`).join('');
+  const notasSalvas = STATE.reescritaNotas[p.id] || {};
+  const planoFields = (DATA.discursiva.plano_reescrita || []).map(f => `
+    <div style="margin-bottom:12px;">
+      <label class="mute" style="display:block;margin-bottom:4px;font-weight:600;">${esc(f.label)}:</label>
+      <textarea data-plano="${f.id}" style="min-height:70px;">${esc(notasSalvas[f.id] || '')}</textarea>
+    </div>`).join('');
   return `
     <div class="back-link" data-go="discursiva-write" data-id="${p.id}">&larr; Voltar ao texto</div>
     <span class="eyebrow">Checklist de autocorreção</span>
     <h1>${esc(p.titulo)}</h1>
     <div class="card">${items}</div>
+    <div class="card">
+      <h2>Plano de reescrita</h2>
+      ${planoFields}
+    </div>
     <button class="btn btn-primary btn-block" data-action="save-check" data-id="${p.id}">Salvar autocorreção</button>
   `;
 }
@@ -433,11 +448,56 @@ function renderPlanner() {
       ${days}
     </div>`;
   }).join('');
+  const dias = daysUntil(DATA.planner.data_prova);
+  const retaFinalCard = `
+    <div class="card tap" data-go="planner-10dias" style="background:var(--rust);border:none;">
+      <div class="card-row">
+        <div><h3 style="color:#fff">Reta Final · últimos 10 dias</h3><p class="mute" style="color:var(--rust-soft)">${dias >= 0 && dias <= 10 ? 'Ative agora: faltam ' + dias + ' dias.' : 'Roteiro de emergência para quando faltar pouco tempo.'}</p></div>
+        <span class="badge">Abrir</span>
+      </div>
+    </div>`;
+
   return `
     <span class="eyebrow">Planner adaptativo</span>
     <h1>7 semanas · 49 tarefas</h1>
     <p class="mute">Uma tarefa por dia. Domingo é revisão espaçada, sábado é discursiva.</p>
+    ${retaFinalCard}
     ${weeks}
+  `;
+}
+
+/* ================= RETA FINAL · 10 DIAS ================= */
+function renderRetaFinal10() {
+  const rf = DATA.retaFinal10;
+  const dias = rf.dias.map(d => {
+    const done = !!STATE.retaFinalDone[d.dia];
+    return `<div class="day-row ${done ? 'done' : ''}">
+      <input type="checkbox" data-action="toggle-rf-dia" data-key="${d.dia}" ${done ? 'checked' : ''}>
+      <div><span class="day-name">${esc(d.dia)} · ${esc(d.titulo)}</span><span class="day-task">${esc(d.tarefa)}</span></div>
+    </div>`;
+  }).join('');
+
+  const checklist = rf.checklist_prova.map((item, i) => {
+    const done = !!STATE.provaChecklistDone[i];
+    return `<div class="day-row ${done ? 'done' : ''}">
+      <input type="checkbox" data-action="toggle-prova-item" data-key="${i}" ${done ? 'checked' : ''}>
+      <div><span class="day-task">${esc(item)}</span></div>
+    </div>`;
+  }).join('');
+
+  return `
+    <div class="back-link" data-go="planner">&larr; Planner</div>
+    <span class="eyebrow">Ativação final</span>
+    <h1>Reta Final · 10 dias</h1>
+    <p class="mute">${esc(rf.intro)}</p>
+    <div class="card">
+      <h2>Roteiro D-10 a D-1</h2>
+      ${dias}
+    </div>
+    <div class="card">
+      <h2>Checklist do dia da prova</h2>
+      ${checklist}
+    </div>
   `;
 }
 
@@ -509,6 +569,16 @@ function handleAction(el, e) {
     STATE.plannerDone[key] = el.checked;
     saveState();
   }
+  if (action === 'toggle-rf-dia') {
+    STATE.retaFinalDone[el.dataset.key] = el.checked;
+    saveState();
+    render();
+  }
+  if (action === 'toggle-prova-item') {
+    STATE.provaChecklistDone[el.dataset.key] = el.checked;
+    saveState();
+    render();
+  }
 }
 
 // flip flashcard on tap (delegated, since card is re-rendered)
@@ -561,6 +631,11 @@ function saveDiscursivaCheck(id) {
   const isNew = !STATE.discursivaScores[id];
   STATE.discursivaScores[id] = { criterios: vals, score, percentual, data: new Date().toISOString() };
   if (isNew) STATE.counters.discursivasEscritas += 1;
+
+  const notas = {};
+  main.querySelectorAll('[data-plano]').forEach(t => { notas[t.dataset.plano] = t.value; });
+  STATE.reescritaNotas[id] = notas;
+
   saveState();
   go('discursiva');
 }

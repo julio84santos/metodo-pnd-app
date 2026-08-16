@@ -1,0 +1,23 @@
+{
+ "intro": "Use este roteiro se faltarem dez dias para a prova ou se o Planner de 7 Semanas não foi concluído. A prioridade é consolidar fundamentos, praticar uma discursiva e reduzir erros evitáveis.",
+ "dias": [
+  { "dia": "D-10", "titulo": "Diagnóstico rápido", "tarefa": "Refaça 15 questões do simulado sem consulta. Marque certeza, dúvida ou palpite." },
+  { "dia": "D-9", "titulo": "LDB e ECA", "tarefa": "Revise Mapas 01 e 03. Explique em voz alta incumbências docentes e proteção integral." },
+  { "dia": "D-8", "titulo": "BNCC e currículo", "tarefa": "Revise competências gerais, etapas e relação entre currículo, metodologia e avaliação." },
+  { "dia": "D-7", "titulo": "PNE e SNE", "tarefa": "Estude as atualizações de 2025–2026. Faça uma tabela antes/agora." },
+  { "dia": "D-6", "titulo": "Avaliação e inclusão", "tarefa": "Revise avaliação formativa, AEE, barreiras e desenho universal." },
+  { "dia": "D-5", "titulo": "Gestão e financiamento", "tarefa": "PPP, colegiados, regime de colaboração, Fundeb e vinculações constitucionais." },
+  { "dia": "D-4", "titulo": "Diversidade e direitos humanos", "tarefa": "Relações étnico-raciais, gênero, laicidade, equidade e convivência." },
+  { "dia": "D-3", "titulo": "Discursiva completa", "tarefa": "Escreva em 30 minutos; revise em 4; corrija pelo espelho." },
+  { "dia": "D-2", "titulo": "Simulado final", "tarefa": "Realize 30 questões em 75 minutos e revise somente os erros." },
+  { "dia": "D-1", "titulo": "Revisão leve", "tarefa": "Leia pegadinhas, frases-coringa e checklist logístico. Encerre cedo." }
+ ],
+ "checklist_prova": [
+  "Documento oficial com foto e cartão de confirmação.",
+  "Caneta conforme as regras do edital.",
+  "Água e alimentação permitidas.",
+  "Rota e horário de chegada planejados.",
+  "Começar pela objetiva ou pela discursiva conforme sua estratégia treinada.",
+  "Reservar tempo final para marcação e revisão."
+ ]
+}

@@ -6798,5 +6798,1605 @@
    "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “química orgânica”, mas não responde ao foco específico do item sobre “experimentação, segurança e representações”.",
    "D": "Correta. A ação mobiliza “experimentação, segurança e representações” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado. OK Distribuição do gabarito A B C D 5 5 5 5 + Referências e limites Objetos organizados a partir das matrizes dos componentes específicos do Enade das Licenciaturas utilizadas pela PND 2026. Questões autorais e prospectivas. A inclusão de um objeto nesta amostra não garante sua cobrança na prova."
   }
+ },
+ {
+  "id": "vol3-Educação_Física-01",
+  "area": "Educação Física",
+  "num": "01",
+  "title": "Cultura corporal de movimento",
+  "stem": "Uma turma apresenta explicações fragmentadas sobre cultura corporal de movimento. Qual encaminhamento produz compreensão mais consistente?",
+  "options": {
+   "A": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de cultura corporal de movimento",
+   "B": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando jogos e brincadeiras como foco da devolutiva e do replanejamento",
+   "C": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando ginásticas e práticas de cuidado como foco da devolutiva e do replanejamento",
+   "D": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando práticas corporais de aventura como foco da devolutiva e do replanejamento"
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "Correta. A ação mobiliza “cultura corporal de movimento” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “jogos e brincadeiras”, mas não responde ao foco específico do item sobre “cultura corporal de movimento”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “ginásticas e práticas de cuidado”, mas não responde ao foco específico do item sobre “cultura corporal de movimento”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “práticas corporais de aventura”, mas não responde ao foco específico do item sobre “cultura corporal de movimento”."
+  }
+ },
+ {
+  "id": "vol3-Educação_Física-02",
+  "area": "Educação Física",
+  "num": "02",
+  "title": "Cultura corporal de movimento",
+  "stem": "Ao trabalhar cultura corporal de movimento, o docente percebe reprodução de definições sem aplicação. A intervenção mais adequada é",
+  "options": {
+   "A": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de esportes e suas transformações",
+   "B": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando cultura corporal de movimento como foco da devolutiva e do replanejamento",
+   "C": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de danças e relações culturais",
+   "D": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de saúde coletiva e atividade física"
+  },
+  "correct": "B",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “esportes e suas transformações”, mas não responde ao foco específico do item sobre “cultura corporal de movimento”.",
+   "B": "Correta. A ação mobiliza “cultura corporal de movimento” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “danças e relações culturais”, mas não responde ao foco específico do item sobre “cultura corporal de movimento”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “saúde coletiva e atividade física”, mas não responde ao foco específico do item sobre “cultura corporal de movimento”."
+  }
+ },
+ {
+  "id": "vol3-Educação_Física-03",
+  "area": "Educação Física",
+  "num": "03",
+  "title": "Jogos e brincadeiras",
+  "stem": "Em uma situação-problema envolvendo jogos e brincadeiras, qual decisão preserva o rigor específico da área?",
+  "options": {
+   "A": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando esportes e suas transformações como foco da devolutiva e do replanejamento",
+   "B": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando danças e relações culturais como foco da devolutiva e do replanejamento",
+   "C": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de jogos e brincadeiras",
+   "D": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando saúde coletiva e atividade física como foco da devolutiva e do replanejamento"
+  },
+  "correct": "C",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “esportes e suas transformações”, mas não responde ao foco específico do item sobre “jogos e brincadeiras”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “danças e relações culturais”, mas não responde ao foco específico do item sobre “jogos e brincadeiras”.",
+   "C": "Correta. A ação mobiliza “jogos e brincadeiras” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “saúde coletiva e atividade física”, mas não responde ao foco específico do item sobre “jogos e brincadeiras”."
+  }
+ },
+ {
+  "id": "vol3-Educação_Física-04",
+  "area": "Educação Física",
+  "num": "04",
+  "title": "Jogos e brincadeiras",
+  "stem": "O planejamento sobre jogos e brincadeiras precisa combinar conteúdo e participação. Qual ação melhor atende a esse objetivo?",
+  "options": {
+   "A": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de ginásticas e práticas de cuidado",
+   "B": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de lutas e ética",
+   "C": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de desenvolvimento e aprendizagem motora",
+   "D": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando jogos e brincadeiras como foco da devolutiva e do replanejamento"
+  },
+  "correct": "D",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “ginásticas e práticas de cuidado”, mas não responde ao foco específico do item sobre “jogos e brincadeiras”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “lutas e ética”, mas não responde ao foco específico do item sobre “jogos e brincadeiras”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “desenvolvimento e aprendizagem motora”, mas não responde ao foco específico do item sobre “jogos e brincadeiras”.",
+   "D": "Correta. A ação mobiliza “jogos e brincadeiras” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado."
+  }
+ },
+ {
+  "id": "vol3-Educação_Física-05",
+  "area": "Educação Física",
+  "num": "05",
+  "title": "Esportes e suas transformações",
+  "stem": "Para evitar uma abordagem meramente expositiva de esportes e suas transformações, deve-se",
+  "options": {
+   "A": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de esportes e suas transformações",
+   "B": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando ginásticas e práticas de cuidado como foco da devolutiva e do replanejamento",
+   "C": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando lutas e ética como foco da devolutiva e do replanejamento",
+   "D": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando desenvolvimento e aprendizagem motora como foco da devolutiva e do replanejamento"
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "Correta. A ação mobiliza “esportes e suas transformações” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “ginásticas e práticas de cuidado”, mas não responde ao foco específico do item sobre “esportes e suas transformações”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “lutas e ética”, mas não responde ao foco específico do item sobre “esportes e suas transformações”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “desenvolvimento e aprendizagem motora”, mas não responde ao foco específico do item sobre “esportes e suas transformações”."
+  }
+ },
+ {
+  "id": "vol3-Educação_Física-06",
+  "area": "Educação Física",
+  "num": "06",
+  "title": "Esportes e suas transformações",
+  "stem": "Uma atividade referente a esportes e suas transformações gerou respostas sem justificativa. Qual reformulação é mais formativa?",
+  "options": {
+   "A": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de danças e relações culturais",
+   "B": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando esportes e suas transformações como foco da devolutiva e do replanejamento",
+   "C": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de práticas corporais de aventura",
+   "D": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de corpo, mídia, gênero e inclusão"
+  },
+  "correct": "B",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “danças e relações culturais”, mas não responde ao foco específico do item sobre “esportes e suas transformações”.",
+   "B": "Correta. A ação mobiliza “esportes e suas transformações” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “práticas corporais de aventura”, mas não responde ao foco específico do item sobre “esportes e suas transformações”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “corpo, mídia, gênero e inclusão”, mas não responde ao foco específico do item sobre “esportes e suas transformações”."
+  }
+ },
+ {
+  "id": "vol3-Educação_Física-07",
+  "area": "Educação Física",
+  "num": "07",
+  "title": "Ginásticas e práticas de cuidado",
+  "stem": "No estudo de ginásticas e práticas de cuidado, estudantes discordam sobre a solução. O encaminhamento profissional adequado consiste em",
+  "options": {
+   "A": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando danças e relações culturais como foco da devolutiva e do replanejamento",
+   "B": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando práticas corporais de aventura como foco da devolutiva e do replanejamento",
+   "C": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de ginásticas e práticas de cuidado",
+   "D": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando corpo, mídia, gênero e inclusão como foco da devolutiva e do replanejamento"
+  },
+  "correct": "C",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “danças e relações culturais”, mas não responde ao foco específico do item sobre “ginásticas e práticas de cuidado”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “práticas corporais de aventura”, mas não responde ao foco específico do item sobre “ginásticas e práticas de cuidado”.",
+   "C": "Correta. A ação mobiliza “ginásticas e práticas de cuidado” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “corpo, mídia, gênero e inclusão”, mas não responde ao foco específico do item sobre “ginásticas e práticas de cuidado”."
+  }
+ },
+ {
+  "id": "vol3-Educação_Física-08",
+  "area": "Educação Física",
+  "num": "08",
+  "title": "Ginásticas e práticas de cuidado",
+  "stem": "Qual proposta transforma ginásticas e práticas de cuidado em objeto de investigação e não apenas de memorização?",
+  "options": {
+   "A": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de lutas e ética",
+   "B": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de saúde coletiva e atividade física",
+   "C": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de cultura corporal de movimento",
+   "D": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando ginásticas e práticas de cuidado como foco da devolutiva e do replanejamento"
+  },
+  "correct": "D",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “lutas e ética”, mas não responde ao foco específico do item sobre “ginásticas e práticas de cuidado”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “saúde coletiva e atividade física”, mas não responde ao foco específico do item sobre “ginásticas e práticas de cuidado”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “cultura corporal de movimento”, mas não responde ao foco específico do item sobre “ginásticas e práticas de cuidado”.",
+   "D": "Correta. A ação mobiliza “ginásticas e práticas de cuidado” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado."
+  }
+ },
+ {
+  "id": "vol3-Educação_Física-09",
+  "area": "Educação Física",
+  "num": "09",
+  "title": "Danças e relações culturais",
+  "stem": "Diante de dificuldades recorrentes em danças e relações culturais, a ação docente mais coerente é",
+  "options": {
+   "A": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de danças e relações culturais",
+   "B": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando lutas e ética como foco da devolutiva e do replanejamento",
+   "C": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando saúde coletiva e atividade física como foco da devolutiva e do replanejamento",
+   "D": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando cultura corporal de movimento como foco da devolutiva e do replanejamento"
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "Correta. A ação mobiliza “danças e relações culturais” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “lutas e ética”, mas não responde ao foco específico do item sobre “danças e relações culturais”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “saúde coletiva e atividade física”, mas não responde ao foco específico do item sobre “danças e relações culturais”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “cultura corporal de movimento”, mas não responde ao foco específico do item sobre “danças e relações culturais”."
+  }
+ },
+ {
+  "id": "vol3-Educação_Física-10",
+  "area": "Educação Física",
+  "num": "10",
+  "title": "Danças e relações culturais",
+  "stem": "Para relacionar danças e relações culturais ao contexto da educação básica, deve-se",
+  "options": {
+   "A": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de práticas corporais de aventura",
+   "B": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando danças e relações culturais como foco da devolutiva e do replanejamento",
+   "C": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de desenvolvimento e aprendizagem motora",
+   "D": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de jogos e brincadeiras"
+  },
+  "correct": "B",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “práticas corporais de aventura”, mas não responde ao foco específico do item sobre “danças e relações culturais”.",
+   "B": "Correta. A ação mobiliza “danças e relações culturais” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “desenvolvimento e aprendizagem motora”, mas não responde ao foco específico do item sobre “danças e relações culturais”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “jogos e brincadeiras”, mas não responde ao foco específico do item sobre “danças e relações culturais”."
+  }
+ },
+ {
+  "id": "vol3-Educação_Física-11",
+  "area": "Educação Física",
+  "num": "11",
+  "title": "Lutas e ética",
+  "stem": "Na avaliação de lutas e ética, qual evidência demonstra aprendizagem além da repetição?",
+  "options": {
+   "A": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando práticas corporais de aventura como foco da devolutiva e do replanejamento",
+   "B": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando desenvolvimento e aprendizagem motora como foco da devolutiva e do replanejamento",
+   "C": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de lutas e ética",
+   "D": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando jogos e brincadeiras como foco da devolutiva e do replanejamento"
+  },
+  "correct": "C",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “práticas corporais de aventura”, mas não responde ao foco específico do item sobre “lutas e ética”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “desenvolvimento e aprendizagem motora”, mas não responde ao foco específico do item sobre “lutas e ética”.",
+   "C": "Correta. A ação mobiliza “lutas e ética” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “jogos e brincadeiras”, mas não responde ao foco específico do item sobre “lutas e ética”."
+  }
+ },
+ {
+  "id": "vol3-Educação_Física-12",
+  "area": "Educação Física",
+  "num": "12",
+  "title": "Lutas e ética",
+  "stem": "Qual critério permite analisar com maior validade uma produção ligada a lutas e ética?",
+  "options": {
+   "A": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de saúde coletiva e atividade física",
+   "B": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de corpo, mídia, gênero e inclusão",
+   "C": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de esportes e suas transformações",
+   "D": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando lutas e ética como foco da devolutiva e do replanejamento"
+  },
+  "correct": "D",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “saúde coletiva e atividade física”, mas não responde ao foco específico do item sobre “lutas e ética”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “corpo, mídia, gênero e inclusão”, mas não responde ao foco específico do item sobre “lutas e ética”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “esportes e suas transformações”, mas não responde ao foco específico do item sobre “lutas e ética”.",
+   "D": "Correta. A ação mobiliza “lutas e ética” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado."
+  }
+ },
+ {
+  "id": "vol3-Educação_Física-13",
+  "area": "Educação Física",
+  "num": "13",
+  "title": "Práticas corporais de aventura",
+  "stem": "A turma concluiu a atividade de práticas corporais de aventura, mas não consegue explicar suas decisões. O professor deve",
+  "options": {
+   "A": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de práticas corporais de aventura",
+   "B": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando saúde coletiva e atividade física como foco da devolutiva e do replanejamento",
+   "C": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando corpo, mídia, gênero e inclusão como foco da devolutiva e do replanejamento",
+   "D": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando esportes e suas transformações como foco da devolutiva e do replanejamento"
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "Correta. A ação mobiliza “práticas corporais de aventura” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “saúde coletiva e atividade física”, mas não responde ao foco específico do item sobre “práticas corporais de aventura”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “corpo, mídia, gênero e inclusão”, mas não responde ao foco específico do item sobre “práticas corporais de aventura”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “esportes e suas transformações”, mas não responde ao foco específico do item sobre “práticas corporais de aventura”."
+  }
+ },
+ {
+  "id": "vol3-Educação_Física-14",
+  "area": "Educação Física",
+  "num": "14",
+  "title": "Práticas corporais de aventura",
+  "stem": "Em relação a práticas corporais de aventura, qual devolutiva favorece autorregulação e avanço conceitual?",
+  "options": {
+   "A": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de desenvolvimento e aprendizagem motora",
+   "B": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando práticas corporais de aventura como foco da devolutiva e do replanejamento",
+   "C": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de cultura corporal de movimento",
+   "D": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de ginásticas e práticas de cuidado"
+  },
+  "correct": "B",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “desenvolvimento e aprendizagem motora”, mas não responde ao foco específico do item sobre “práticas corporais de aventura”.",
+   "B": "Correta. A ação mobiliza “práticas corporais de aventura” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “cultura corporal de movimento”, mas não responde ao foco específico do item sobre “práticas corporais de aventura”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “ginásticas e práticas de cuidado”, mas não responde ao foco específico do item sobre “práticas corporais de aventura”."
+  }
+ },
+ {
+  "id": "vol3-Educação_Física-15",
+  "area": "Educação Física",
+  "num": "15",
+  "title": "Saúde coletiva e atividade física",
+  "stem": "Qual instrumento de avaliação é mais compatível com um trabalho investigativo sobre saúde coletiva e atividade física?",
+  "options": {
+   "A": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando desenvolvimento e aprendizagem motora como foco da devolutiva e do replanejamento",
+   "B": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando cultura corporal de movimento como foco da devolutiva e do replanejamento",
+   "C": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de saúde coletiva e atividade física",
+   "D": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando ginásticas e práticas de cuidado como foco da devolutiva e do replanejamento"
+  },
+  "correct": "C",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “desenvolvimento e aprendizagem motora”, mas não responde ao foco específico do item sobre “saúde coletiva e atividade física”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “cultura corporal de movimento”, mas não responde ao foco específico do item sobre “saúde coletiva e atividade física”.",
+   "C": "Correta. A ação mobiliza “saúde coletiva e atividade física” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “ginásticas e práticas de cuidado”, mas não responde ao foco específico do item sobre “saúde coletiva e atividade física”."
+  }
+ },
+ {
+  "id": "vol3-Educação_Física-16",
+  "area": "Educação Física",
+  "num": "16",
+  "title": "Saúde coletiva e atividade física",
+  "stem": "Para acompanhar aprendizagens heterogêneas em saúde coletiva e atividade física, o planejamento deve",
+  "options": {
+   "A": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de corpo, mídia, gênero e inclusão",
+   "B": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de jogos e brincadeiras",
+   "C": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de danças e relações culturais",
+   "D": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando saúde coletiva e atividade física como foco da devolutiva e do replanejamento"
+  },
+  "correct": "D",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “corpo, mídia, gênero e inclusão”, mas não responde ao foco específico do item sobre “saúde coletiva e atividade física”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “jogos e brincadeiras”, mas não responde ao foco específico do item sobre “saúde coletiva e atividade física”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “danças e relações culturais”, mas não responde ao foco específico do item sobre “saúde coletiva e atividade física”.",
+   "D": "Correta. A ação mobiliza “saúde coletiva e atividade física” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado."
+  }
+ },
+ {
+  "id": "vol3-Educação_Física-17",
+  "area": "Educação Física",
+  "num": "17",
+  "title": "Desenvolvimento e aprendizagem motora",
+  "stem": "Uma prova sobre desenvolvimento e aprendizagem motora cobra somente termos isolados. A correção pedagógica mais adequada é",
+  "options": {
+   "A": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de desenvolvimento e aprendizagem motora",
+   "B": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando corpo, mídia, gênero e inclusão como foco da devolutiva e do replanejamento",
+   "C": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando jogos e brincadeiras como foco da devolutiva e do replanejamento",
+   "D": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando danças e relações culturais como foco da devolutiva e do replanejamento"
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "Correta. A ação mobiliza “desenvolvimento e aprendizagem motora” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “corpo, mídia, gênero e inclusão”, mas não responde ao foco específico do item sobre “desenvolvimento e aprendizagem motora”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “jogos e brincadeiras”, mas não responde ao foco específico do item sobre “desenvolvimento e aprendizagem motora”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “danças e relações culturais”, mas não responde ao foco específico do item sobre “desenvolvimento e aprendizagem motora”."
+  }
+ },
+ {
+  "id": "vol3-Educação_Física-18",
+  "area": "Educação Física",
+  "num": "18",
+  "title": "Desenvolvimento e aprendizagem motora",
+  "stem": "Ao revisar erros relacionados a desenvolvimento e aprendizagem motora, qual procedimento gera melhor evidência diagnóstica?",
+  "options": {
+   "A": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de cultura corporal de movimento",
+   "B": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando desenvolvimento e aprendizagem motora como foco da devolutiva e do replanejamento",
+   "C": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de esportes e suas transformações",
+   "D": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de lutas e ética"
+  },
+  "correct": "B",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “cultura corporal de movimento”, mas não responde ao foco específico do item sobre “desenvolvimento e aprendizagem motora”.",
+   "B": "Correta. A ação mobiliza “desenvolvimento e aprendizagem motora” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “esportes e suas transformações”, mas não responde ao foco específico do item sobre “desenvolvimento e aprendizagem motora”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “lutas e ética”, mas não responde ao foco específico do item sobre “desenvolvimento e aprendizagem motora”."
+  }
+ },
+ {
+  "id": "vol3-Educação_Física-19",
+  "area": "Educação Física",
+  "num": "19",
+  "title": "Corpo, mídia, gênero e inclusão",
+  "stem": "Qual ação articula avaliação formativa e conhecimento específico no eixo corpo, mídia, gênero e inclusão?",
+  "options": {
+   "A": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando cultura corporal de movimento como foco da devolutiva e do replanejamento",
+   "B": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando esportes e suas transformações como foco da devolutiva e do replanejamento",
+   "C": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de corpo, mídia, gênero e inclusão",
+   "D": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando lutas e ética como foco da devolutiva e do replanejamento"
+  },
+  "correct": "C",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “cultura corporal de movimento”, mas não responde ao foco específico do item sobre “corpo, mídia, gênero e inclusão”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “esportes e suas transformações”, mas não responde ao foco específico do item sobre “corpo, mídia, gênero e inclusão”.",
+   "C": "Correta. A ação mobiliza “corpo, mídia, gênero e inclusão” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “lutas e ética”, mas não responde ao foco específico do item sobre “corpo, mídia, gênero e inclusão”."
+  }
+ },
+ {
+  "id": "vol3-Educação_Física-20",
+  "area": "Educação Física",
+  "num": "20",
+  "title": "Corpo, mídia, gênero e inclusão",
+  "stem": "Após a sequência sobre corpo, mídia, gênero e inclusão, a síntese mais produtiva será aquela que permite ao estudante",
+  "options": {
+   "A": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de jogos e brincadeiras",
+   "B": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de ginásticas e práticas de cuidado",
+   "C": "organizar vivência segura, inclusiva e progressiva, seguida de análise dos sentidos culturais, focalizando conceitos e problemas próprios de práticas corporais de aventura",
+   "D": "usar registros de participação, decisões táticas, reflexão corporal e respeito às diferenças, tomando corpo, mídia, gênero e inclusão como foco da devolutiva e do replanejamento"
+  },
+  "correct": "D",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “jogos e brincadeiras”, mas não responde ao foco específico do item sobre “corpo, mídia, gênero e inclusão”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “ginásticas e práticas de cuidado”, mas não responde ao foco específico do item sobre “corpo, mídia, gênero e inclusão”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “práticas corporais de aventura”, mas não responde ao foco específico do item sobre “corpo, mídia, gênero e inclusão”.",
+   "D": "Correta. A ação mobiliza “corpo, mídia, gênero e inclusão” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado."
+  }
+ },
+ {
+  "id": "vol3-Filosofia-01",
+  "area": "Filosofia",
+  "num": "01",
+  "title": "Filosofia antiga e conhecimento",
+  "stem": "Uma turma apresenta explicações fragmentadas sobre filosofia antiga e conhecimento. Qual encaminhamento produz compreensão mais consistente?",
+  "options": {
+   "A": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de filosofia antiga e conhecimento",
+   "B": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando ética e filosofia moral como foco da devolutiva e do replanejamento",
+   "C": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando lógica e argumentação como foco da devolutiva e do replanejamento",
+   "D": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando filosofia moderna como foco da devolutiva e do replanejamento"
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "Correta. A ação mobiliza “filosofia antiga e conhecimento” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “ética e filosofia moral”, mas não responde ao foco específico do item sobre “filosofia antiga e conhecimento”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “lógica e argumentação”, mas não responde ao foco específico do item sobre “filosofia antiga e conhecimento”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “filosofia moderna”, mas não responde ao foco específico do item sobre “filosofia antiga e conhecimento”."
+  }
+ },
+ {
+  "id": "vol3-Filosofia-02",
+  "area": "Filosofia",
+  "num": "02",
+  "title": "Filosofia antiga e conhecimento",
+  "stem": "Ao trabalhar filosofia antiga e conhecimento, o docente percebe reprodução de definições sem aplicação. A intervenção mais adequada é",
+  "options": {
+   "A": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de filosofia política e democracia",
+   "B": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando filosofia antiga e conhecimento como foco da devolutiva e do replanejamento",
+   "C": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de epistemologia e ciência",
+   "D": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de filosofias contemporâneas"
+  },
+  "correct": "B",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “filosofia política e democracia”, mas não responde ao foco específico do item sobre “filosofia antiga e conhecimento”.",
+   "B": "Correta. A ação mobiliza “filosofia antiga e conhecimento” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “epistemologia e ciência”, mas não responde ao foco específico do item sobre “filosofia antiga e conhecimento”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “filosofias contemporâneas”, mas não responde ao foco específico do item sobre “filosofia antiga e conhecimento”."
+  }
+ },
+ {
+  "id": "vol3-Filosofia-03",
+  "area": "Filosofia",
+  "num": "03",
+  "title": "Ética e filosofia moral",
+  "stem": "Em uma situação-problema envolvendo ética e filosofia moral, qual decisão preserva o rigor específico da área?",
+  "options": {
+   "A": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando filosofia política e democracia como foco da devolutiva e do replanejamento",
+   "B": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando epistemologia e ciência como foco da devolutiva e do replanejamento",
+   "C": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de ética e filosofia moral",
+   "D": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando filosofias contemporâneas como foco da devolutiva e do replanejamento"
+  },
+  "correct": "C",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “filosofia política e democracia”, mas não responde ao foco específico do item sobre “ética e filosofia moral”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “epistemologia e ciência”, mas não responde ao foco específico do item sobre “ética e filosofia moral”.",
+   "C": "Correta. A ação mobiliza “ética e filosofia moral” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “filosofias contemporâneas”, mas não responde ao foco específico do item sobre “ética e filosofia moral”."
+  }
+ },
+ {
+  "id": "vol3-Filosofia-04",
+  "area": "Filosofia",
+  "num": "04",
+  "title": "Ética e filosofia moral",
+  "stem": "O planejamento sobre ética e filosofia moral precisa combinar conteúdo e participação. Qual ação melhor atende a esse objetivo?",
+  "options": {
+   "A": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de lógica e argumentação",
+   "B": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de estética e arte",
+   "C": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de filosofias africanas e indígenas",
+   "D": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando ética e filosofia moral como foco da devolutiva e do replanejamento"
+  },
+  "correct": "D",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “lógica e argumentação”, mas não responde ao foco específico do item sobre “ética e filosofia moral”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “estética e arte”, mas não responde ao foco específico do item sobre “ética e filosofia moral”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “filosofias africanas e indígenas”, mas não responde ao foco específico do item sobre “ética e filosofia moral”.",
+   "D": "Correta. A ação mobiliza “ética e filosofia moral” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado."
+  }
+ },
+ {
+  "id": "vol3-Filosofia-05",
+  "area": "Filosofia",
+  "num": "05",
+  "title": "Filosofia política e democracia",
+  "stem": "Para evitar uma abordagem meramente expositiva de filosofia política e democracia, deve-se",
+  "options": {
+   "A": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de filosofia política e democracia",
+   "B": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando lógica e argumentação como foco da devolutiva e do replanejamento",
+   "C": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando estética e arte como foco da devolutiva e do replanejamento",
+   "D": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando filosofias africanas e indígenas como foco da devolutiva e do replanejamento"
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "Correta. A ação mobiliza “filosofia política e democracia” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “lógica e argumentação”, mas não responde ao foco específico do item sobre “filosofia política e democracia”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “estética e arte”, mas não responde ao foco específico do item sobre “filosofia política e democracia”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “filosofias africanas e indígenas”, mas não responde ao foco específico do item sobre “filosofia política e democracia”."
+  }
+ },
+ {
+  "id": "vol3-Filosofia-06",
+  "area": "Filosofia",
+  "num": "06",
+  "title": "Filosofia política e democracia",
+  "stem": "Uma atividade referente a filosofia política e democracia gerou respostas sem justificativa. Qual reformulação é mais formativa?",
+  "options": {
+   "A": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de epistemologia e ciência",
+   "B": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando filosofia política e democracia como foco da devolutiva e do replanejamento",
+   "C": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de filosofia moderna",
+   "D": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de leitura, diálogo e ensino de filosofia"
+  },
+  "correct": "B",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “epistemologia e ciência”, mas não responde ao foco específico do item sobre “filosofia política e democracia”.",
+   "B": "Correta. A ação mobiliza “filosofia política e democracia” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “filosofia moderna”, mas não responde ao foco específico do item sobre “filosofia política e democracia”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “leitura, diálogo e ensino de filosofia”, mas não responde ao foco específico do item sobre “filosofia política e democracia”."
+  }
+ },
+ {
+  "id": "vol3-Filosofia-07",
+  "area": "Filosofia",
+  "num": "07",
+  "title": "Lógica e argumentação",
+  "stem": "No estudo de lógica e argumentação, estudantes discordam sobre a solução. O encaminhamento profissional adequado consiste em",
+  "options": {
+   "A": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando epistemologia e ciência como foco da devolutiva e do replanejamento",
+   "B": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando filosofia moderna como foco da devolutiva e do replanejamento",
+   "C": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de lógica e argumentação",
+   "D": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando leitura, diálogo e ensino de filosofia como foco da devolutiva e do replanejamento"
+  },
+  "correct": "C",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “epistemologia e ciência”, mas não responde ao foco específico do item sobre “lógica e argumentação”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “filosofia moderna”, mas não responde ao foco específico do item sobre “lógica e argumentação”.",
+   "C": "Correta. A ação mobiliza “lógica e argumentação” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “leitura, diálogo e ensino de filosofia”, mas não responde ao foco específico do item sobre “lógica e argumentação”."
+  }
+ },
+ {
+  "id": "vol3-Filosofia-08",
+  "area": "Filosofia",
+  "num": "08",
+  "title": "Lógica e argumentação",
+  "stem": "Qual proposta transforma lógica e argumentação em objeto de investigação e não apenas de memorização?",
+  "options": {
+   "A": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de estética e arte",
+   "B": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de filosofias contemporâneas",
+   "C": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de filosofia antiga e conhecimento",
+   "D": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando lógica e argumentação como foco da devolutiva e do replanejamento"
+  },
+  "correct": "D",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “estética e arte”, mas não responde ao foco específico do item sobre “lógica e argumentação”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “filosofias contemporâneas”, mas não responde ao foco específico do item sobre “lógica e argumentação”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “filosofia antiga e conhecimento”, mas não responde ao foco específico do item sobre “lógica e argumentação”.",
+   "D": "Correta. A ação mobiliza “lógica e argumentação” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado."
+  }
+ },
+ {
+  "id": "vol3-Filosofia-09",
+  "area": "Filosofia",
+  "num": "09",
+  "title": "Epistemologia e ciência",
+  "stem": "Diante de dificuldades recorrentes em epistemologia e ciência, a ação docente mais coerente é",
+  "options": {
+   "A": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de epistemologia e ciência",
+   "B": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando estética e arte como foco da devolutiva e do replanejamento",
+   "C": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando filosofias contemporâneas como foco da devolutiva e do replanejamento",
+   "D": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando filosofia antiga e conhecimento como foco da devolutiva e do replanejamento"
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "Correta. A ação mobiliza “epistemologia e ciência” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “estética e arte”, mas não responde ao foco específico do item sobre “epistemologia e ciência”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “filosofias contemporâneas”, mas não responde ao foco específico do item sobre “epistemologia e ciência”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “filosofia antiga e conhecimento”, mas não responde ao foco específico do item sobre “epistemologia e ciência”."
+  }
+ },
+ {
+  "id": "vol3-Filosofia-10",
+  "area": "Filosofia",
+  "num": "10",
+  "title": "Epistemologia e ciência",
+  "stem": "Para relacionar epistemologia e ciência ao contexto da educação básica, deve-se",
+  "options": {
+   "A": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de filosofia moderna",
+   "B": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando epistemologia e ciência como foco da devolutiva e do replanejamento",
+   "C": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de filosofias africanas e indígenas",
+   "D": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de ética e filosofia moral"
+  },
+  "correct": "B",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “filosofia moderna”, mas não responde ao foco específico do item sobre “epistemologia e ciência”.",
+   "B": "Correta. A ação mobiliza “epistemologia e ciência” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “filosofias africanas e indígenas”, mas não responde ao foco específico do item sobre “epistemologia e ciência”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “ética e filosofia moral”, mas não responde ao foco específico do item sobre “epistemologia e ciência”."
+  }
+ },
+ {
+  "id": "vol3-Filosofia-11",
+  "area": "Filosofia",
+  "num": "11",
+  "title": "Estética e arte",
+  "stem": "Na avaliação de estética e arte, qual evidência demonstra aprendizagem além da repetição?",
+  "options": {
+   "A": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando filosofia moderna como foco da devolutiva e do replanejamento",
+   "B": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando filosofias africanas e indígenas como foco da devolutiva e do replanejamento",
+   "C": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de estética e arte",
+   "D": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando ética e filosofia moral como foco da devolutiva e do replanejamento"
+  },
+  "correct": "C",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “filosofia moderna”, mas não responde ao foco específico do item sobre “estética e arte”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “filosofias africanas e indígenas”, mas não responde ao foco específico do item sobre “estética e arte”.",
+   "C": "Correta. A ação mobiliza “estética e arte” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “ética e filosofia moral”, mas não responde ao foco específico do item sobre “estética e arte”."
+  }
+ },
+ {
+  "id": "vol3-Filosofia-12",
+  "area": "Filosofia",
+  "num": "12",
+  "title": "Estética e arte",
+  "stem": "Qual critério permite analisar com maior validade uma produção ligada a estética e arte?",
+  "options": {
+   "A": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de filosofias contemporâneas",
+   "B": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de leitura, diálogo e ensino de filosofia",
+   "C": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de filosofia política e democracia",
+   "D": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando estética e arte como foco da devolutiva e do replanejamento"
+  },
+  "correct": "D",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “filosofias contemporâneas”, mas não responde ao foco específico do item sobre “estética e arte”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “leitura, diálogo e ensino de filosofia”, mas não responde ao foco específico do item sobre “estética e arte”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “filosofia política e democracia”, mas não responde ao foco específico do item sobre “estética e arte”.",
+   "D": "Correta. A ação mobiliza “estética e arte” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado."
+  }
+ },
+ {
+  "id": "vol3-Filosofia-13",
+  "area": "Filosofia",
+  "num": "13",
+  "title": "Filosofia moderna",
+  "stem": "A turma concluiu a atividade de filosofia moderna, mas não consegue explicar suas decisões. O professor deve",
+  "options": {
+   "A": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de filosofia moderna",
+   "B": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando filosofias contemporâneas como foco da devolutiva e do replanejamento",
+   "C": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando leitura, diálogo e ensino de filosofia como foco da devolutiva e do replanejamento",
+   "D": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando filosofia política e democracia como foco da devolutiva e do replanejamento"
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "Correta. A ação mobiliza “filosofia moderna” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “filosofias contemporâneas”, mas não responde ao foco específico do item sobre “filosofia moderna”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “leitura, diálogo e ensino de filosofia”, mas não responde ao foco específico do item sobre “filosofia moderna”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “filosofia política e democracia”, mas não responde ao foco específico do item sobre “filosofia moderna”."
+  }
+ },
+ {
+  "id": "vol3-Filosofia-14",
+  "area": "Filosofia",
+  "num": "14",
+  "title": "Filosofia moderna",
+  "stem": "Em relação a filosofia moderna, qual devolutiva favorece autorregulação e avanço conceitual?",
+  "options": {
+   "A": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de filosofias africanas e indígenas",
+   "B": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando filosofia moderna como foco da devolutiva e do replanejamento",
+   "C": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de filosofia antiga e conhecimento",
+   "D": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de lógica e argumentação"
+  },
+  "correct": "B",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “filosofias africanas e indígenas”, mas não responde ao foco específico do item sobre “filosofia moderna”.",
+   "B": "Correta. A ação mobiliza “filosofia moderna” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “filosofia antiga e conhecimento”, mas não responde ao foco específico do item sobre “filosofia moderna”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “lógica e argumentação”, mas não responde ao foco específico do item sobre “filosofia moderna”."
+  }
+ },
+ {
+  "id": "vol3-Filosofia-15",
+  "area": "Filosofia",
+  "num": "15",
+  "title": "Filosofias contemporâneas",
+  "stem": "Qual instrumento de avaliação é mais compatível com um trabalho investigativo sobre filosofias contemporâneas?",
+  "options": {
+   "A": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando filosofias africanas e indígenas como foco da devolutiva e do replanejamento",
+   "B": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando filosofia antiga e conhecimento como foco da devolutiva e do replanejamento",
+   "C": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de filosofias contemporâneas",
+   "D": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando lógica e argumentação como foco da devolutiva e do replanejamento"
+  },
+  "correct": "C",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “filosofias africanas e indígenas”, mas não responde ao foco específico do item sobre “filosofias contemporâneas”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “filosofia antiga e conhecimento”, mas não responde ao foco específico do item sobre “filosofias contemporâneas”.",
+   "C": "Correta. A ação mobiliza “filosofias contemporâneas” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “lógica e argumentação”, mas não responde ao foco específico do item sobre “filosofias contemporâneas”."
+  }
+ },
+ {
+  "id": "vol3-Filosofia-16",
+  "area": "Filosofia",
+  "num": "16",
+  "title": "Filosofias contemporâneas",
+  "stem": "Para acompanhar aprendizagens heterogêneas em filosofias contemporâneas, o planejamento deve",
+  "options": {
+   "A": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de leitura, diálogo e ensino de filosofia",
+   "B": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de ética e filosofia moral",
+   "C": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de epistemologia e ciência",
+   "D": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando filosofias contemporâneas como foco da devolutiva e do replanejamento"
+  },
+  "correct": "D",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “leitura, diálogo e ensino de filosofia”, mas não responde ao foco específico do item sobre “filosofias contemporâneas”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “ética e filosofia moral”, mas não responde ao foco específico do item sobre “filosofias contemporâneas”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “epistemologia e ciência”, mas não responde ao foco específico do item sobre “filosofias contemporâneas”.",
+   "D": "Correta. A ação mobiliza “filosofias contemporâneas” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado."
+  }
+ },
+ {
+  "id": "vol3-Filosofia-17",
+  "area": "Filosofia",
+  "num": "17",
+  "title": "Filosofias africanas e indígenas",
+  "stem": "Uma prova sobre filosofias africanas e indígenas cobra somente termos isolados. A correção pedagógica mais adequada é",
+  "options": {
+   "A": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de filosofias africanas e indígenas",
+   "B": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando leitura, diálogo e ensino de filosofia como foco da devolutiva e do replanejamento",
+   "C": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando ética e filosofia moral como foco da devolutiva e do replanejamento",
+   "D": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando epistemologia e ciência como foco da devolutiva e do replanejamento"
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "Correta. A ação mobiliza “filosofias africanas e indígenas” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “leitura, diálogo e ensino de filosofia”, mas não responde ao foco específico do item sobre “filosofias africanas e indígenas”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “ética e filosofia moral”, mas não responde ao foco específico do item sobre “filosofias africanas e indígenas”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “epistemologia e ciência”, mas não responde ao foco específico do item sobre “filosofias africanas e indígenas”."
+  }
+ },
+ {
+  "id": "vol3-Filosofia-18",
+  "area": "Filosofia",
+  "num": "18",
+  "title": "Filosofias africanas e indígenas",
+  "stem": "Ao revisar erros relacionados a filosofias africanas e indígenas, qual procedimento gera melhor evidência diagnóstica?",
+  "options": {
+   "A": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de filosofia antiga e conhecimento",
+   "B": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando filosofias africanas e indígenas como foco da devolutiva e do replanejamento",
+   "C": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de filosofia política e democracia",
+   "D": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de estética e arte"
+  },
+  "correct": "B",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “filosofia antiga e conhecimento”, mas não responde ao foco específico do item sobre “filosofias africanas e indígenas”.",
+   "B": "Correta. A ação mobiliza “filosofias africanas e indígenas” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “filosofia política e democracia”, mas não responde ao foco específico do item sobre “filosofias africanas e indígenas”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “estética e arte”, mas não responde ao foco específico do item sobre “filosofias africanas e indígenas”."
+  }
+ },
+ {
+  "id": "vol3-Filosofia-19",
+  "area": "Filosofia",
+  "num": "19",
+  "title": "Leitura, diálogo e ensino de filosofia",
+  "stem": "Qual ação articula avaliação formativa e conhecimento específico no eixo leitura, diálogo e ensino de filosofia?",
+  "options": {
+   "A": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando filosofia antiga e conhecimento como foco da devolutiva e do replanejamento",
+   "B": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando filosofia política e democracia como foco da devolutiva e do replanejamento",
+   "C": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de leitura, diálogo e ensino de filosofia",
+   "D": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando estética e arte como foco da devolutiva e do replanejamento"
+  },
+  "correct": "C",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “filosofia antiga e conhecimento”, mas não responde ao foco específico do item sobre “leitura, diálogo e ensino de filosofia”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “filosofia política e democracia”, mas não responde ao foco específico do item sobre “leitura, diálogo e ensino de filosofia”.",
+   "C": "Correta. A ação mobiliza “leitura, diálogo e ensino de filosofia” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “estética e arte”, mas não responde ao foco específico do item sobre “leitura, diálogo e ensino de filosofia”."
+  }
+ },
+ {
+  "id": "vol3-Filosofia-20",
+  "area": "Filosofia",
+  "num": "20",
+  "title": "Leitura, diálogo e ensino de filosofia",
+  "stem": "Após a sequência sobre leitura, diálogo e ensino de filosofia, a síntese mais produtiva será aquela que permite ao estudante",
+  "options": {
+   "A": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de ética e filosofia moral",
+   "B": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de lógica e argumentação",
+   "C": "problematizar o caso, reconstruir argumentos e confrontar posições com razões e objeções, focalizando conceitos e problemas próprios de filosofia moderna",
+   "D": "avaliar clareza conceitual, validade das inferências e capacidade de responder a contra-argumentos, tomando leitura, diálogo e ensino de filosofia como foco da devolutiva e do replanejamento"
+  },
+  "correct": "D",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “ética e filosofia moral”, mas não responde ao foco específico do item sobre “leitura, diálogo e ensino de filosofia”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “lógica e argumentação”, mas não responde ao foco específico do item sobre “leitura, diálogo e ensino de filosofia”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “filosofia moderna”, mas não responde ao foco específico do item sobre “leitura, diálogo e ensino de filosofia”.",
+   "D": "Correta. A ação mobiliza “leitura, diálogo e ensino de filosofia” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado."
+  }
+ },
+ {
+  "id": "vol3-Física-01",
+  "area": "Física",
+  "num": "01",
+  "title": "Mecânica e conservação",
+  "stem": "Uma turma apresenta explicações fragmentadas sobre mecânica e conservação. Qual encaminhamento produz compreensão mais consistente?",
+  "options": {
+   "A": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de mecânica e conservação",
+   "B": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando gravitação e movimentos como foco da devolutiva e do replanejamento",
+   "C": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando ondas e acústica como foco da devolutiva e do replanejamento",
+   "D": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando magnetismo e indução como foco da devolutiva e do replanejamento"
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "Correta. A ação mobiliza “mecânica e conservação” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “gravitação e movimentos”, mas não responde ao foco específico do item sobre “mecânica e conservação”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “ondas e acústica”, mas não responde ao foco específico do item sobre “mecânica e conservação”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “magnetismo e indução”, mas não responde ao foco específico do item sobre “mecânica e conservação”."
+  }
+ },
+ {
+  "id": "vol3-Física-02",
+  "area": "Física",
+  "num": "02",
+  "title": "Mecânica e conservação",
+  "stem": "Ao trabalhar mecânica e conservação, o docente percebe reprodução de definições sem aplicação. A intervenção mais adequada é",
+  "options": {
+   "A": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de termologia e termodinâmica",
+   "B": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando mecânica e conservação como foco da devolutiva e do replanejamento",
+   "C": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de óptica",
+   "D": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de física moderna"
+  },
+  "correct": "B",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “termologia e termodinâmica”, mas não responde ao foco específico do item sobre “mecânica e conservação”.",
+   "B": "Correta. A ação mobiliza “mecânica e conservação” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “óptica”, mas não responde ao foco específico do item sobre “mecânica e conservação”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “física moderna”, mas não responde ao foco específico do item sobre “mecânica e conservação”."
+  }
+ },
+ {
+  "id": "vol3-Física-03",
+  "area": "Física",
+  "num": "03",
+  "title": "Gravitação e movimentos",
+  "stem": "Em uma situação-problema envolvendo gravitação e movimentos, qual decisão preserva o rigor específico da área?",
+  "options": {
+   "A": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando termologia e termodinâmica como foco da devolutiva e do replanejamento",
+   "B": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando óptica como foco da devolutiva e do replanejamento",
+   "C": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de gravitação e movimentos",
+   "D": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando física moderna como foco da devolutiva e do replanejamento"
+  },
+  "correct": "C",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “termologia e termodinâmica”, mas não responde ao foco específico do item sobre “gravitação e movimentos”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “óptica”, mas não responde ao foco específico do item sobre “gravitação e movimentos”.",
+   "C": "Correta. A ação mobiliza “gravitação e movimentos” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “física moderna”, mas não responde ao foco específico do item sobre “gravitação e movimentos”."
+  }
+ },
+ {
+  "id": "vol3-Física-04",
+  "area": "Física",
+  "num": "04",
+  "title": "Gravitação e movimentos",
+  "stem": "O planejamento sobre gravitação e movimentos precisa combinar conteúdo e participação. Qual ação melhor atende a esse objetivo?",
+  "options": {
+   "A": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de ondas e acústica",
+   "B": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de eletricidade",
+   "C": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de astronomia e cosmologia",
+   "D": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando gravitação e movimentos como foco da devolutiva e do replanejamento"
+  },
+  "correct": "D",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “ondas e acústica”, mas não responde ao foco específico do item sobre “gravitação e movimentos”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “eletricidade”, mas não responde ao foco específico do item sobre “gravitação e movimentos”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “astronomia e cosmologia”, mas não responde ao foco específico do item sobre “gravitação e movimentos”.",
+   "D": "Correta. A ação mobiliza “gravitação e movimentos” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado."
+  }
+ },
+ {
+  "id": "vol3-Física-05",
+  "area": "Física",
+  "num": "05",
+  "title": "Termologia e termodinâmica",
+  "stem": "Para evitar uma abordagem meramente expositiva de termologia e termodinâmica, deve-se",
+  "options": {
+   "A": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de termologia e termodinâmica",
+   "B": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando ondas e acústica como foco da devolutiva e do replanejamento",
+   "C": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando eletricidade como foco da devolutiva e do replanejamento",
+   "D": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando astronomia e cosmologia como foco da devolutiva e do replanejamento"
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "Correta. A ação mobiliza “termologia e termodinâmica” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “ondas e acústica”, mas não responde ao foco específico do item sobre “termologia e termodinâmica”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “eletricidade”, mas não responde ao foco específico do item sobre “termologia e termodinâmica”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “astronomia e cosmologia”, mas não responde ao foco específico do item sobre “termologia e termodinâmica”."
+  }
+ },
+ {
+  "id": "vol3-Física-06",
+  "area": "Física",
+  "num": "06",
+  "title": "Termologia e termodinâmica",
+  "stem": "Uma atividade referente a termologia e termodinâmica gerou respostas sem justificativa. Qual reformulação é mais formativa?",
+  "options": {
+   "A": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de óptica",
+   "B": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando termologia e termodinâmica como foco da devolutiva e do replanejamento",
+   "C": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de magnetismo e indução",
+   "D": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de experimentação, tecnologia e sustentabilidade"
+  },
+  "correct": "B",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “óptica”, mas não responde ao foco específico do item sobre “termologia e termodinâmica”.",
+   "B": "Correta. A ação mobiliza “termologia e termodinâmica” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “magnetismo e indução”, mas não responde ao foco específico do item sobre “termologia e termodinâmica”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “experimentação, tecnologia e sustentabilidade”, mas não responde ao foco específico do item sobre “termologia e termodinâmica”."
+  }
+ },
+ {
+  "id": "vol3-Física-07",
+  "area": "Física",
+  "num": "07",
+  "title": "Ondas e acústica",
+  "stem": "No estudo de ondas e acústica, estudantes discordam sobre a solução. O encaminhamento profissional adequado consiste em",
+  "options": {
+   "A": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando óptica como foco da devolutiva e do replanejamento",
+   "B": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando magnetismo e indução como foco da devolutiva e do replanejamento",
+   "C": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de ondas e acústica",
+   "D": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando experimentação, tecnologia e sustentabilidade como foco da devolutiva e do replanejamento"
+  },
+  "correct": "C",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “óptica”, mas não responde ao foco específico do item sobre “ondas e acústica”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “magnetismo e indução”, mas não responde ao foco específico do item sobre “ondas e acústica”.",
+   "C": "Correta. A ação mobiliza “ondas e acústica” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “experimentação, tecnologia e sustentabilidade”, mas não responde ao foco específico do item sobre “ondas e acústica”."
+  }
+ },
+ {
+  "id": "vol3-Física-08",
+  "area": "Física",
+  "num": "08",
+  "title": "Ondas e acústica",
+  "stem": "Qual proposta transforma ondas e acústica em objeto de investigação e não apenas de memorização?",
+  "options": {
+   "A": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de eletricidade",
+   "B": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de física moderna",
+   "C": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de mecânica e conservação",
+   "D": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando ondas e acústica como foco da devolutiva e do replanejamento"
+  },
+  "correct": "D",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “eletricidade”, mas não responde ao foco específico do item sobre “ondas e acústica”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “física moderna”, mas não responde ao foco específico do item sobre “ondas e acústica”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “mecânica e conservação”, mas não responde ao foco específico do item sobre “ondas e acústica”.",
+   "D": "Correta. A ação mobiliza “ondas e acústica” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado."
+  }
+ },
+ {
+  "id": "vol3-Física-09",
+  "area": "Física",
+  "num": "09",
+  "title": "Óptica",
+  "stem": "Diante de dificuldades recorrentes em óptica, a ação docente mais coerente é",
+  "options": {
+   "A": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de óptica",
+   "B": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando eletricidade como foco da devolutiva e do replanejamento",
+   "C": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando física moderna como foco da devolutiva e do replanejamento",
+   "D": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando mecânica e conservação como foco da devolutiva e do replanejamento"
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "Correta. A ação mobiliza “óptica” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “eletricidade”, mas não responde ao foco específico do item sobre “óptica”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “física moderna”, mas não responde ao foco específico do item sobre “óptica”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “mecânica e conservação”, mas não responde ao foco específico do item sobre “óptica”."
+  }
+ },
+ {
+  "id": "vol3-Física-10",
+  "area": "Física",
+  "num": "10",
+  "title": "Óptica",
+  "stem": "Para relacionar óptica ao contexto da educação básica, deve-se",
+  "options": {
+   "A": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de magnetismo e indução",
+   "B": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando óptica como foco da devolutiva e do replanejamento",
+   "C": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de astronomia e cosmologia",
+   "D": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de gravitação e movimentos"
+  },
+  "correct": "B",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “magnetismo e indução”, mas não responde ao foco específico do item sobre “óptica”.",
+   "B": "Correta. A ação mobiliza “óptica” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “astronomia e cosmologia”, mas não responde ao foco específico do item sobre “óptica”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “gravitação e movimentos”, mas não responde ao foco específico do item sobre “óptica”."
+  }
+ },
+ {
+  "id": "vol3-Física-11",
+  "area": "Física",
+  "num": "11",
+  "title": "Eletricidade",
+  "stem": "Na avaliação de eletricidade, qual evidência demonstra aprendizagem além da repetição?",
+  "options": {
+   "A": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando magnetismo e indução como foco da devolutiva e do replanejamento",
+   "B": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando astronomia e cosmologia como foco da devolutiva e do replanejamento",
+   "C": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de eletricidade",
+   "D": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando gravitação e movimentos como foco da devolutiva e do replanejamento"
+  },
+  "correct": "C",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “magnetismo e indução”, mas não responde ao foco específico do item sobre “eletricidade”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “astronomia e cosmologia”, mas não responde ao foco específico do item sobre “eletricidade”.",
+   "C": "Correta. A ação mobiliza “eletricidade” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “gravitação e movimentos”, mas não responde ao foco específico do item sobre “eletricidade”."
+  }
+ },
+ {
+  "id": "vol3-Física-12",
+  "area": "Física",
+  "num": "12",
+  "title": "Eletricidade",
+  "stem": "Qual critério permite analisar com maior validade uma produção ligada a eletricidade?",
+  "options": {
+   "A": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de física moderna",
+   "B": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de experimentação, tecnologia e sustentabilidade",
+   "C": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de termologia e termodinâmica",
+   "D": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando eletricidade como foco da devolutiva e do replanejamento"
+  },
+  "correct": "D",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “física moderna”, mas não responde ao foco específico do item sobre “eletricidade”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “experimentação, tecnologia e sustentabilidade”, mas não responde ao foco específico do item sobre “eletricidade”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “termologia e termodinâmica”, mas não responde ao foco específico do item sobre “eletricidade”.",
+   "D": "Correta. A ação mobiliza “eletricidade” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado."
+  }
+ },
+ {
+  "id": "vol3-Física-13",
+  "area": "Física",
+  "num": "13",
+  "title": "Magnetismo e indução",
+  "stem": "A turma concluiu a atividade de magnetismo e indução, mas não consegue explicar suas decisões. O professor deve",
+  "options": {
+   "A": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de magnetismo e indução",
+   "B": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando física moderna como foco da devolutiva e do replanejamento",
+   "C": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando experimentação, tecnologia e sustentabilidade como foco da devolutiva e do replanejamento",
+   "D": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando termologia e termodinâmica como foco da devolutiva e do replanejamento"
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "Correta. A ação mobiliza “magnetismo e indução” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “física moderna”, mas não responde ao foco específico do item sobre “magnetismo e indução”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “experimentação, tecnologia e sustentabilidade”, mas não responde ao foco específico do item sobre “magnetismo e indução”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “termologia e termodinâmica”, mas não responde ao foco específico do item sobre “magnetismo e indução”."
+  }
+ },
+ {
+  "id": "vol3-Física-14",
+  "area": "Física",
+  "num": "14",
+  "title": "Magnetismo e indução",
+  "stem": "Em relação a magnetismo e indução, qual devolutiva favorece autorregulação e avanço conceitual?",
+  "options": {
+   "A": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de astronomia e cosmologia",
+   "B": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando magnetismo e indução como foco da devolutiva e do replanejamento",
+   "C": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de mecânica e conservação",
+   "D": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de ondas e acústica"
+  },
+  "correct": "B",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “astronomia e cosmologia”, mas não responde ao foco específico do item sobre “magnetismo e indução”.",
+   "B": "Correta. A ação mobiliza “magnetismo e indução” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “mecânica e conservação”, mas não responde ao foco específico do item sobre “magnetismo e indução”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “ondas e acústica”, mas não responde ao foco específico do item sobre “magnetismo e indução”."
+  }
+ },
+ {
+  "id": "vol3-Física-15",
+  "area": "Física",
+  "num": "15",
+  "title": "Física moderna",
+  "stem": "Qual instrumento de avaliação é mais compatível com um trabalho investigativo sobre física moderna?",
+  "options": {
+   "A": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando astronomia e cosmologia como foco da devolutiva e do replanejamento",
+   "B": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando mecânica e conservação como foco da devolutiva e do replanejamento",
+   "C": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de física moderna",
+   "D": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando ondas e acústica como foco da devolutiva e do replanejamento"
+  },
+  "correct": "C",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “astronomia e cosmologia”, mas não responde ao foco específico do item sobre “física moderna”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “mecânica e conservação”, mas não responde ao foco específico do item sobre “física moderna”.",
+   "C": "Correta. A ação mobiliza “física moderna” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “ondas e acústica”, mas não responde ao foco específico do item sobre “física moderna”."
+  }
+ },
+ {
+  "id": "vol3-Física-16",
+  "area": "Física",
+  "num": "16",
+  "title": "Física moderna",
+  "stem": "Para acompanhar aprendizagens heterogêneas em física moderna, o planejamento deve",
+  "options": {
+   "A": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de experimentação, tecnologia e sustentabilidade",
+   "B": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de gravitação e movimentos",
+   "C": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de óptica",
+   "D": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando física moderna como foco da devolutiva e do replanejamento"
+  },
+  "correct": "D",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “experimentação, tecnologia e sustentabilidade”, mas não responde ao foco específico do item sobre “física moderna”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “gravitação e movimentos”, mas não responde ao foco específico do item sobre “física moderna”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “óptica”, mas não responde ao foco específico do item sobre “física moderna”.",
+   "D": "Correta. A ação mobiliza “física moderna” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado."
+  }
+ },
+ {
+  "id": "vol3-Física-17",
+  "area": "Física",
+  "num": "17",
+  "title": "Astronomia e cosmologia",
+  "stem": "Uma prova sobre astronomia e cosmologia cobra somente termos isolados. A correção pedagógica mais adequada é",
+  "options": {
+   "A": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de astronomia e cosmologia",
+   "B": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando experimentação, tecnologia e sustentabilidade como foco da devolutiva e do replanejamento",
+   "C": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando gravitação e movimentos como foco da devolutiva e do replanejamento",
+   "D": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando óptica como foco da devolutiva e do replanejamento"
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "Correta. A ação mobiliza “astronomia e cosmologia” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “experimentação, tecnologia e sustentabilidade”, mas não responde ao foco específico do item sobre “astronomia e cosmologia”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “gravitação e movimentos”, mas não responde ao foco específico do item sobre “astronomia e cosmologia”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “óptica”, mas não responde ao foco específico do item sobre “astronomia e cosmologia”."
+  }
+ },
+ {
+  "id": "vol3-Física-18",
+  "area": "Física",
+  "num": "18",
+  "title": "Astronomia e cosmologia",
+  "stem": "Ao revisar erros relacionados a astronomia e cosmologia, qual procedimento gera melhor evidência diagnóstica?",
+  "options": {
+   "A": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de mecânica e conservação",
+   "B": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando astronomia e cosmologia como foco da devolutiva e do replanejamento",
+   "C": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de termologia e termodinâmica",
+   "D": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de eletricidade"
+  },
+  "correct": "B",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “mecânica e conservação”, mas não responde ao foco específico do item sobre “astronomia e cosmologia”.",
+   "B": "Correta. A ação mobiliza “astronomia e cosmologia” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “termologia e termodinâmica”, mas não responde ao foco específico do item sobre “astronomia e cosmologia”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “eletricidade”, mas não responde ao foco específico do item sobre “astronomia e cosmologia”."
+  }
+ },
+ {
+  "id": "vol3-Física-19",
+  "area": "Física",
+  "num": "19",
+  "title": "Experimentação, tecnologia e sustentabilidade",
+  "stem": "Qual ação articula avaliação formativa e conhecimento específico no eixo experimentação, tecnologia e sustentabilidade?",
+  "options": {
+   "A": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando mecânica e conservação como foco da devolutiva e do replanejamento",
+   "B": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando termologia e termodinâmica como foco da devolutiva e do replanejamento",
+   "C": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de experimentação, tecnologia e sustentabilidade",
+   "D": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando eletricidade como foco da devolutiva e do replanejamento"
+  },
+  "correct": "C",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “mecânica e conservação”, mas não responde ao foco específico do item sobre “experimentação, tecnologia e sustentabilidade”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “termologia e termodinâmica”, mas não responde ao foco específico do item sobre “experimentação, tecnologia e sustentabilidade”.",
+   "C": "Correta. A ação mobiliza “experimentação, tecnologia e sustentabilidade” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “eletricidade”, mas não responde ao foco específico do item sobre “experimentação, tecnologia e sustentabilidade”."
+  }
+ },
+ {
+  "id": "vol3-Física-20",
+  "area": "Física",
+  "num": "20",
+  "title": "Experimentação, tecnologia e sustentabilidade",
+  "stem": "Após a sequência sobre experimentação, tecnologia e sustentabilidade, a síntese mais produtiva será aquela que permite ao estudante",
+  "options": {
+   "A": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de gravitação e movimentos",
+   "B": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de ondas e acústica",
+   "C": "formular previsões, construir modelo, obter medidas e confrontar resultados com incertezas, focalizando conceitos e problemas próprios de magnetismo e indução",
+   "D": "avaliar relações entre grandezas, justificativa do modelo, dados e limites da conclusão, tomando experimentação, tecnologia e sustentabilidade como foco da devolutiva e do replanejamento"
+  },
+  "correct": "D",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “gravitação e movimentos”, mas não responde ao foco específico do item sobre “experimentação, tecnologia e sustentabilidade”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “ondas e acústica”, mas não responde ao foco específico do item sobre “experimentação, tecnologia e sustentabilidade”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “magnetismo e indução”, mas não responde ao foco específico do item sobre “experimentação, tecnologia e sustentabilidade”.",
+   "D": "Correta. A ação mobiliza “experimentação, tecnologia e sustentabilidade” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado."
+  }
+ },
+ {
+  "id": "vol3-Geografia-01",
+  "area": "Geografia",
+  "num": "01",
+  "title": "Espaço, território e lugar",
+  "stem": "Uma turma apresenta explicações fragmentadas sobre espaço, território e lugar. Qual encaminhamento produz compreensão mais consistente?",
+  "options": {
+   "A": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de espaço, território e lugar",
+   "B": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando cartografia e geotecnologias como foco da devolutiva e do replanejamento",
+   "C": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando urbanização e redes como foco da devolutiva e do replanejamento",
+   "D": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando relevo, solos e águas como foco da devolutiva e do replanejamento"
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "Correta. A ação mobiliza “espaço, território e lugar” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “cartografia e geotecnologias”, mas não responde ao foco específico do item sobre “espaço, território e lugar”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “urbanização e redes”, mas não responde ao foco específico do item sobre “espaço, território e lugar”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “relevo, solos e águas”, mas não responde ao foco específico do item sobre “espaço, território e lugar”."
+  }
+ },
+ {
+  "id": "vol3-Geografia-02",
+  "area": "Geografia",
+  "num": "02",
+  "title": "Espaço, território e lugar",
+  "stem": "Ao trabalhar espaço, território e lugar, o docente percebe reprodução de definições sem aplicação. A intervenção mais adequada é",
+  "options": {
+   "A": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de população e mobilidades",
+   "B": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando espaço, território e lugar como foco da devolutiva e do replanejamento",
+   "C": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de questão agrária",
+   "D": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de globalização e geopolítica"
+  },
+  "correct": "B",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “população e mobilidades”, mas não responde ao foco específico do item sobre “espaço, território e lugar”.",
+   "B": "Correta. A ação mobiliza “espaço, território e lugar” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “questão agrária”, mas não responde ao foco específico do item sobre “espaço, território e lugar”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “globalização e geopolítica”, mas não responde ao foco específico do item sobre “espaço, território e lugar”."
+  }
+ },
+ {
+  "id": "vol3-Geografia-03",
+  "area": "Geografia",
+  "num": "03",
+  "title": "Cartografia e geotecnologias",
+  "stem": "Em uma situação-problema envolvendo cartografia e geotecnologias, qual decisão preserva o rigor específico da área?",
+  "options": {
+   "A": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando população e mobilidades como foco da devolutiva e do replanejamento",
+   "B": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando questão agrária como foco da devolutiva e do replanejamento",
+   "C": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de cartografia e geotecnologias",
+   "D": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando globalização e geopolítica como foco da devolutiva e do replanejamento"
+  },
+  "correct": "C",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “população e mobilidades”, mas não responde ao foco específico do item sobre “cartografia e geotecnologias”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “questão agrária”, mas não responde ao foco específico do item sobre “cartografia e geotecnologias”.",
+   "C": "Correta. A ação mobiliza “cartografia e geotecnologias” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “globalização e geopolítica”, mas não responde ao foco específico do item sobre “cartografia e geotecnologias”."
+  }
+ },
+ {
+  "id": "vol3-Geografia-04",
+  "area": "Geografia",
+  "num": "04",
+  "title": "Cartografia e geotecnologias",
+  "stem": "O planejamento sobre cartografia e geotecnologias precisa combinar conteúdo e participação. Qual ação melhor atende a esse objetivo?",
+  "options": {
+   "A": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de urbanização e redes",
+   "B": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de clima e mudanças climáticas",
+   "C": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de regionalização do Brasil",
+   "D": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando cartografia e geotecnologias como foco da devolutiva e do replanejamento"
+  },
+  "correct": "D",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “urbanização e redes”, mas não responde ao foco específico do item sobre “cartografia e geotecnologias”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “clima e mudanças climáticas”, mas não responde ao foco específico do item sobre “cartografia e geotecnologias”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “regionalização do Brasil”, mas não responde ao foco específico do item sobre “cartografia e geotecnologias”.",
+   "D": "Correta. A ação mobiliza “cartografia e geotecnologias” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado."
+  }
+ },
+ {
+  "id": "vol3-Geografia-05",
+  "area": "Geografia",
+  "num": "05",
+  "title": "População e mobilidades",
+  "stem": "Para evitar uma abordagem meramente expositiva de população e mobilidades, deve-se",
+  "options": {
+   "A": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de população e mobilidades",
+   "B": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando urbanização e redes como foco da devolutiva e do replanejamento",
+   "C": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando clima e mudanças climáticas como foco da devolutiva e do replanejamento",
+   "D": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando regionalização do Brasil como foco da devolutiva e do replanejamento"
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "Correta. A ação mobiliza “população e mobilidades” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “urbanização e redes”, mas não responde ao foco específico do item sobre “população e mobilidades”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “clima e mudanças climáticas”, mas não responde ao foco específico do item sobre “população e mobilidades”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “regionalização do Brasil”, mas não responde ao foco específico do item sobre “população e mobilidades”."
+  }
+ },
+ {
+  "id": "vol3-Geografia-06",
+  "area": "Geografia",
+  "num": "06",
+  "title": "População e mobilidades",
+  "stem": "Uma atividade referente a população e mobilidades gerou respostas sem justificativa. Qual reformulação é mais formativa?",
+  "options": {
+   "A": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de questão agrária",
+   "B": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando população e mobilidades como foco da devolutiva e do replanejamento",
+   "C": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de relevo, solos e águas",
+   "D": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de trabalho de campo e justiça ambiental"
+  },
+  "correct": "B",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “questão agrária”, mas não responde ao foco específico do item sobre “população e mobilidades”.",
+   "B": "Correta. A ação mobiliza “população e mobilidades” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “relevo, solos e águas”, mas não responde ao foco específico do item sobre “população e mobilidades”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “trabalho de campo e justiça ambiental”, mas não responde ao foco específico do item sobre “população e mobilidades”."
+  }
+ },
+ {
+  "id": "vol3-Geografia-07",
+  "area": "Geografia",
+  "num": "07",
+  "title": "Urbanização e redes",
+  "stem": "No estudo de urbanização e redes, estudantes discordam sobre a solução. O encaminhamento profissional adequado consiste em",
+  "options": {
+   "A": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando questão agrária como foco da devolutiva e do replanejamento",
+   "B": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando relevo, solos e águas como foco da devolutiva e do replanejamento",
+   "C": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de urbanização e redes",
+   "D": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando trabalho de campo e justiça ambiental como foco da devolutiva e do replanejamento"
+  },
+  "correct": "C",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “questão agrária”, mas não responde ao foco específico do item sobre “urbanização e redes”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “relevo, solos e águas”, mas não responde ao foco específico do item sobre “urbanização e redes”.",
+   "C": "Correta. A ação mobiliza “urbanização e redes” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “trabalho de campo e justiça ambiental”, mas não responde ao foco específico do item sobre “urbanização e redes”."
+  }
+ },
+ {
+  "id": "vol3-Geografia-08",
+  "area": "Geografia",
+  "num": "08",
+  "title": "Urbanização e redes",
+  "stem": "Qual proposta transforma urbanização e redes em objeto de investigação e não apenas de memorização?",
+  "options": {
+   "A": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de clima e mudanças climáticas",
+   "B": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de globalização e geopolítica",
+   "C": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de espaço, território e lugar",
+   "D": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando urbanização e redes como foco da devolutiva e do replanejamento"
+  },
+  "correct": "D",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “clima e mudanças climáticas”, mas não responde ao foco específico do item sobre “urbanização e redes”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “globalização e geopolítica”, mas não responde ao foco específico do item sobre “urbanização e redes”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “espaço, território e lugar”, mas não responde ao foco específico do item sobre “urbanização e redes”.",
+   "D": "Correta. A ação mobiliza “urbanização e redes” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado."
+  }
+ },
+ {
+  "id": "vol3-Geografia-09",
+  "area": "Geografia",
+  "num": "09",
+  "title": "Questão agrária",
+  "stem": "Diante de dificuldades recorrentes em questão agrária, a ação docente mais coerente é",
+  "options": {
+   "A": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de questão agrária",
+   "B": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando clima e mudanças climáticas como foco da devolutiva e do replanejamento",
+   "C": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando globalização e geopolítica como foco da devolutiva e do replanejamento",
+   "D": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando espaço, território e lugar como foco da devolutiva e do replanejamento"
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "Correta. A ação mobiliza “questão agrária” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “clima e mudanças climáticas”, mas não responde ao foco específico do item sobre “questão agrária”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “globalização e geopolítica”, mas não responde ao foco específico do item sobre “questão agrária”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “espaço, território e lugar”, mas não responde ao foco específico do item sobre “questão agrária”."
+  }
+ },
+ {
+  "id": "vol3-Geografia-10",
+  "area": "Geografia",
+  "num": "10",
+  "title": "Questão agrária",
+  "stem": "Para relacionar questão agrária ao contexto da educação básica, deve-se",
+  "options": {
+   "A": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de relevo, solos e águas",
+   "B": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando questão agrária como foco da devolutiva e do replanejamento",
+   "C": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de regionalização do Brasil",
+   "D": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de cartografia e geotecnologias"
+  },
+  "correct": "B",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “relevo, solos e águas”, mas não responde ao foco específico do item sobre “questão agrária”.",
+   "B": "Correta. A ação mobiliza “questão agrária” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “regionalização do Brasil”, mas não responde ao foco específico do item sobre “questão agrária”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “cartografia e geotecnologias”, mas não responde ao foco específico do item sobre “questão agrária”."
+  }
+ },
+ {
+  "id": "vol3-Geografia-11",
+  "area": "Geografia",
+  "num": "11",
+  "title": "Clima e mudanças climáticas",
+  "stem": "Na avaliação de clima e mudanças climáticas, qual evidência demonstra aprendizagem além da repetição?",
+  "options": {
+   "A": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando relevo, solos e águas como foco da devolutiva e do replanejamento",
+   "B": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando regionalização do Brasil como foco da devolutiva e do replanejamento",
+   "C": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de clima e mudanças climáticas",
+   "D": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando cartografia e geotecnologias como foco da devolutiva e do replanejamento"
+  },
+  "correct": "C",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “relevo, solos e águas”, mas não responde ao foco específico do item sobre “clima e mudanças climáticas”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “regionalização do Brasil”, mas não responde ao foco específico do item sobre “clima e mudanças climáticas”.",
+   "C": "Correta. A ação mobiliza “clima e mudanças climáticas” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “cartografia e geotecnologias”, mas não responde ao foco específico do item sobre “clima e mudanças climáticas”."
+  }
+ },
+ {
+  "id": "vol3-Geografia-12",
+  "area": "Geografia",
+  "num": "12",
+  "title": "Clima e mudanças climáticas",
+  "stem": "Qual critério permite analisar com maior validade uma produção ligada a clima e mudanças climáticas?",
+  "options": {
+   "A": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de globalização e geopolítica",
+   "B": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de trabalho de campo e justiça ambiental",
+   "C": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de população e mobilidades",
+   "D": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando clima e mudanças climáticas como foco da devolutiva e do replanejamento"
+  },
+  "correct": "D",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “globalização e geopolítica”, mas não responde ao foco específico do item sobre “clima e mudanças climáticas”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “trabalho de campo e justiça ambiental”, mas não responde ao foco específico do item sobre “clima e mudanças climáticas”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “população e mobilidades”, mas não responde ao foco específico do item sobre “clima e mudanças climáticas”.",
+   "D": "Correta. A ação mobiliza “clima e mudanças climáticas” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado."
+  }
+ },
+ {
+  "id": "vol3-Geografia-13",
+  "area": "Geografia",
+  "num": "13",
+  "title": "Relevo, solos e águas",
+  "stem": "A turma concluiu a atividade de relevo, solos e águas, mas não consegue explicar suas decisões. O professor deve",
+  "options": {
+   "A": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de relevo, solos e águas",
+   "B": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando globalização e geopolítica como foco da devolutiva e do replanejamento",
+   "C": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando trabalho de campo e justiça ambiental como foco da devolutiva e do replanejamento",
+   "D": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando população e mobilidades como foco da devolutiva e do replanejamento"
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "Correta. A ação mobiliza “relevo, solos e águas” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “globalização e geopolítica”, mas não responde ao foco específico do item sobre “relevo, solos e águas”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “trabalho de campo e justiça ambiental”, mas não responde ao foco específico do item sobre “relevo, solos e águas”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “população e mobilidades”, mas não responde ao foco específico do item sobre “relevo, solos e águas”."
+  }
+ },
+ {
+  "id": "vol3-Geografia-14",
+  "area": "Geografia",
+  "num": "14",
+  "title": "Relevo, solos e águas",
+  "stem": "Em relação a relevo, solos e águas, qual devolutiva favorece autorregulação e avanço conceitual?",
+  "options": {
+   "A": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de regionalização do Brasil",
+   "B": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando relevo, solos e águas como foco da devolutiva e do replanejamento",
+   "C": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de espaço, território e lugar",
+   "D": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de urbanização e redes"
+  },
+  "correct": "B",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “regionalização do Brasil”, mas não responde ao foco específico do item sobre “relevo, solos e águas”.",
+   "B": "Correta. A ação mobiliza “relevo, solos e águas” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “espaço, território e lugar”, mas não responde ao foco específico do item sobre “relevo, solos e águas”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “urbanização e redes”, mas não responde ao foco específico do item sobre “relevo, solos e águas”."
+  }
+ },
+ {
+  "id": "vol3-Geografia-15",
+  "area": "Geografia",
+  "num": "15",
+  "title": "Globalização e geopolítica",
+  "stem": "Qual instrumento de avaliação é mais compatível com um trabalho investigativo sobre globalização e geopolítica?",
+  "options": {
+   "A": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando regionalização do Brasil como foco da devolutiva e do replanejamento",
+   "B": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando espaço, território e lugar como foco da devolutiva e do replanejamento",
+   "C": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de globalização e geopolítica",
+   "D": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando urbanização e redes como foco da devolutiva e do replanejamento"
+  },
+  "correct": "C",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “regionalização do Brasil”, mas não responde ao foco específico do item sobre “globalização e geopolítica”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “espaço, território e lugar”, mas não responde ao foco específico do item sobre “globalização e geopolítica”.",
+   "C": "Correta. A ação mobiliza “globalização e geopolítica” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “urbanização e redes”, mas não responde ao foco específico do item sobre “globalização e geopolítica”."
+  }
+ },
+ {
+  "id": "vol3-Geografia-16",
+  "area": "Geografia",
+  "num": "16",
+  "title": "Globalização e geopolítica",
+  "stem": "Para acompanhar aprendizagens heterogêneas em globalização e geopolítica, o planejamento deve",
+  "options": {
+   "A": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de trabalho de campo e justiça ambiental",
+   "B": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de cartografia e geotecnologias",
+   "C": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de questão agrária",
+   "D": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando globalização e geopolítica como foco da devolutiva e do replanejamento"
+  },
+  "correct": "D",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “trabalho de campo e justiça ambiental”, mas não responde ao foco específico do item sobre “globalização e geopolítica”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “cartografia e geotecnologias”, mas não responde ao foco específico do item sobre “globalização e geopolítica”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “questão agrária”, mas não responde ao foco específico do item sobre “globalização e geopolítica”.",
+   "D": "Correta. A ação mobiliza “globalização e geopolítica” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado."
+  }
+ },
+ {
+  "id": "vol3-Geografia-17",
+  "area": "Geografia",
+  "num": "17",
+  "title": "Regionalização do Brasil",
+  "stem": "Uma prova sobre regionalização do Brasil cobra somente termos isolados. A correção pedagógica mais adequada é",
+  "options": {
+   "A": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de regionalização do Brasil",
+   "B": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando trabalho de campo e justiça ambiental como foco da devolutiva e do replanejamento",
+   "C": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando cartografia e geotecnologias como foco da devolutiva e do replanejamento",
+   "D": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando questão agrária como foco da devolutiva e do replanejamento"
+  },
+  "correct": "A",
+  "explanations": {
+   "A": "Correta. A ação mobiliza “regionalização do Brasil” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “trabalho de campo e justiça ambiental”, mas não responde ao foco específico do item sobre “regionalização do Brasil”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “cartografia e geotecnologias”, mas não responde ao foco específico do item sobre “regionalização do Brasil”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “questão agrária”, mas não responde ao foco específico do item sobre “regionalização do Brasil”."
+  }
+ },
+ {
+  "id": "vol3-Geografia-18",
+  "area": "Geografia",
+  "num": "18",
+  "title": "Regionalização do Brasil",
+  "stem": "Ao revisar erros relacionados a regionalização do Brasil, qual procedimento gera melhor evidência diagnóstica?",
+  "options": {
+   "A": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de espaço, território e lugar",
+   "B": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando regionalização do Brasil como foco da devolutiva e do replanejamento",
+   "C": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de população e mobilidades",
+   "D": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de clima e mudanças climáticas"
+  },
+  "correct": "B",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “espaço, território e lugar”, mas não responde ao foco específico do item sobre “regionalização do Brasil”.",
+   "B": "Correta. A ação mobiliza “regionalização do Brasil” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “população e mobilidades”, mas não responde ao foco específico do item sobre “regionalização do Brasil”.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “clima e mudanças climáticas”, mas não responde ao foco específico do item sobre “regionalização do Brasil”."
+  }
+ },
+ {
+  "id": "vol3-Geografia-19",
+  "area": "Geografia",
+  "num": "19",
+  "title": "Trabalho de campo e justiça ambiental",
+  "stem": "Qual ação articula avaliação formativa e conhecimento específico no eixo trabalho de campo e justiça ambiental?",
+  "options": {
+   "A": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando espaço, território e lugar como foco da devolutiva e do replanejamento",
+   "B": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando população e mobilidades como foco da devolutiva e do replanejamento",
+   "C": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de trabalho de campo e justiça ambiental",
+   "D": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando clima e mudanças climáticas como foco da devolutiva e do replanejamento"
+  },
+  "correct": "C",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “espaço, território e lugar”, mas não responde ao foco específico do item sobre “trabalho de campo e justiça ambiental”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “população e mobilidades”, mas não responde ao foco específico do item sobre “trabalho de campo e justiça ambiental”.",
+   "C": "Correta. A ação mobiliza “trabalho de campo e justiça ambiental” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado.",
+   "D": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “clima e mudanças climáticas”, mas não responde ao foco específico do item sobre “trabalho de campo e justiça ambiental”."
+  }
+ },
+ {
+  "id": "vol3-Geografia-20",
+  "area": "Geografia",
+  "num": "20",
+  "title": "Trabalho de campo e justiça ambiental",
+  "stem": "Após a sequência sobre trabalho de campo e justiça ambiental, a síntese mais produtiva será aquela que permite ao estudante",
+  "options": {
+   "A": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de cartografia e geotecnologias",
+   "B": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de urbanização e redes",
+   "C": "articular escalas, agentes, processos e representações espaciais com dados do território, focalizando conceitos e problemas próprios de relevo, solos e águas",
+   "D": "avaliar leitura de mapas e fontes, raciocínio espacial e explicação multiescalar, tomando trabalho de campo e justiça ambiental como foco da devolutiva e do replanejamento"
+  },
+  "correct": "D",
+  "explanations": {
+   "A": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “cartografia e geotecnologias”, mas não responde ao foco específico do item sobre “trabalho de campo e justiça ambiental”.",
+   "B": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “urbanização e redes”, mas não responde ao foco específico do item sobre “trabalho de campo e justiça ambiental”.",
+   "C": "Incorreta. A alternativa seria pertinente a outro recorte, especialmente “relevo, solos e águas”, mas não responde ao foco específico do item sobre “trabalho de campo e justiça ambiental”.",
+   "D": "Correta. A ação mobiliza “trabalho de campo e justiça ambiental” por meio de procedimentos próprios da área e produz evidência compatível com o objetivo apresentado."
+  }
  }
 ]
