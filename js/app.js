@@ -183,13 +183,13 @@ function renderMateriais() {
 function renderMapasList() {
   const cards = DATA.mapas.map(m => `
     <div class="card tap" data-go="mapas-detail" data-id="${m.id}">
-      <span class="eyebrow">Mapa ${String(m.id).padStart(2,'0')}</span>
+      <span class="eyebrow">Resumo ${String(m.id).padStart(2,'0')}</span>
       <h3>${esc(m.titulo)}</h3>
       <p class="mute">${esc(m.subtitulo)}</p>
     </div>`).join('');
   return `
-    <span class="eyebrow">Mapas mentais</span>
-    <h1>9 mapas · Formação Geral</h1>
+    <span class="eyebrow">Resumos teóricos</span>
+    <h1>9 resumos · Formação Geral</h1>
     <div class="card tap" data-go="mapas-flash" style="background:var(--ink);border:none;">
       <div class="card-row">
         <div><h3 style="color:#fff">Modo flashcard</h3><p class="mute" style="color:var(--rust-soft)">27 pegadinhas da banca, uma por vez.</p></div>
@@ -215,8 +215,8 @@ function renderMapaDetail(params) {
       <p style="margin:0">${esc(p.texto)}</p>
     </div>`).join('');
   return `
-    <div class="back-link" data-go="mapas">&larr; Mapas</div>
-    <span class="eyebrow">Mapa ${String(mapa.id).padStart(2,'0')}</span>
+    <div class="back-link" data-go="mapas">&larr; Resumos</div>
+    <span class="eyebrow">Resumo ${String(mapa.id).padStart(2,'0')}</span>
     <h1>${esc(mapa.titulo)}</h1>
     <p class="mute">${esc(mapa.subtitulo)}</p>
     <hr class="divider">
@@ -240,13 +240,13 @@ function renderFlashcards() {
   const idx = STATE._flashIdx;
   if (idx >= deck.length) {
     return `
-      <div class="back-link" data-go="mapas">&larr; Mapas</div>
+      <div class="back-link" data-go="mapas">&larr; Resumos</div>
       <div class="empty"><h2>Deck concluído</h2><p>Você revisou as ${deck.length} pegadinhas.</p>
       <button class="btn btn-primary" data-action="flash-restart">Embaralhar de novo</button></div>`;
   }
   const card = deck[idx];
   return `
-    <div class="back-link" data-go="mapas">&larr; Mapas</div>
+    <div class="back-link" data-go="mapas">&larr; Resumos</div>
     <span class="eyebrow">Flashcard ${idx+1} / ${deck.length} · ${esc(card.mapa)}</span>
     <div class="flashcard-wrap">
       <div class="flashcard" id="fc">

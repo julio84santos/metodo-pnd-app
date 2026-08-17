@@ -1,7 +1,7 @@
 {
   "name": "Método PND · Reta Final",
   "short_name": "Método PND",
-  "description": "App de estudo para a Prova Nacional Docente 2026 — mapas mentais, questões comentadas, discursiva e planner.",
+  "description": "App de estudo para a Prova Nacional Docente 2026 — resumos teóricos, questões comentadas, discursiva e planner.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
