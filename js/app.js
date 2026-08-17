@@ -107,12 +107,16 @@ function renderHome() {
   const totalQ = STATE.counters.questoesRespondidas;
   const totalD = STATE.counters.discursivasEscritas;
 
-  const eixoRows = DATA.eixos.map(eixo => {
+  const eixoRows = DATA.eixos.map((eixo, idx) => {
     const stat = STATE.eixoStats[eixo];
     const p = pct(stat);
-    return `<div class="eixo-row tap" data-action="praticar-eixo" data-eixo="${esc(eixo)}" style="cursor:pointer;">
-      <div class="eixo-top"><b>${esc(eixo)}</b><span class="eixo-pct">${stat && stat.total ? p + '% · ' + stat.acertos + '/' + stat.total : 'praticar →'}</span></div>
-      <div class="progress-track"><div class="progress-fill ${barClass(p)}" style="width:${stat && stat.total ? p : 0}%"></div></div>
+    const mapa = DATA.mapas[idx];
+    return `<div class="eixo-row">
+      <div class="eixo-top">
+        <b data-go="mapas-detail" data-id="${mapa ? mapa.id : ''}" style="cursor:pointer;text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px;">${esc(eixo)}</b>
+        <span class="eixo-pct" data-action="praticar-eixo" data-eixo="${esc(eixo)}" style="cursor:pointer;">${stat && stat.total ? p + '% · ' + stat.acertos + '/' + stat.total : 'praticar →'}</span>
+      </div>
+      <div class="progress-track" data-action="praticar-eixo" data-eixo="${esc(eixo)}" style="cursor:pointer;"><div class="progress-fill ${barClass(p)}" style="width:${stat && stat.total ? p : 0}%"></div></div>
     </div>`;
   }).join('');
 
