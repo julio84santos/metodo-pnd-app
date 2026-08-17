@@ -15,6 +15,27 @@ const CRITERIOS = [
   { id: 'extensao', nome: 'Extensão e legibilidade', pergunta: 'Manteve entre 15 e 30 linhas, com estrutura legível?' }
 ];
 
+// Confere se o token de sessao enviado pertence a uma conta do plano Completo.
+// Evita que alguem chame esse endpoint (que tem custo real de IA) sem passar
+// pelo botao, mesmo que ele esteja escondido na tela pra quem e Essencial.
+async function usuarioTemPlanoCompleto(token) {
+  const supabaseUrl = process.env.SUPABASE_URL;
+  // Chave publica (mesma usada no navegador em js/auth.js) -- segura para expor.
+  const anonKey = 'sb_publishable_r-OHCEFnO8T-YvSPVUGXYA_dEJE4LZx';
+  if (!token || !supabaseUrl) return false;
+  try {
+    const r = await fetch(`${supabaseUrl}/auth/v1/user`, {
+      headers: { apikey: anonKey, Authorization: `Bearer ${token}` },
+    });
+    if (!r.ok) return false;
+    const user = await r.json();
+    const plano = user?.app_metadata?.plano || 'completo';
+    return plano === 'completo';
+  } catch (e) {
+    return false;
+  }
+}
+
 module.exports = async (req, res) => {
   if (req.method !== 'POST') {
     res.status(405).json({ error: 'Método não permitido.' });
@@ -24,6 +45,14 @@ module.exports = async (req, res) => {
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) {
     res.status(500).json({ error: 'ANTHROPIC_API_KEY não configurada no servidor.' });
+    return;
+  }
+
+  const authHeader = req.headers.authorization || '';
+  const token = authHeader.startsWith('Bearer ') ? authHeader.slice(7) : null;
+  const liberado = await usuarioTemPlanoCompleto(token);
+  if (!liberado) {
+    res.status(403).json({ error: 'A correção por IA faz parte do plano Completo.' });
     return;
   }
 

@@ -31,6 +31,44 @@ function extractStatus(body) {
   ).toString().toLowerCase();
 }
 
+// Identifica o plano comprado (essencial | completo) pelo nome do produto/oferta.
+// Quando nao da pra identificar com certeza, assume "completo": o risco de um
+// engano ai e alguns centavos a mais de uso de IA, nao travar quem pagou por
+// acesso completo.
+function extractPlano(body) {
+  const textCandidates = [
+    body?.product?.name, body?.product_name, body?.offer?.name, body?.offer_name,
+    body?.plan, body?.plan_name, body?.item?.name, body?.item_name,
+    body?.data?.product?.name, body?.data?.product_name, body?.data?.offer?.name,
+    body?.data?.plan, body?.payload?.product?.name, body?.payload?.plan,
+  ].filter((v) => typeof v === 'string');
+  const joined = textCandidates.join(' ').toLowerCase();
+  if (joined.includes('completo')) return 'completo';
+  if (joined.includes('essencial') || joined.includes('basico') || joined.includes('básico')) return 'essencial';
+  return 'completo';
+}
+
+async function setUserPlano(supabaseUrl, serviceKey, userId, plano) {
+  await fetch(`${supabaseUrl}/auth/v1/admin/users/${userId}`, {
+    method: 'PUT',
+    headers: {
+      'content-type': 'application/json',
+      apikey: serviceKey,
+      Authorization: `Bearer ${serviceKey}`,
+    },
+    body: JSON.stringify({ app_metadata: { plano } }),
+  });
+}
+
+async function findUserByEmail(supabaseUrl, serviceKey, email) {
+  const r = await fetch(`${supabaseUrl}/auth/v1/admin/users?email=${encodeURIComponent(email)}`, {
+    headers: { apikey: serviceKey, Authorization: `Bearer ${serviceKey}` },
+  });
+  const data = await r.json();
+  const users = data?.users || (Array.isArray(data) ? data : []);
+  return users.find((u) => u.email === email);
+}
+
 module.exports = async (req, res) => {
   if (req.method !== 'POST') {
     res.status(405).json({ error: 'Método não permitido.' });
@@ -55,6 +93,7 @@ module.exports = async (req, res) => {
 
   const email = extractEmail(body);
   const status = extractStatus(body);
+  const plano = extractPlano(body);
 
   if (!email) {
     res.status(400).json({ error: 'E-mail não encontrado no payload.', body });
@@ -70,7 +109,7 @@ module.exports = async (req, res) => {
   }
 
   try {
-    const appUrl = process.env.APP_URL || 'https://metodo-pnd-app.vercel.app/';
+    const appUrl = process.env.APP_URL || 'https://www.metodopnd.com.br/';
     const inviteRes = await fetch(`${supabaseUrl}/auth/v1/invite?redirect_to=${encodeURIComponent(appUrl)}`, {
       method: 'POST',
       headers: {
@@ -85,7 +124,11 @@ module.exports = async (req, res) => {
     if (!inviteRes.ok) {
       const msg = (result && (result.msg || result.message)) || JSON.stringify(result);
       if (inviteRes.status === 422 || /already registered|already exists/i.test(msg)) {
-        res.status(200).json({ ok: true, alreadyExists: true });
+        // Conta ja existe -- pode ser uma compra de upgrade (essencial -> completo).
+        // Atualiza o plano mesmo assim.
+        const existing = await findUserByEmail(supabaseUrl, serviceKey, email);
+        if (existing) await setUserPlano(supabaseUrl, serviceKey, existing.id, plano);
+        res.status(200).json({ ok: true, alreadyExists: true, plano });
         return;
       }
       console.error('Erro ao convidar usuário:', msg);
@@ -93,7 +136,8 @@ module.exports = async (req, res) => {
       return;
     }
 
-    res.status(200).json({ ok: true, userId: result?.id });
+    if (result?.id) await setUserPlano(supabaseUrl, serviceKey, result.id, plano);
+    res.status(200).json({ ok: true, userId: result?.id, plano });
   } catch (e) {
     console.error('Erro no webhook:', e);
     res.status(500).json({ error: 'Erro ao processar o webhook.', detail: String(e) });

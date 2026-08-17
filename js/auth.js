@@ -9,7 +9,11 @@
   const authContent = document.getElementById('auth-content');
   const appRoot = document.getElementById('app');
 
-  function showApp() {
+  async function showApp() {
+    const { data: { session } } = await sb.auth.getSession();
+    // Contas sem "plano" definido (ex: criadas manualmente no painel) contam
+    // como completo, pra nao travar acesso de administrador/teste.
+    window.USER_PLANO = (session && session.user && session.user.app_metadata && session.user.app_metadata.plano) || 'completo';
     authScreen.style.display = 'none';
     appRoot.style.display = 'flex';
     if (!window._appStarted) {

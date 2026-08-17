@@ -228,6 +228,14 @@ function renderHome() {
 
 /* ================= MATERIAIS ================= */
 function renderMateriais() {
+  if (!isCompleto()) {
+    return `
+      <div class="back-link" data-go="home">&larr; Início</div>
+      <span class="eyebrow">Guias originais</span>
+      <h1>Materiais em PDF</h1>
+      ${upsellCardHTML('7 materiais originais em PDF', 'Os guias completos do Método PND para baixar e estudar offline fazem parte do plano Completo.')}
+    `;
+  }
   const cards = DATA.materiais.map(m => `
     <a class="card tap" href="${esc(m.arquivo)}" target="_blank" rel="noopener" style="display:block;text-decoration:none;">
       <div class="card-row">
@@ -332,6 +340,20 @@ function renderFlashcards() {
   `;
 }
 
+/* ================= PLANO (Essencial / Completo) ================= */
+function isCompleto() {
+  return (window.USER_PLANO || 'completo') === 'completo';
+}
+function upsellCardHTML(titulo, descricao) {
+  return `
+    <div class="card" style="border-color:var(--gold);">
+      <span class="badge alt">🔒 Plano Completo</span>
+      <h3 style="margin-top:10px;">${esc(titulo)}</h3>
+      <p class="mute">${esc(descricao)}</p>
+      <a class="btn btn-primary btn-block" style="margin-top:10px;" href="https://metodo-pnd-app-landing.vercel.app/#oferta" target="_blank" rel="noopener">Fazer upgrade para o Completo</a>
+    </div>`;
+}
+
 /* ================= QUESTÕES ================= */
 function renderQuestoesHome(params) {
   const modo = params.modo || 'geral';
@@ -341,6 +363,15 @@ function renderQuestoesHome(params) {
       <span class="filter-chip ${modo==='geral'?'active':''}" data-action="qmodo" data-modo="geral">Formação Geral</span>
       <span class="filter-chip ${modo==='especifica'?'active':''}" data-action="qmodo" data-modo="especifica">Componente Específico</span>
     </div>`;
+
+  if (modo === 'especifica' && !isCompleto()) {
+    return `
+      <span class="eyebrow">Banco de questões</span>
+      <h1>${DATA.questoes.length} questões comentadas</h1>
+      ${chipsModo}
+      ${upsellCardHTML('630+ questões do Componente Específico', 'As 21 áreas específicas (Matemática, Pedagogia, Letras, Ciências e mais) fazem parte do plano Completo.')}
+    `;
+  }
 
   let filtroArea = '';
   let qtdOptions = [10, 20, 30];
@@ -485,7 +516,9 @@ function renderDiscursivaWrite(params) {
     <div class="timer" id="timer">30:00</div>
     <p class="mute" style="text-align:center;">Alvo: 15 a 30 linhas · 380–420 palavras</p>
     <textarea id="texto-discursiva" placeholder="Escreva sua resposta aqui..."></textarea>
-    <button class="btn btn-primary btn-block" data-action="corrigir-ia" data-id="${p.id}">✦ Corrigir com IA</button>
+    ${isCompleto()
+      ? `<button class="btn btn-primary btn-block" data-action="corrigir-ia" data-id="${p.id}">✦ Corrigir com IA</button>`
+      : `<a class="btn btn-primary btn-block" href="https://metodo-pnd-app-landing.vercel.app/#oferta" target="_blank" rel="noopener">🔒 Corrigir com IA · Plano Completo</a>`}
     <div style="display:flex; gap:10px; margin-top:10px;">
       <button class="btn btn-ghost btn-block" data-action="ver-modelo" data-id="${p.id}">Ver modelo</button>
       <button class="btn btn-ghost btn-block" data-go="discursiva-check" data-id="${p.id}">Autocorrigir manualmente</button>
@@ -608,6 +641,14 @@ function renderPlanner() {
 
 /* ================= RETA FINAL · 10 DIAS ================= */
 function renderRetaFinal10() {
+  if (!isCompleto()) {
+    return `
+      <div class="back-link" data-go="planner">&larr; Planner</div>
+      <span class="eyebrow">Ativação final</span>
+      <h1>Reta Final · 10 dias</h1>
+      ${upsellCardHTML('Roteiro Reta Final · últimos 10 dias', 'O plano dia a dia pra quem está com pouco tempo até a prova faz parte do plano Completo.')}
+    `;
+  }
   const rf = DATA.retaFinal10;
   const dias = rf.dias.map(d => {
     const done = !!STATE.retaFinalDone[d.dia];
@@ -781,9 +822,13 @@ async function corrigirComIA(id, btn) {
   const originalLabel = btn ? btn.textContent : '';
   if (btn) { btn.disabled = true; btn.textContent = 'Corrigindo com IA…'; }
   try {
+    const { data: { session } } = await window.SB.auth.getSession();
     const resp = await fetch('/api/corrigir-discursiva', {
       method: 'POST',
-      headers: { 'content-type': 'application/json' },
+      headers: {
+        'content-type': 'application/json',
+        Authorization: `Bearer ${session ? session.access_token : ''}`
+      },
       body: JSON.stringify({ texto, comando: p.comando, titulo: p.titulo })
     });
     const data = await resp.json();
