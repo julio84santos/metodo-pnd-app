@@ -1,4 +1,4 @@
-const CACHE = 'metodo-pnd-v2';
+const CACHE = 'metodo-pnd-v3';
 const ASSETS = [
   './',
   './index.html',
@@ -32,8 +32,33 @@ self.addEventListener('activate', (event) => {
   );
 });
 
+// App shell (html/js/json/css) e navegações: rede primeiro, cache como reserva offline.
+// Ícones e outros assets estáticos: cache primeiro (raramente mudam).
+const NETWORK_FIRST_EXT = ['.html', '.js', '.json', '.css'];
+
+function isNetworkFirst(url) {
+  if (url.pathname === '/' || url.pathname.endsWith('/')) return true;
+  return NETWORK_FIRST_EXT.some((ext) => url.pathname.endsWith(ext));
+}
+
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
+  const url = new URL(event.request.url);
+  if (url.origin !== self.location.origin) return;
+
+  if (isNetworkFirst(url)) {
+    event.respondWith(
+      fetch(event.request)
+        .then((res) => {
+          const copy = res.clone();
+          caches.open(CACHE).then((cache) => cache.put(event.request, copy));
+          return res;
+        })
+        .catch(() => caches.match(event.request))
+    );
+    return;
+  }
+
   event.respondWith(
     caches.match(event.request).then((cached) => {
       if (cached) return cached;
