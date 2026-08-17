@@ -360,9 +360,15 @@ textarea{
   border-radius: var(--radius);
   padding: 28px 24px;
 }
-.auth-box .brand{
-  font-family: var(--display); font-weight:600; font-size:1.05rem;
-  color: var(--ink); display:flex; align-items:center; gap:8px; margin-bottom:22px;
+.auth-logo{
+  display:block; width:170px; max-width:70%; margin:0 auto 10px;
+}
+.brand-sub{
+  text-align:center; font-family: var(--body); font-weight:600; font-size:.82rem;
+  color: var(--text-mute); margin-bottom:22px;
+}
+.brand-logo{
+  height:26px; width:auto; display:inline-block;
 }
 #auth-content h1{ font-size:1.3rem; margin-bottom:4px; }
 #auth-content label{
