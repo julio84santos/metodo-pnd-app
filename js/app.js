@@ -110,8 +110,8 @@ function renderHome() {
   const eixoRows = DATA.eixos.map(eixo => {
     const stat = STATE.eixoStats[eixo];
     const p = pct(stat);
-    return `<div class="eixo-row">
-      <div class="eixo-top"><b>${esc(eixo)}</b><span class="eixo-pct">${stat && stat.total ? p + '% · ' + stat.acertos + '/' + stat.total : 'sem dados'}</span></div>
+    return `<div class="eixo-row tap" data-action="praticar-eixo" data-eixo="${esc(eixo)}" style="cursor:pointer;">
+      <div class="eixo-top"><b>${esc(eixo)}</b><span class="eixo-pct">${stat && stat.total ? p + '% · ' + stat.acertos + '/' + stat.total : 'praticar →'}</span></div>
       <div class="progress-track"><div class="progress-fill ${barClass(p)}" style="width:${stat && stat.total ? p : 0}%"></div></div>
     </div>`;
   }).join('');
@@ -634,6 +634,14 @@ function handleAction(el, e) {
   if (action === 'corrigir-ia') {
     corrigirComIA(el.dataset.id, el);
   }
+  if (action === 'praticar-eixo') {
+    const pool = DATA.questoes.filter(q => q.fonte !== 'vol' && q.eixo === el.dataset.eixo);
+    if (!pool.length) {
+      alert('Ainda não há questões cadastradas para este eixo.');
+      return;
+    }
+    startQuiz('geral', null, 15, el.dataset.eixo);
+  }
   if (action === 'toggle-day') {
     const key = el.dataset.key;
     STATE.plannerDone[key] = el.checked;
@@ -658,12 +666,13 @@ main.addEventListener('click', (e) => {
 });
 
 /* ---------------- Quiz engine ---------------- */
-function startQuiz(modo, area, n) {
+function startQuiz(modo, area, n, eixo) {
   let pool;
   if (modo === 'especifica') {
     pool = DATA.questoes.filter(q => q.fonte === 'vol' && q.area === area);
   } else {
     pool = DATA.questoes.filter(q => q.fonte !== 'vol');
+    if (eixo) pool = pool.filter(q => q.eixo === eixo);
   }
   pool = shuffle(pool);
   if (n && n > 0) pool = pool.slice(0, n);
