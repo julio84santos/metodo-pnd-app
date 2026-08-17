@@ -1,4 +1,4 @@
-const CACHE = 'metodo-pnd-v3';
+const CACHE = 'metodo-pnd-v4';
 const ASSETS = [
   './',
   './index.html',
