@@ -148,7 +148,7 @@ function renderHome() {
     </div>
     <div class="card tap" data-go="questoes">
       <div class="card-row">
-        <div><h3>Praticar questões</h3><p class="mute">490 questões comentadas, corrigidas na hora.</p></div>
+        <div><h3>Praticar questões</h3><p class="mute">${DATA.questoes.length} questões comentadas, corrigidas na hora.</p></div>
         <span class="badge alt">Abrir</span>
       </div>
     </div>
@@ -293,7 +293,7 @@ function renderQuestoesHome(params) {
 
   return `
     <span class="eyebrow">Banco de questões</span>
-    <h1>490 questões comentadas</h1>
+    <h1>${DATA.questoes.length} questões comentadas</h1>
     ${chipsModo}
     ${filtroArea}
     <div class="card">
