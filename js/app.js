@@ -300,7 +300,7 @@ function renderQuestoesHome(params) {
       <h3>Quantidade</h3>
       <p class="mute">${poolSize} questões disponíveis neste filtro.</p>
       <div style="display:flex;gap:8px;margin-top:8px;">
-        ${qtdOptions.map(n => `<button class="btn btn-ghost btn-sm" data-action="quiz-start" data-n="${n}" data-modo="${modo}" data-area="${esc(params.area||'')}" ${(modo==='especifica' && !params.area) ? 'disabled' : ''}>${n}</button>`).join('')}
+        ${qtdOptions.filter(n => n <= poolSize).map(n => `<button class="btn btn-ghost btn-sm" data-action="quiz-start" data-n="${n}" data-modo="${modo}" data-area="${esc(params.area||'')}" ${(modo==='especifica' && !params.area) ? 'disabled' : ''}>${n}</button>`).join('')}
         <button class="btn btn-ghost btn-sm" data-action="quiz-start" data-n="0" data-modo="${modo}" data-area="${esc(params.area||'')}" ${(modo==='especifica' && !params.area) ? 'disabled' : ''}>Tudo</button>
       </div>
       <button class="btn btn-primary btn-block" style="margin-top:12px;" data-action="quiz-start" data-n="10" data-modo="${modo}" data-area="${esc(params.area||'')}" ${(modo==='especifica' && !params.area) ? 'disabled' : ''}>
