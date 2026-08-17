@@ -823,4 +823,5 @@ render = function () {
   if (ROUTE.view === 'discursiva-write') startTimer();
 };
 
-boot();
+// O boot só é chamado depois que js/auth.js confirmar uma sessão válida.
+window.startApp = boot;

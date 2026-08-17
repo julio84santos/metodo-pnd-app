@@ -336,3 +336,49 @@ textarea{
 @media (min-width:560px){
   #app{ box-shadow: 0 0 60px rgba(0,0,0,.25); }
 }
+
+/* ---------- Autenticação ---------- */
+.logout-btn{
+  position:absolute; right:20px; bottom:8px;
+  background:none; border:none; cursor:pointer;
+  font-family: var(--body); font-size:.62rem; font-weight:600;
+  text-transform:uppercase; letter-spacing:.06em;
+  color: rgba(246,242,233,.4);
+  padding:2px 0;
+}
+#auth-screen{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background: var(--ink);
+  padding: 24px;
+}
+.auth-box{
+  width:100%; max-width:380px;
+  background: var(--paper);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+}
+.auth-box .brand{
+  font-family: var(--display); font-weight:600; font-size:1.05rem;
+  color: var(--ink); display:flex; align-items:center; gap:8px; margin-bottom:22px;
+}
+#auth-content h1{ font-size:1.3rem; margin-bottom:4px; }
+#auth-content label{
+  display:block; font-size:.78rem; font-weight:600; color: var(--text-mute);
+  margin: 14px 0 5px;
+}
+#auth-content input{
+  width:100%; padding:11px 13px;
+  border:1.5px solid var(--line); border-radius:10px;
+  font-family: var(--body); font-size:.92rem; background:#fff; color:var(--text);
+}
+#auth-content .btn{ margin-top:18px; }
+.auth-link{
+  display:block; width:100%; text-align:center; margin-top:14px;
+  background:none; border:none; cursor:pointer;
+  color: var(--ink-soft); font-weight:600; font-size:.82rem;
+}
+.auth-error{ color: var(--bad); font-size:.85rem; margin:8px 0 0; }
+.auth-ok{ color: var(--ok); font-size:.85rem; margin:8px 0 0; }
