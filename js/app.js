@@ -114,11 +114,54 @@ function render() {
     'discursiva-ia': renderDiscursivaIA,
     planner: renderPlanner,
     'planner-10dias': renderRetaFinal10,
-    materiais: renderMateriais
+    materiais: renderMateriais,
+    'instalar-ios': renderInstalarIOS
   };
   const fn = views[ROUTE.view] || renderHome;
   main.innerHTML = `<div class="view">${fn(ROUTE.params)}</div>`;
   attachHandlers();
+}
+
+/* ================= INSTALAR APP ================= */
+function installCardHTML() {
+  const pwa = window.PWA_INSTALL || {};
+  if (pwa.isStandalone) return '';
+  if (!pwa.deferredPrompt && !pwa.isIOS) return '';
+  return `
+    <div class="card" style="background:var(--ink);border:none;">
+      <div class="card-row">
+        <div><h3 style="color:#fff">📲 Instale o app no seu celular</h3><p class="mute" style="color:var(--rust-soft)">Acesso rápido direto da tela inicial, sem precisar abrir o navegador toda vez.</p></div>
+      </div>
+      <button class="btn btn-block" style="margin-top:10px;background:var(--gold);color:var(--ink);" data-action="instalar-app">Instalar agora</button>
+    </div>`;
+}
+
+async function instalarApp() {
+  const pwa = window.PWA_INSTALL || {};
+  if (pwa.deferredPrompt) {
+    pwa.deferredPrompt.prompt();
+    await pwa.deferredPrompt.userChoice;
+    pwa.deferredPrompt = null;
+    render();
+  } else if (pwa.isIOS) {
+    go('instalar-ios');
+  } else {
+    alert('Abra o menu do navegador e procure "Instalar app" ou "Adicionar à tela inicial".');
+  }
+}
+
+function renderInstalarIOS() {
+  return `
+    <div class="back-link" data-go="home">&larr; Início</div>
+    <span class="eyebrow">Instalar no iPhone</span>
+    <h1>Adicionar à Tela de Início</h1>
+    <div class="card">
+      <div class="checklist-item"><div><b>1.</b> Toque no ícone de compartilhar (o quadrado com a seta pra cima) na barra do Safari.</div></div>
+      <div class="checklist-item"><div><b>2.</b> Role para baixo e toque em <b>"Adicionar à Tela de Início"</b>.</div></div>
+      <div class="checklist-item"><div><b>3.</b> Toque em <b>"Adicionar"</b> no canto superior direito.</div></div>
+    </div>
+    <p class="mute">O ícone do Método PND vai aparecer na sua tela inicial, funcionando como um app de verdade — inclusive offline.</p>
+  `;
 }
 
 /* ================= HOME ================= */
@@ -148,6 +191,8 @@ function renderHome() {
     <span class="eyebrow">Painel de desempenho</span>
     <h1>Sua reta final</h1>
     <p class="mute">Meta: 80% de acerto por eixo. Estude primeiro os eixos abaixo da meta.</p>
+
+    ${installCardHTML()}
 
     <div class="stat-grid">
       <div class="stat"><b>${dias >= 0 ? dias : 0}</b><span>dias até a prova</span></div>
@@ -661,6 +706,9 @@ function handleAction(el, e) {
   }
   if (action === 'corrigir-ia') {
     corrigirComIA(el.dataset.id, el);
+  }
+  if (action === 'instalar-app') {
+    instalarApp();
   }
   if (action === 'praticar-eixo') {
     const pool = DATA.questoes.filter(q => q.fonte !== 'vol' && q.eixo === el.dataset.eixo);
