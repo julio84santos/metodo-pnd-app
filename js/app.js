@@ -412,11 +412,11 @@ function renderDiscursivaWrite(params) {
     <div class="timer" id="timer">30:00</div>
     <p class="mute" style="text-align:center;">Alvo: 15 a 30 linhas · 380–420 palavras</p>
     <textarea id="texto-discursiva" placeholder="Escreva sua resposta aqui..."></textarea>
-    <div style="display:flex; gap:10px; margin-top:12px;">
+    <button class="btn btn-primary btn-block" data-action="corrigir-ia" data-id="${p.id}">✦ Corrigir com IA</button>
+    <div style="display:flex; gap:10px; margin-top:10px;">
       <button class="btn btn-ghost btn-block" data-action="ver-modelo" data-id="${p.id}">Ver modelo</button>
-      <button class="btn btn-primary btn-block" data-go="discursiva-check" data-id="${p.id}">Autocorrigir →</button>
+      <button class="btn btn-ghost btn-block" data-go="discursiva-check" data-id="${p.id}">Autocorrigir manualmente</button>
     </div>
-    <button class="btn btn-block" style="margin-top:10px;background:var(--ink);color:#fff;" data-action="corrigir-ia" data-id="${p.id}">✦ Corrigir com IA</button>
     <div id="modelo-box"></div>
   `;
 }
