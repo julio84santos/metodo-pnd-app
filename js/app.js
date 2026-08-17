@@ -118,7 +118,7 @@ function renderHome() {
       </div>
       <div class="progress-track"><div class="progress-fill ${barClass(p)}" style="width:${stat && stat.total ? p : 0}%"></div></div>
       <div style="display:flex; gap:8px; margin-top:8px;">
-        <button class="btn btn-ghost btn-sm" data-go="mapas-detail" data-id="${mapa ? mapa.id : ''}">📘 Ver mapa</button>
+        <button class="btn btn-ghost btn-sm" data-go="mapas-detail" data-id="${mapa ? mapa.id : ''}">📘 Resumo teórico</button>
         <button class="btn btn-ghost btn-sm" data-action="praticar-eixo" data-eixo="${esc(eixo)}">🎯 Praticar</button>
       </div>
     </div>`;
