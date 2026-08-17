@@ -64,6 +64,26 @@ function barClass(p) {
   if (p >= 50) return 'mid';
   return 'low';
 }
+const EIXO_ICONS = {
+  'LDB': '⚖️',
+  'PNE e SNE': '🗺️',
+  'ECA': '🧒',
+  'BNCC e currículo': '📚',
+  'Avaliação': '📝',
+  'Inclusão': '🤝',
+  'Didática': '🧑‍🏫',
+  'Gestão e financiamento': '💰',
+  'Diversidade e direitos humanos': '🌈'
+};
+function progressRing(p, cls) {
+  const size = 44, stroke = 5, r = (size - stroke) / 2, c = 2 * Math.PI * r;
+  const dash = (p / 100) * c;
+  return `<svg class="ring ${cls}" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
+    <circle cx="${size/2}" cy="${size/2}" r="${r}" fill="none" stroke="var(--line)" stroke-width="${stroke}"/>
+    <circle cx="${size/2}" cy="${size/2}" r="${r}" fill="none" stroke="currentColor" stroke-width="${stroke}" stroke-linecap="round" stroke-dasharray="${dash} ${c}" transform="rotate(-90 ${size/2} ${size/2})"/>
+    <text x="50%" y="51%" text-anchor="middle" dominant-baseline="middle" font-size="11">${p}%</text>
+  </svg>`;
+}
 function esc(s) {
   const d = document.createElement('div');
   d.textContent = s || '';
@@ -113,10 +133,10 @@ function renderHome() {
     const mapa = DATA.mapas[idx];
     return `<div class="eixo-row">
       <div class="eixo-top">
-        <b>${esc(eixo)}</b>
-        <span class="eixo-pct">${stat && stat.total ? p + '% · ' + stat.acertos + '/' + stat.total : 'sem dados'}</span>
+        <b><span class="eixo-icon">${EIXO_ICONS[eixo] || '📌'}</span>${esc(eixo)}</b>
+        ${progressRing(p, barClass(p))}
       </div>
-      <div class="progress-track"><div class="progress-fill ${barClass(p)}" style="width:${stat && stat.total ? p : 0}%"></div></div>
+      <span class="eixo-pct">${stat && stat.total ? stat.acertos + '/' + stat.total + ' respondidas' : 'ainda sem respostas'}</span>
       <div style="display:flex; gap:8px; margin-top:8px;">
         <button class="btn btn-ghost btn-sm" data-go="mapas-detail" data-id="${mapa ? mapa.id : ''}">📘 Resumo teórico</button>
         <button class="btn btn-ghost btn-sm" data-action="praticar-eixo" data-eixo="${esc(eixo)}">🎯 Praticar</button>

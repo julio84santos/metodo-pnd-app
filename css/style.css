@@ -48,7 +48,15 @@ body{
   position: sticky;
   top:0;
   z-index: 20;
+  overflow: hidden;
 }
+.topbar-deco{
+  position:absolute;
+  border-radius:50%;
+  pointer-events:none;
+}
+.topbar-deco.a{ width:96px; height:96px; top:-46px; right:-16px; background: rgba(212,162,76,.16); }
+.topbar-deco.b{ width:36px; height:36px; top:26px; right:64px; background: rgba(255,255,255,.06); }
 .topbar .brand{
   font-family: var(--display);
   font-weight:600;
@@ -146,11 +154,17 @@ p{ line-height:1.55; color: var(--text); }
 .progress-fill.low{ background: var(--bad); }
 .progress-fill.mid{ background: var(--gold); }
 
-.eixo-row{ padding:10px 0; border-bottom:1px solid var(--line); }
+.eixo-row{ padding:12px 0; border-bottom:1px solid var(--line); }
 .eixo-row:last-child{ border-bottom:none; }
-.eixo-top{ display:flex; justify-content:space-between; font-size:.85rem; margin-bottom:5px; }
-.eixo-top b{ font-weight:600; }
-.eixo-pct{ font-family:var(--mono); color:var(--text-mute); }
+.eixo-top{ display:flex; justify-content:space-between; align-items:center; font-size:.85rem; margin-bottom:2px; }
+.eixo-top b{ font-weight:600; display:flex; align-items:center; gap:7px; }
+.eixo-icon{ font-size:1rem; line-height:1; }
+.eixo-pct{ font-family:var(--mono); color:var(--text-mute); font-size:.78rem; }
+
+.ring{ color: var(--ok); flex-shrink:0; }
+.ring.mid{ color: var(--gold); }
+.ring.low{ color: var(--bad); }
+.ring text{ font-family: var(--mono); fill: var(--ink); }
 
 /* ---------- Grid / stats ---------- */
 .stat-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin: 12px 0 16px; }
