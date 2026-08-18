@@ -8,8 +8,23 @@
 //                               NUNCA vai para o navegador, so existe aqui no servidor.
 //   WIAPY_WEBHOOK_SECRET      - um segredo escolhido por voce.
 //
-// Na Wiapy, configure a URL do webhook como:
-//   https://SEU-APP.vercel.app/api/webhook-wiapy?token=SEU_SEGREDO
+// Na Wiapy, configure:
+//   Url para enviar (post):    https://SEU-APP.vercel.app/api/webhook-wiapy
+//   Token para autenticacao:   o mesmo valor de WIAPY_WEBHOOK_SECRET
+// A Wiapy manda esse token no header "Authorization", sem prefixo "Bearer ".
+
+// Le o token tanto da URL (?token=...) quanto do header Authorization,
+// aceitando com ou sem o prefixo "Bearer ". A Wiapy usa o header puro,
+// mas manter os dois formatos nao tem custo e evita depender de um
+// unico comportamento.
+function extractToken(req) {
+  if (req.query && req.query.token) return req.query.token;
+  const authHeader = req.headers && req.headers.authorization;
+  if (authHeader) {
+    return authHeader.startsWith('Bearer ') ? authHeader.slice(7) : authHeader;
+  }
+  return null;
+}
 
 function extractEmail(body) {
   const candidates = [
@@ -27,7 +42,12 @@ function extractEmail(body) {
 
 function extractStatus(body) {
   return (
-    body?.status || body?.event || body?.data?.status || body?.payload?.status || ''
+    body?.status ||
+    body?.event ||
+    body?.payment?.status ||
+    body?.data?.status ||
+    body?.payload?.status ||
+    ''
   ).toString().toLowerCase();
 }
 
@@ -36,11 +56,16 @@ function extractStatus(body) {
 // engano ai e alguns centavos a mais de uso de IA, nao travar quem pagou por
 // acesso completo.
 function extractPlano(body) {
+  const productTitles = Array.isArray(body?.products)
+    ? body.products.map((p) => p?.title).filter((v) => typeof v === 'string')
+    : [];
   const textCandidates = [
+    body?.checkout?.title,
     body?.product?.name, body?.product_name, body?.offer?.name, body?.offer_name,
     body?.plan, body?.plan_name, body?.item?.name, body?.item_name,
     body?.data?.product?.name, body?.data?.product_name, body?.data?.offer?.name,
     body?.data?.plan, body?.payload?.product?.name, body?.payload?.plan,
+    ...productTitles,
   ].filter((v) => typeof v === 'string');
   const joined = textCandidates.join(' ').toLowerCase();
   if (joined.includes('completo')) return 'completo';
@@ -75,22 +100,9 @@ module.exports = async (req, res) => {
     return;
   }
 
-  // ============================================================
-  // MODO DIAGNOSTICO -- TEMPORARIO
-  // Loga tudo o que chegou ANTES de checar o token, so pra a gente
-  // descobrir onde a Wiapy esta mandando o token de autenticacao.
-  // A checagem de token continua acontecendo normalmente logo abaixo --
-  // isso aqui so ADICIONA visibilidade, nao afrouxa a seguranca.
-  // REMOVER esse bloco depois que o problema for identificado.
-  // ============================================================
-  console.log('--- DIAGNOSTICO WEBHOOK WIAPY ---');
-  console.log('Query params:', JSON.stringify(req.query || {}));
-  console.log('Headers:', JSON.stringify(req.headers || {}));
-  console.log('Body:', JSON.stringify(req.body || {}));
-  console.log('--- FIM DIAGNOSTICO ---');
-
   const secret = process.env.WIAPY_WEBHOOK_SECRET;
-  if (secret && req.query.token !== secret) {
+  const receivedToken = extractToken(req);
+  if (secret && receivedToken !== secret) {
     res.status(401).json({ error: 'Token inválido.' });
     return;
   }
@@ -108,8 +120,10 @@ module.exports = async (req, res) => {
   const status = extractStatus(body);
   const plano = extractPlano(body);
 
+  console.log('Webhook Wiapy recebido:', JSON.stringify({ email, status, plano }));
+
   if (!email) {
-    res.status(400).json({ error: 'E-mail não encontrado no payload.', body });
+    res.status(400).json({ error: 'E-mail não encontrado no payload.' });
     return;
   }
 
