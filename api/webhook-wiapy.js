@@ -75,6 +75,20 @@ module.exports = async (req, res) => {
     return;
   }
 
+  // ============================================================
+  // MODO DIAGNOSTICO -- TEMPORARIO
+  // Loga tudo o que chegou ANTES de checar o token, so pra a gente
+  // descobrir onde a Wiapy esta mandando o token de autenticacao.
+  // A checagem de token continua acontecendo normalmente logo abaixo --
+  // isso aqui so ADICIONA visibilidade, nao afrouxa a seguranca.
+  // REMOVER esse bloco depois que o problema for identificado.
+  // ============================================================
+  console.log('--- DIAGNOSTICO WEBHOOK WIAPY ---');
+  console.log('Query params:', JSON.stringify(req.query || {}));
+  console.log('Headers:', JSON.stringify(req.headers || {}));
+  console.log('Body:', JSON.stringify(req.body || {}));
+  console.log('--- FIM DIAGNOSTICO ---');
+
   const secret = process.env.WIAPY_WEBHOOK_SECRET;
   if (secret && req.query.token !== secret) {
     res.status(401).json({ error: 'Token inválido.' });
@@ -89,7 +103,6 @@ module.exports = async (req, res) => {
   }
 
   const body = req.body || {};
-  console.log('Webhook Wiapy recebido:', JSON.stringify(body));
 
   const email = extractEmail(body);
   const status = extractStatus(body);
