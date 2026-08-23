@@ -2,494 +2,1019 @@
 
 (function () {
 
-const SUPABASE_URL = 'https://bvopioeudscyrgxakbcm.supabase.co';
-const SUPABASE_ANON_KEY = 'sb_publishable_r-OHCEFnO8T-YvSPVUGXYA_dEJE4LZx';
+  const SUPABASE_URL =
+    'https://bvopioeudscyrgxakbcm.supabase.co';
 
-const sb = window.supabase.createClient(
-  SUPABASE_URL,
-  SUPABASE_ANON_KEY
-);
-
-window.SB = sb;
-
-const authScreen = document.getElementById('auth-screen');
-const authContent = document.getElementById('auth-content');
-const appRoot = document.getElementById('app');
+  const SUPABASE_ANON_KEY =
+    'sb_publishable_r-OHCEFnO8T-YvSPVUGXYA_dEJE4LZx';
 
 
-async function showApp() {
-
-  const { data: { session } } = await sb.auth.getSession();
-
-  const metadata = session?.user?.app_metadata || {};
-
-  /*
-    Controle de acesso
-
-    plano:
-    - essencial
-    - completo
-
-    role:
-    - user
-    - admin
-  */
-
-  window.USER_PLANO = metadata.plano || 'completo';
-
-  window.USER_ROLE = metadata.role || 'user';
-
-  window.IS_ADMIN = window.USER_ROLE === 'admin';
+  const sb = window.supabase.createClient(
+    SUPABASE_URL,
+    SUPABASE_ANON_KEY
+  );
 
 
-  console.log('Usuário:', session?.user?.email);
-  console.log('Plano:', window.USER_PLANO);
-  console.log('Admin:', window.IS_ADMIN);
+  window.SB = sb;
 
 
-  authScreen.style.display = 'none';
+  const authScreen =
+    document.getElementById('auth-screen');
 
-  appRoot.style.display = 'flex';
+  const authContent =
+    document.getElementById('auth-content');
+
+  const appRoot =
+    document.getElementById('app');
 
 
-  if (!window._appStarted) {
 
-    window._appStarted = true;
+  /* =====================================================
+     UTILITÁRIOS
+  ====================================================== */
 
-    window.startApp();
+  function showAuth() {
+
+    if (appRoot) {
+      appRoot.style.display = 'none';
+    }
+
+    if (authScreen) {
+      authScreen.style.display = 'flex';
+    }
 
   }
 
-}
 
 
+  function hideAuth() {
 
-function showAuth() {
+    if (authScreen) {
+      authScreen.style.display = 'none';
+    }
 
-  appRoot.style.display = 'none';
+  }
 
-  authScreen.style.display = 'flex';
 
-}
 
+  function showAppRoot() {
 
+    hideAuth();
 
-function renderLoginForm(errorMsg) {
+    if (appRoot) {
+      appRoot.style.display = 'flex';
+    }
 
-authContent.innerHTML = `
+  }
 
-<h1>Entrar</h1>
 
-<p class="mute">
-Acesso liberado após confirmação da compra.
-</p>
 
-${errorMsg ? 
-`<p class="auth-error">${errorMsg}</p>` 
-: ''}
+  function clearUserAccess() {
 
+    window.USER_PLANO = null;
 
-<form id="login-form">
+    window.USER_ROLE = 'user';
 
-<label>E-mail</label>
+    window.IS_ADMIN = false;
 
-<input 
-type="email"
-id="login-email"
-required
-autocomplete="email">
+  }
 
 
-<label>Senha</label>
 
-<input
-type="password"
-id="login-password"
-required
-autocomplete="current-password">
+  /* =====================================================
+     LEITURA E VALIDAÇÃO DE ACESSO
+  ====================================================== */
 
+  async function loadUserAccess() {
 
-<button 
-type="submit"
-class="btn btn-primary btn-block">
+    const {
+      data: { session },
+      error
+    } = await sb.auth.getSession();
 
-Entrar
 
-</button>
+    if (error) {
 
-</form>
+      console.error(
+        'Erro ao recuperar sessão:',
+        error
+      );
 
+      clearUserAccess();
 
-<button 
-class="auth-link"
-id="forgot-link"
-type="button">
+      return {
+        ok: false,
+        reason: 'session_error'
+      };
 
-Esqueci minha senha
+    }
 
-</button>
 
-`;
+    if (!session?.user) {
 
+      clearUserAccess();
 
-document
-.getElementById('login-form')
-.addEventListener('submit', async (e)=>{
+      return {
+        ok: false,
+        reason: 'no_session'
+      };
 
+    }
 
-e.preventDefault();
 
+    const metadata =
+      session.user.app_metadata || {};
 
-const email =
-document.getElementById('login-email')
-.value.trim();
 
+    const plano =
+      metadata.plano;
 
-const password =
-document.getElementById('login-password')
-.value;
 
+    const role =
+      metadata.role === 'admin'
+        ? 'admin'
+        : 'user';
 
-const btn =
-e.target.querySelector(
-'button[type=submit]'
-);
 
+    const isAdmin =
+      role === 'admin';
 
-btn.disabled=true;
 
-btn.textContent='Entrando…';
+    /*
+      Planos aceitos no sistema
 
+      - essencial
+      - completo
 
+      Admin:
+      - pode acessar independentemente do plano
+    */
 
-const { error } =
-await sb.auth.signInWithPassword({
+    const planosPermitidos = [
+      'essencial',
+      'completo'
+    ];
 
-email,
 
-password
+    /*
+      Administrador recebe acesso completo
+      na interface do aplicativo.
+    */
 
-});
+    if (isAdmin) {
 
+      window.USER_PLANO = 'completo';
 
+      window.USER_ROLE = 'admin';
 
-if(error){
+      window.IS_ADMIN = true;
 
-renderLoginForm(
-'E-mail ou senha incorretos.'
-);
 
-return;
+      return {
+        ok: true,
+        session,
+        plano: 'completo',
+        role: 'admin',
+        isAdmin: true
+      };
 
-}
+    }
 
 
+    /*
+      Usuário comum precisa obrigatoriamente
+      possuir um plano válido.
 
-showApp();
+      NÃO existe mais fallback para "completo".
+    */
 
+    if (
+      !plano ||
+      !planosPermitidos.includes(plano)
+    ) {
 
+      clearUserAccess();
 
-});
 
+      return {
+        ok: false,
+        reason: 'invalid_plan',
+        session
+      };
 
+    }
 
-document
-.getElementById('forgot-link')
-.addEventListener(
-'click',
-()=>renderForgotForm()
-);
 
+    window.USER_PLANO =
+      plano;
 
-}
 
+    window.USER_ROLE =
+      role;
 
 
+    window.IS_ADMIN =
+      false;
 
-function renderForgotForm(msg){
 
+    return {
+      ok: true,
+      session,
+      plano,
+      role,
+      isAdmin: false
+    };
 
-authContent.innerHTML = `
+  }
 
-<h1>Recuperar senha</h1>
 
-<p class="mute">
-Enviaremos um link para redefinir sua senha.
-</p>
 
+  /* =====================================================
+     LIBERAÇÃO DO APP
+  ====================================================== */
 
-${msg ?
-`<p class="auth-ok">${msg}</p>`
-:''}
+  async function showApp() {
 
+    const access =
+      await loadUserAccess();
 
 
-<form id="forgot-form">
+    if (!access.ok) {
 
-<label>E-mail</label>
+      /*
+        Sem sessão:
+        mostra login normalmente.
+      */
 
-<input
-type="email"
-id="forgot-email"
-required>
+      if (
+        access.reason === 'no_session'
+      ) {
 
+        showAuth();
 
-<button
-class="btn btn-primary btn-block">
+        renderLoginForm();
 
-Enviar link
+        return;
 
-</button>
+      }
 
 
-</form>
+      /*
+        Usuário autenticado, mas sem plano válido.
+        Desloga para impedir acesso acidental.
+      */
 
+      if (
+        access.reason === 'invalid_plan'
+      ) {
 
-<button
-class="auth-link"
-id="back-link">
+        await sb.auth.signOut();
 
-Voltar
 
-</button>
+        showAuth();
 
-`;
 
+        renderLoginForm(
+          'Seu acesso ainda não foi liberado. Verifique a confirmação da sua compra.'
+        );
 
 
-document
-.getElementById('forgot-form')
-.addEventListener('submit',async(e)=>{
+        return;
 
+      }
 
-e.preventDefault();
 
+      /*
+        Erro ao consultar sessão
+      */
 
-const email =
-document
-.getElementById('forgot-email')
-.value.trim();
+      showAuth();
 
 
+      renderLoginForm(
+        'Não foi possível validar seu acesso. Tente entrar novamente.'
+      );
 
-await sb.auth.resetPasswordForEmail(
-email,
-{
-redirectTo:
-window.location.origin +
-window.location.pathname
-}
-);
 
+      return;
 
+    }
 
-renderForgotForm(
-'Se esse e-mail estiver cadastrado, você receberá um link.'
-);
 
+    showAppRoot();
 
 
-});
+    /*
+      Impede startApp() de rodar
+      várias vezes na mesma sessão.
+    */
 
+    if (!window._appStarted) {
 
+      window._appStarted = true;
 
-document
-.getElementById('back-link')
-.addEventListener(
-'click',
-()=>renderLoginForm()
-);
 
+      if (
+        typeof window.startApp ===
+        'function'
+      ) {
 
+        window.startApp();
 
-}
+      } else {
 
+        console.error(
+          'startApp() não foi encontrada.'
+        );
 
+      }
 
+    }
 
-function renderSetPasswordForm(){
+  }
 
 
-authContent.innerHTML=`
 
-<h1>Defina sua senha</h1>
+  /* =====================================================
+     LOGIN
+  ====================================================== */
 
+  function renderLoginForm(errorMsg) {
 
-<p class="mute">
-Essa senha será usada para entrar no app.
-</p>
+    showAuth();
 
 
-<form id="setpw-form">
+    authContent.innerHTML = `
 
+      <h1>Entrar</h1>
 
-<label>
-Nova senha
-</label>
+      <p class="mute">
+        Acesso liberado após confirmação da compra.
+      </p>
 
+      ${
+        errorMsg
+          ? `<p class="auth-error">${errorMsg}</p>`
+          : ''
+      }
 
-<input
-type="password"
-id="setpw-password"
-required
-minlength="6">
+      <form id="login-form">
 
+        <label for="login-email">
+          E-mail
+        </label>
 
-<button
-class="btn btn-primary btn-block">
+        <input
+          type="email"
+          id="login-email"
+          required
+          autocomplete="email"
+        >
 
-Salvar senha e entrar
 
-</button>
+        <label for="login-password">
+          Senha
+        </label>
 
+        <input
+          type="password"
+          id="login-password"
+          required
+          minlength="6"
+          autocomplete="current-password"
+        >
 
-</form>
 
+        <button
+          type="submit"
+          class="btn btn-primary btn-block"
+        >
+          Entrar
+        </button>
 
-`;
+      </form>
 
 
+      <button
+        class="auth-link"
+        id="forgot-link"
+        type="button"
+      >
+        Esqueci minha senha
+      </button>
 
-document
-.getElementById('setpw-form')
-.addEventListener(
-'submit',
-async(e)=>{
+    `;
 
 
-e.preventDefault();
 
+    const loginForm =
+      document.getElementById(
+        'login-form'
+      );
 
 
-const password =
-document
-.getElementById('setpw-password')
-.value;
+    loginForm.addEventListener(
+      'submit',
+      async (e) => {
 
+        e.preventDefault();
 
 
-const {error} =
-await sb.auth.updateUser({
+        const email =
+          document
+            .getElementById(
+              'login-email'
+            )
+            .value
+            .trim();
 
-password
 
-});
+        const password =
+          document
+            .getElementById(
+              'login-password'
+            )
+            .value;
 
 
+        const btn =
+          e.target.querySelector(
+            'button[type="submit"]'
+          );
 
-if(error){
 
-alert(error.message);
+        btn.disabled = true;
 
-return;
+        btn.textContent =
+          'Entrando…';
 
-}
 
 
+        const {
+          error
+        } =
+          await sb.auth.signInWithPassword({
 
-history.replaceState(
-null,
-'',
-window.location.pathname
-);
+            email,
+            password
 
+          });
 
 
-showApp();
 
+        if (error) {
 
+          renderLoginForm(
+            'E-mail ou senha incorretos.'
+          );
 
-});
+          return;
 
+        }
 
 
-}
+        /*
+          Após login,
+          showApp() valida o plano.
+        */
 
+        await showApp();
 
+      }
 
+    );
 
-async function init(){
 
 
-const hash =
-window.location.hash;
+    const forgotLink =
+      document.getElementById(
+        'forgot-link'
+      );
 
 
+    forgotLink.addEventListener(
+      'click',
+      () => {
 
-if(
-hash.includes('type=invite') ||
-hash.includes('type=recovery')
-){
+        renderForgotForm();
 
-showAuth();
+      }
+    );
 
-renderSetPasswordForm();
+  }
 
-return;
 
-}
 
+  /* =====================================================
+     RECUPERAÇÃO DE SENHA
+  ====================================================== */
 
+  function renderForgotForm(
+    msg,
+    errorMsg
+  ) {
 
-const {data:{session}}
-=
-await sb.auth.getSession();
+    showAuth();
 
 
+    authContent.innerHTML = `
 
-if(session){
+      <h1>Recuperar senha</h1>
 
-showApp();
+      <p class="mute">
+        Enviaremos um link para redefinir sua senha.
+      </p>
 
-}
 
-else{
+      ${
+        msg
+          ? `<p class="auth-ok">${msg}</p>`
+          : ''
+      }
 
-showAuth();
 
-renderLoginForm();
+      ${
+        errorMsg
+          ? `<p class="auth-error">${errorMsg}</p>`
+          : ''
+      }
 
-}
 
+      <form id="forgot-form">
 
+        <label for="forgot-email">
+          E-mail
+        </label>
 
-}
+        <input
+          type="email"
+          id="forgot-email"
+          required
+          autocomplete="email"
+        >
 
 
+        <button
+          type="submit"
+          class="btn btn-primary btn-block"
+        >
+          Enviar link
+        </button>
 
-sb.auth.onAuthStateChange(
-(event)=>{
+      </form>
 
 
-if(event==='SIGNED_OUT'){
+      <button
+        class="auth-link"
+        id="back-link"
+        type="button"
+      >
+        Voltar
+      </button>
 
-window._appStarted=false;
+    `;
 
-location.reload();
 
-}
 
+    const forgotForm =
+      document.getElementById(
+        'forgot-form'
+      );
 
-});
 
+    forgotForm.addEventListener(
+      'submit',
+      async (e) => {
 
+        e.preventDefault();
 
-const logoutBtn =
-document.getElementById('logout-btn');
 
+        const email =
+          document
+            .getElementById(
+              'forgot-email'
+            )
+            .value
+            .trim();
 
-if(logoutBtn){
 
-logoutBtn.addEventListener(
-'click',
-()=>sb.auth.signOut()
-);
+        const btn =
+          e.target.querySelector(
+            'button[type="submit"]'
+          );
 
-}
 
+        btn.disabled = true;
 
+        btn.textContent =
+          'Enviando…';
 
-init();
+
+
+        const {
+          error
+        } =
+          await sb.auth.resetPasswordForEmail(
+
+            email,
+
+            {
+
+              redirectTo:
+                window.location.origin +
+                window.location.pathname
+
+            }
+
+          );
+
+
+
+        /*
+          Evita revelar se o e-mail
+          existe ou não no Supabase.
+        */
+
+        if (error) {
+
+          renderForgotForm(
+            null,
+            'Não foi possível enviar o link agora. Tente novamente.'
+          );
+
+          return;
+
+        }
+
+
+        renderForgotForm(
+          'Se esse e-mail estiver cadastrado, você receberá um link.'
+        );
+
+      }
+
+    );
+
+
+
+    const backLink =
+      document.getElementById(
+        'back-link'
+      );
+
+
+    backLink.addEventListener(
+      'click',
+      () => {
+
+        renderLoginForm();
+
+      }
+    );
+
+  }
+
+
+
+  /* =====================================================
+     DEFINIÇÃO / ALTERAÇÃO DE SENHA
+  ====================================================== */
+
+  function renderSetPasswordForm() {
+
+    showAuth();
+
+
+    authContent.innerHTML = `
+
+      <h1>Defina sua senha</h1>
+
+      <p class="mute">
+        Essa senha será usada para entrar no app.
+      </p>
+
+
+      <form id="setpw-form">
+
+        <label for="setpw-password">
+          Nova senha
+        </label>
+
+        <input
+          type="password"
+          id="setpw-password"
+          required
+          minlength="8"
+          autocomplete="new-password"
+        >
+
+
+        <button
+          type="submit"
+          class="btn btn-primary btn-block"
+        >
+          Salvar senha e entrar
+        </button>
+
+      </form>
+
+    `;
+
+
+
+    const setPasswordForm =
+      document.getElementById(
+        'setpw-form'
+      );
+
+
+    setPasswordForm.addEventListener(
+      'submit',
+      async (e) => {
+
+        e.preventDefault();
+
+
+        const password =
+          document
+            .getElementById(
+              'setpw-password'
+            )
+            .value;
+
+
+        const btn =
+          e.target.querySelector(
+            'button[type="submit"]'
+          );
+
+
+        btn.disabled = true;
+
+        btn.textContent =
+          'Salvando…';
+
+
+
+        const {
+          error
+        } =
+          await sb.auth.updateUser({
+
+            password
+
+          });
+
+
+
+        if (error) {
+
+          btn.disabled = false;
+
+          btn.textContent =
+            'Salvar senha e entrar';
+
+
+          alert(
+            'Não foi possível salvar a senha: ' +
+            error.message
+          );
+
+
+          return;
+
+        }
+
+
+        /*
+          Limpa parâmetros/hash
+          usados pelo fluxo de recuperação.
+        */
+
+        history.replaceState(
+          null,
+          '',
+          window.location.pathname
+        );
+
+
+        await showApp();
+
+      }
+
+    );
+
+  }
+
+
+
+  /* =====================================================
+     INICIALIZAÇÃO
+  ====================================================== */
+
+  async function init() {
+
+    /*
+      Supabase pode enviar alguns fluxos
+      antigos via hash.
+    */
+
+    const hash =
+      window.location.hash || '';
+
+
+    if (
+      hash.includes('type=invite') ||
+      hash.includes('type=recovery')
+    ) {
+
+      showAuth();
+
+      renderSetPasswordForm();
+
+      return;
+
+    }
+
+
+    const {
+      data: { session },
+      error
+    } =
+      await sb.auth.getSession();
+
+
+
+    if (error) {
+
+      console.error(
+        'Erro ao iniciar autenticação:',
+        error
+      );
+
+
+      showAuth();
+
+
+      renderLoginForm(
+        'Não foi possível verificar sua sessão.'
+      );
+
+
+      return;
+
+    }
+
+
+
+    if (session?.user) {
+
+      await showApp();
+
+    } else {
+
+      showAuth();
+
+      renderLoginForm();
+
+    }
+
+  }
+
+
+
+  /* =====================================================
+     ALTERAÇÕES DE ESTADO DA AUTENTICAÇÃO
+  ====================================================== */
+
+  sb.auth.onAuthStateChange(
+    async (
+      event,
+      session
+    ) => {
+
+      /*
+        Logout
+      */
+
+      if (
+        event ===
+        'SIGNED_OUT'
+      ) {
+
+        clearUserAccess();
+
+        window._appStarted =
+          false;
+
+
+        /*
+          Evita reload desnecessário
+          durante alguns fluxos internos.
+        */
+
+        if (
+          appRoot &&
+          appRoot.style.display !==
+            'none'
+        ) {
+
+          location.reload();
+
+        }
+
+        return;
+
+      }
+
+
+      /*
+        Login feito em outra aba,
+        sessão renovada etc.
+
+        Não chamamos showApp em todo
+        TOKEN_REFRESHED para evitar
+        reinicialização da interface.
+      */
+
+      if (
+        event ===
+        'SIGNED_IN' &&
+        session?.user &&
+        !window._appStarted
+      ) {
+
+        await showApp();
+
+      }
+
+    }
+
+  );
+
+
+
+  /* =====================================================
+     LOGOUT
+  ====================================================== */
+
+  const logoutBtn =
+    document.getElementById(
+      'logout-btn'
+    );
+
+
+  if (logoutBtn) {
+
+    logoutBtn.addEventListener(
+      'click',
+      async () => {
+
+        logoutBtn.disabled =
+          true;
+
+
+        logoutBtn.textContent =
+          'Saindo…';
+
+
+        const {
+          error
+        } =
+          await sb.auth.signOut();
+
+
+        if (error) {
+
+          logoutBtn.disabled =
+            false;
+
+
+          logoutBtn.textContent =
+            'Sair';
+
+
+          alert(
+            'Não foi possível sair da conta.'
+          );
+
+        }
+
+      }
+
+    );
+
+  }
+
+
+
+  /* =====================================================
+     INICIA AUTENTICAÇÃO
+  ====================================================== */
+
+  clearUserAccess();
+
+  init();
 
 
 
